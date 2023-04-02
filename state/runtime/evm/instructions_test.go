@@ -4,11 +4,11 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/familychain/family/chain"
-	"github.com/familychain/family/crypto"
-	"github.com/familychain/family/state/runtime"
-	"github.com/familychain/family/types"
 	"github.com/stretchr/testify/assert"
+	"https://github.com/FitRTeams/familychain/chain"
+	"https://github.com/FitRTeams/familychain/crypto"
+	"https://github.com/FitRTeams/familychain/state/runtime"
+	"https://github.com/FitRTeams/familychain/types"
 )
 
 var (

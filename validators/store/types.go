@@ -4,8 +4,8 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/familychain/family/types"
-	"github.com/familychain/family/validators"
+	"https://github.com/FitRTeams/familychain/types"
+	"https://github.com/FitRTeams/familychain/validators"
 )
 
 type ValidatorTypeGetter func(uint64) (validators.ValidatorType, error)

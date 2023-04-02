@@ -5,11 +5,11 @@ import (
 	"fmt"
 	"testing"
 
-	testHelper "github.com/familychain/family/helper/tests"
-	"github.com/familychain/family/state"
-	"github.com/familychain/family/types"
-	"github.com/familychain/family/validators"
 	"github.com/stretchr/testify/assert"
+	testHelper "https://github.com/FitRTeams/familychain/helper/tests"
+	"https://github.com/FitRTeams/familychain/state"
+	"https://github.com/FitRTeams/familychain/types"
+	"https://github.com/FitRTeams/familychain/validators"
 )
 
 func TestFetchValidators(t *testing.T) {

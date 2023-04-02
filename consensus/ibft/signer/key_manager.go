@@ -1,8 +1,8 @@
 package signer
 
 import (
-	"github.com/familychain/family/types"
-	"github.com/familychain/family/validators"
+	"https://github.com/FitRTeams/familychain/types"
+	"https://github.com/FitRTeams/familychain/validators"
 )
 
 // KeyManager is a delegated module that signs data

@@ -5,8 +5,8 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/familychain/family/helper/hex"
-	"github.com/familychain/family/types"
+	"https://github.com/FitRTeams/familychain/helper/hex"
+	"https://github.com/FitRTeams/familychain/types"
 )
 
 type precompiledTest struct {

@@ -3,10 +3,10 @@ package polybft
 import (
 	"fmt"
 
-	polybftProto "github.com/familychain/family/consensus/polybft/proto"
-	"github.com/familychain/family/types"
-	ibftProto "github.com/familychain/go-ibft/messages/proto"
 	"github.com/libp2p/go-libp2p/core/peer"
+	polybftProto "https://github.com/FitRTeams/familychain/consensus/polybft/proto"
+	ibftProto "https://github.com/FitRTeams/familychain/go-ibft/messages/proto"
+	"https://github.com/FitRTeams/familychain/types"
 )
 
 // BridgeTransport is an abstraction of network layer for a bridge

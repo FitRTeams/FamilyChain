@@ -3,8 +3,8 @@ package show
 import (
 	"fmt"
 
-	"github.com/familychain/family/command"
 	"github.com/spf13/cobra"
+	"https://github.com/FitRTeams/familychain/command"
 )
 
 func GetCommand() *cobra.Command {

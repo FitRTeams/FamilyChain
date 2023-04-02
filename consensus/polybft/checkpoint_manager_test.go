@@ -9,21 +9,21 @@ import (
 
 	"github.com/umbracle/ethgo/abi"
 
-	"github.com/familychain/family/consensus/polybft/contractsapi"
-	"github.com/familychain/family/contracts"
-	"github.com/familychain/family/helper/common"
-	"github.com/familychain/family/merkle-tree"
 	hclog "github.com/hashicorp/go-hclog"
 	"github.com/stretchr/testify/mock"
 	"github.com/stretchr/testify/require"
 	"github.com/umbracle/ethgo"
+	"https://github.com/FitRTeams/familychain/consensus/polybft/contractsapi"
+	"https://github.com/FitRTeams/familychain/contracts"
+	"https://github.com/FitRTeams/familychain/helper/common"
+	"https://github.com/FitRTeams/familychain/merkle-tree"
 
-	"github.com/familychain/family/consensus/ibft/signer"
-	"github.com/familychain/family/consensus/polybft/bitmap"
-	bls "github.com/familychain/family/consensus/polybft/signer"
-	"github.com/familychain/family/consensus/polybft/wallet"
-	"github.com/familychain/family/txrelayer"
-	"github.com/familychain/family/types"
+	"https://github.com/FitRTeams/familychain/consensus/ibft/signer"
+	"https://github.com/FitRTeams/familychain/consensus/polybft/bitmap"
+	bls "https://github.com/FitRTeams/familychain/consensus/polybft/signer"
+	"https://github.com/FitRTeams/familychain/consensus/polybft/wallet"
+	"https://github.com/FitRTeams/familychain/txrelayer"
+	"https://github.com/FitRTeams/familychain/types"
 )
 
 func TestCheckpointManager_SubmitCheckpoint(t *testing.T) {

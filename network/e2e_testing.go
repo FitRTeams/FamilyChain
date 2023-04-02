@@ -9,16 +9,16 @@ import (
 	"testing"
 	"time"
 
-	"github.com/familychain/family/chain"
-	"github.com/familychain/family/helper/common"
-	"github.com/familychain/family/helper/tests"
-	"github.com/familychain/family/secrets"
-	"github.com/familychain/family/secrets/local"
 	"github.com/hashicorp/go-hclog"
 	"github.com/libp2p/go-libp2p/core/crypto"
 	"github.com/libp2p/go-libp2p/core/peer"
 	"github.com/multiformats/go-multiaddr"
 	"github.com/stretchr/testify/assert"
+	"https://github.com/FitRTeams/familychain/chain"
+	"https://github.com/FitRTeams/familychain/helper/common"
+	"https://github.com/FitRTeams/familychain/helper/tests"
+	"https://github.com/FitRTeams/familychain/secrets"
+	"https://github.com/FitRTeams/familychain/secrets/local"
 )
 
 const (

@@ -3,8 +3,8 @@ package merkle
 import (
 	"testing"
 
-	"github.com/familychain/family/helper/common"
 	"github.com/stretchr/testify/require"
+	"https://github.com/FitRTeams/familychain/helper/common"
 )
 
 func Benchmark_MerkleTreeCreation_10(b *testing.B) {

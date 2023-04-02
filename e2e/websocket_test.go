@@ -6,11 +6,11 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/familychain/family/e2e/framework"
-	"github.com/familychain/family/jsonrpc"
-	"github.com/familychain/family/types"
 	"github.com/gorilla/websocket"
 	"github.com/stretchr/testify/assert"
+	"https://github.com/FitRTeams/familychain/e2e/framework"
+	"https://github.com/FitRTeams/familychain/jsonrpc"
+	"https://github.com/FitRTeams/familychain/types"
 )
 
 type testWSRequest struct {

@@ -6,15 +6,15 @@ import (
 	"testing"
 	"time"
 
-	"github.com/familychain/family/helper/tests"
-	"github.com/familychain/family/network/common"
-	"github.com/familychain/family/network/proto"
-	networkTesting "github.com/familychain/family/network/testing"
 	"github.com/hashicorp/go-hclog"
 	kb "github.com/libp2p/go-libp2p-kbucket"
 	"github.com/libp2p/go-libp2p/core/peer"
 	"github.com/stretchr/testify/assert"
 	"google.golang.org/grpc"
+	"https://github.com/FitRTeams/familychain/helper/tests"
+	"https://github.com/FitRTeams/familychain/network/common"
+	"https://github.com/FitRTeams/familychain/network/proto"
+	networkTesting "https://github.com/FitRTeams/familychain/network/testing"
 )
 
 // newDiscoveryService creates a new discovery service instance

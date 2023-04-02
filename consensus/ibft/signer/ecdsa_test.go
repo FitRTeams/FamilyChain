@@ -5,13 +5,13 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/familychain/family/crypto"
-	"github.com/familychain/family/helper/hex"
-	testHelper "github.com/familychain/family/helper/tests"
-	"github.com/familychain/family/secrets"
-	"github.com/familychain/family/types"
-	"github.com/familychain/family/validators"
 	"github.com/stretchr/testify/assert"
+	"https://github.com/FitRTeams/familychain/crypto"
+	"https://github.com/FitRTeams/familychain/helper/hex"
+	testHelper "https://github.com/FitRTeams/familychain/helper/tests"
+	"https://github.com/FitRTeams/familychain/secrets"
+	"https://github.com/FitRTeams/familychain/types"
+	"https://github.com/FitRTeams/familychain/validators"
 )
 
 func newTestECDSAKeyManager(t *testing.T) (KeyManager, *ecdsa.PrivateKey) {

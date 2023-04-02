@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"fmt"
 
-	"github.com/familychain/family/command/helper"
+	"https://github.com/FitRTeams/familychain/command/helper"
 )
 
 type StatusResult struct {

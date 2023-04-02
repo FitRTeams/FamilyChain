@@ -7,16 +7,16 @@ import (
 	"testing"
 	"time"
 
-	"github.com/familychain/family/command/genesis"
-	"github.com/familychain/family/command/sidechain"
-	"github.com/familychain/family/consensus/polybft"
-	"github.com/familychain/family/consensus/polybft/contractsapi"
-	"github.com/familychain/family/contracts"
-	"github.com/familychain/family/e2e-polybft/framework"
-	"github.com/familychain/family/txrelayer"
-	"github.com/familychain/family/types"
 	"github.com/stretchr/testify/require"
 	"github.com/umbracle/ethgo"
+	"https://github.com/FitRTeams/familychain/command/genesis"
+	"https://github.com/FitRTeams/familychain/command/sidechain"
+	"https://github.com/FitRTeams/familychain/consensus/polybft"
+	"https://github.com/FitRTeams/familychain/consensus/polybft/contractsapi"
+	"https://github.com/FitRTeams/familychain/contracts"
+	"https://github.com/FitRTeams/familychain/e2e-polybft/framework"
+	"https://github.com/FitRTeams/familychain/txrelayer"
+	"https://github.com/FitRTeams/familychain/types"
 )
 
 func TestE2E_Consensus_Basic_WithNonValidators(t *testing.T) {

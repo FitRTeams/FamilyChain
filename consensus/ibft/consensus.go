@@ -4,7 +4,7 @@ import (
 	"context"
 	"sync"
 
-	"github.com/familychain/go-ibft/core"
+	"https://github.com/FitRTeams/familychain/go-ibft/core"
 )
 
 // IBFTConsensus is a convenience wrapper for the go-ibft package

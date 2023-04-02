@@ -3,12 +3,12 @@ package wallet
 import (
 	"fmt"
 
-	bls "github.com/familychain/family/consensus/polybft/signer"
-	"github.com/familychain/family/crypto"
-	"github.com/familychain/family/types"
-	"github.com/familychain/go-ibft/messages/proto"
 	"github.com/umbracle/ethgo"
 	protobuf "google.golang.org/protobuf/proto"
+	bls "https://github.com/FitRTeams/familychain/consensus/polybft/signer"
+	"https://github.com/FitRTeams/familychain/crypto"
+	"https://github.com/FitRTeams/familychain/go-ibft/messages/proto"
+	"https://github.com/FitRTeams/familychain/types"
 )
 
 type Key struct {

@@ -3,8 +3,8 @@ package contractsapi
 import (
 	"math/big"
 
-	"github.com/familychain/family/types"
 	"github.com/umbracle/ethgo/abi"
+	"https://github.com/FitRTeams/familychain/types"
 )
 
 // StateTransactionInput is an abstraction for different state transaction inputs

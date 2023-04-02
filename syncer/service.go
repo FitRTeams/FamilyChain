@@ -4,10 +4,10 @@ import (
 	"context"
 	"errors"
 
-	"github.com/familychain/family/network/grpc"
-	"github.com/familychain/family/syncer/proto"
-	"github.com/familychain/family/types"
 	"github.com/golang/protobuf/ptypes/empty"
+	"https://github.com/FitRTeams/familychain/network/grpc"
+	"https://github.com/FitRTeams/familychain/syncer/proto"
+	"https://github.com/FitRTeams/familychain/types"
 )
 
 var (

@@ -5,8 +5,8 @@ import (
 	"strings"
 	"unicode"
 
-	"github.com/familychain/family/helper/hex"
-	"github.com/familychain/family/helper/keccak"
+	"https://github.com/FitRTeams/familychain/helper/hex"
+	"https://github.com/FitRTeams/familychain/helper/keccak"
 )
 
 var ZeroAddress = Address{}

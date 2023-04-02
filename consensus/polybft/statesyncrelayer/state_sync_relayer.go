@@ -9,11 +9,11 @@ import (
 	"path"
 	"strings"
 
-	"github.com/familychain/family/consensus/polybft/contractsapi"
-	"github.com/familychain/family/contracts"
-	"github.com/familychain/family/tracker"
-	"github.com/familychain/family/txrelayer"
-	"github.com/familychain/family/types"
+	"https://github.com/FitRTeams/familychain/consensus/polybft/contractsapi"
+	"https://github.com/FitRTeams/familychain/contracts"
+	"https://github.com/FitRTeams/familychain/tracker"
+	"https://github.com/FitRTeams/familychain/txrelayer"
+	"https://github.com/FitRTeams/familychain/types"
 
 	hcf "github.com/hashicorp/go-hclog"
 	"github.com/umbracle/ethgo"

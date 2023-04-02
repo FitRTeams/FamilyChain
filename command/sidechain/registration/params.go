@@ -4,9 +4,9 @@ import (
 	"bytes"
 	"fmt"
 
-	"github.com/familychain/family/command/helper"
-	sidechainHelper "github.com/familychain/family/command/sidechain"
-	"github.com/familychain/family/types"
+	"https://github.com/FitRTeams/familychain/command/helper"
+	sidechainHelper "https://github.com/FitRTeams/familychain/command/sidechain"
+	"https://github.com/FitRTeams/familychain/types"
 )
 
 const (

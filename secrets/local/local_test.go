@@ -5,12 +5,12 @@ import (
 	"os"
 	"testing"
 
-	"github.com/familychain/family/crypto"
-	"github.com/familychain/family/helper/common"
-	"github.com/familychain/family/secrets"
 	"github.com/hashicorp/go-hclog"
 	libp2pCrypto "github.com/libp2p/go-libp2p/core/crypto"
 	"github.com/stretchr/testify/assert"
+	"https://github.com/FitRTeams/familychain/crypto"
+	"https://github.com/FitRTeams/familychain/helper/common"
+	"https://github.com/FitRTeams/familychain/secrets"
 )
 
 func TestLocalSecretsManagerFactory(t *testing.T) {

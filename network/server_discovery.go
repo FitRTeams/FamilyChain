@@ -7,14 +7,14 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/familychain/family/network/common"
-	"github.com/familychain/family/network/discovery"
-	"github.com/familychain/family/network/grpc"
-	"github.com/familychain/family/network/proto"
 	kb "github.com/libp2p/go-libp2p-kbucket"
 	"github.com/libp2p/go-libp2p/core/peer"
 	"github.com/libp2p/go-libp2p/core/peerstore"
 	rawGrpc "google.golang.org/grpc"
+	"https://github.com/FitRTeams/familychain/network/common"
+	"https://github.com/FitRTeams/familychain/network/discovery"
+	"https://github.com/FitRTeams/familychain/network/grpc"
+	"https://github.com/FitRTeams/familychain/network/proto"
 )
 
 // GetRandomBootnode fetches a random bootnode that's currently

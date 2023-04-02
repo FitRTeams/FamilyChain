@@ -24,10 +24,10 @@ build:
 	$(eval BRANCH = $(shell git rev-parse --abbrev-ref HEAD | tr -d '\040\011\012\015\n'))
 	$(eval TIME = $(shell date))
 	go build -o family -ldflags="\
-    	-X 'github.com/familychain/family/versioning.Version=$(LATEST_VERSION)' \
-		-X 'github.com/familychain/family/versioning.Commit=$(COMMIT_HASH)'\
-		-X 'github.com/familychain/family/versioning.Branch=$(BRANCH)'\
-		-X 'github.com/familychain/family/versioning.BuildTime=$(TIME)'" \
+    	-X 'https://github.com/FitRTeams/familychain/versioning.Version=$(LATEST_VERSION)' \
+		-X 'https://github.com/FitRTeams/familychain/versioning.Commit=$(COMMIT_HASH)'\
+		-X 'https://github.com/FitRTeams/familychain/versioning.Branch=$(BRANCH)'\
+		-X 'https://github.com/FitRTeams/familychain/versioning.BuildTime=$(TIME)'" \
 	main.go
 
 .PHONY: lint

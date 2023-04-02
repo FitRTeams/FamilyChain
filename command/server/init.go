@@ -6,16 +6,16 @@ import (
 	"math"
 	"net"
 
-	"github.com/familychain/family/command/server/config"
+	"https://github.com/FitRTeams/familychain/command/server/config"
 
-	"github.com/familychain/family/network/common"
+	"https://github.com/FitRTeams/familychain/network/common"
 
-	"github.com/familychain/family/chain"
-	"github.com/familychain/family/command/helper"
-	"github.com/familychain/family/network"
-	"github.com/familychain/family/secrets"
-	"github.com/familychain/family/server"
-	"github.com/familychain/family/types"
+	"https://github.com/FitRTeams/familychain/chain"
+	"https://github.com/FitRTeams/familychain/command/helper"
+	"https://github.com/FitRTeams/familychain/network"
+	"https://github.com/FitRTeams/familychain/secrets"
+	"https://github.com/FitRTeams/familychain/server"
+	"https://github.com/FitRTeams/familychain/types"
 )
 
 var (

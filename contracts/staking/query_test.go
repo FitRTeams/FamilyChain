@@ -5,10 +5,10 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/familychain/family/contracts/abis"
-	"github.com/familychain/family/state/runtime"
-	"github.com/familychain/family/types"
 	"github.com/stretchr/testify/assert"
+	"https://github.com/FitRTeams/familychain/contracts/abis"
+	"https://github.com/FitRTeams/familychain/state/runtime"
+	"https://github.com/FitRTeams/familychain/types"
 )
 
 var (

@@ -1,8 +1,8 @@
 package validators
 
 import (
-	"github.com/familychain/family/types"
 	"github.com/umbracle/fastrlp"
+	"https://github.com/FitRTeams/familychain/types"
 )
 
 // BLSValidator is a validator using ECDSA signing algorithm

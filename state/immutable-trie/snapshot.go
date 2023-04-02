@@ -3,10 +3,10 @@ package itrie
 import (
 	"bytes"
 
-	"github.com/familychain/family/crypto"
-	"github.com/familychain/family/state"
-	"github.com/familychain/family/types"
 	"github.com/umbracle/fastrlp"
+	"https://github.com/FitRTeams/familychain/crypto"
+	"https://github.com/FitRTeams/familychain/state"
+	"https://github.com/FitRTeams/familychain/types"
 )
 
 type Snapshot struct {

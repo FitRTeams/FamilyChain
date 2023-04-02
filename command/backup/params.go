@@ -3,11 +3,11 @@ package backup
 import (
 	"errors"
 
-	"github.com/familychain/family/archive"
-	"github.com/familychain/family/command"
-	"github.com/familychain/family/command/helper"
-	"github.com/familychain/family/types"
 	"github.com/hashicorp/go-hclog"
+	"https://github.com/FitRTeams/familychain/archive"
+	"https://github.com/FitRTeams/familychain/command"
+	"https://github.com/FitRTeams/familychain/command/helper"
+	"https://github.com/FitRTeams/familychain/types"
 )
 
 const (

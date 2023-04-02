@@ -6,10 +6,10 @@ import (
 
 	"github.com/umbracle/ethgo"
 
-	"github.com/familychain/family/contracts/abis"
-	"github.com/familychain/family/state/runtime"
-	"github.com/familychain/family/types"
 	"github.com/umbracle/ethgo/abi"
+	"https://github.com/FitRTeams/familychain/contracts/abis"
+	"https://github.com/FitRTeams/familychain/state/runtime"
+	"https://github.com/FitRTeams/familychain/types"
 )
 
 const (

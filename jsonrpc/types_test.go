@@ -10,11 +10,11 @@ import (
 	"testing"
 	"text/template"
 
-	"github.com/familychain/family/helper/hex"
+	"https://github.com/FitRTeams/familychain/helper/hex"
 
-	"github.com/familychain/family/types"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
+	"https://github.com/FitRTeams/familychain/types"
 )
 
 func TestBasicTypes_Encode(t *testing.T) {

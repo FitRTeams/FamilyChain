@@ -5,10 +5,10 @@ import (
 	"math/big"
 	"path/filepath"
 
-	"github.com/familychain/family/consensus/ibft"
-	"github.com/familychain/family/crypto"
-	"github.com/familychain/family/types"
-	"github.com/familychain/family/validators"
+	"https://github.com/FitRTeams/familychain/consensus/ibft"
+	"https://github.com/FitRTeams/familychain/crypto"
+	"https://github.com/FitRTeams/familychain/types"
+	"https://github.com/FitRTeams/familychain/validators"
 )
 
 type ConsensusType int

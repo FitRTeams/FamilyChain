@@ -6,10 +6,10 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/familychain/family/types"
-	"github.com/familychain/family/validators"
-	"github.com/familychain/family/validators/store"
 	"github.com/hashicorp/go-hclog"
+	"https://github.com/FitRTeams/familychain/types"
+	"https://github.com/FitRTeams/familychain/validators"
+	"https://github.com/FitRTeams/familychain/validators/store"
 )
 
 const (

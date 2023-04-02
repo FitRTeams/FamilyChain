@@ -6,7 +6,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/familychain/family/types"
+	"https://github.com/FitRTeams/familychain/types"
 )
 
 var addr1 = types.StringToAddress("1")

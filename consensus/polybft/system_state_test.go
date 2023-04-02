@@ -6,11 +6,6 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/familychain/family/chain"
-	"github.com/familychain/family/contracts"
-	"github.com/familychain/family/state"
-	itrie "github.com/familychain/family/state/immutable-trie"
-	"github.com/familychain/family/types"
 	"github.com/hashicorp/go-hclog"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
@@ -18,6 +13,11 @@ import (
 	"github.com/umbracle/ethgo/abi"
 	"github.com/umbracle/ethgo/contract"
 	"github.com/umbracle/ethgo/testutil"
+	"https://github.com/FitRTeams/familychain/chain"
+	"https://github.com/FitRTeams/familychain/contracts"
+	"https://github.com/FitRTeams/familychain/state"
+	itrie "https://github.com/FitRTeams/familychain/state/immutable-trie"
+	"https://github.com/FitRTeams/familychain/types"
 )
 
 func TestSystemState_GetValidatorSet(t *testing.T) {

@@ -3,11 +3,11 @@ package polybft
 import (
 	"testing"
 
-	"github.com/familychain/family/blockchain"
-	"github.com/familychain/family/consensus/polybft/bitmap"
-	"github.com/familychain/family/types"
 	"github.com/stretchr/testify/mock"
 	"github.com/stretchr/testify/require"
+	"https://github.com/FitRTeams/familychain/blockchain"
+	"https://github.com/FitRTeams/familychain/consensus/polybft/bitmap"
+	"https://github.com/FitRTeams/familychain/types"
 )
 
 func TestHelpers_isEpochEndingBlock_DeltaNotEmpty(t *testing.T) {

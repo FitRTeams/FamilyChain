@@ -5,9 +5,9 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/familychain/family/types"
-	"github.com/familychain/family/validators"
 	"github.com/umbracle/fastrlp"
+	"https://github.com/FitRTeams/familychain/types"
+	"https://github.com/FitRTeams/familychain/validators"
 )
 
 var (

@@ -4,11 +4,11 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/familychain/family/consensus/polybft/bitmap"
-	bls "github.com/familychain/family/consensus/polybft/signer"
-	"github.com/familychain/family/types"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
+	"https://github.com/FitRTeams/familychain/consensus/polybft/bitmap"
+	bls "https://github.com/FitRTeams/familychain/consensus/polybft/signer"
+	"https://github.com/FitRTeams/familychain/types"
 )
 
 func TestValidatorMetadata_Equals(t *testing.T) {

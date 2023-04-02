@@ -6,9 +6,9 @@ import (
 	"os"
 	"strings"
 
-	"github.com/familychain/family/network"
 	"github.com/hashicorp/hcl"
 	"gopkg.in/yaml.v3"
+	"https://github.com/FitRTeams/familychain/network"
 )
 
 // Config defines the server configuration params

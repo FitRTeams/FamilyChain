@@ -12,12 +12,12 @@ import (
 
 	"github.com/btcsuite/btcd/btcec"
 	"github.com/coinbase/kryptology/pkg/signatures/bls/bls_sig"
-	"github.com/familychain/family/helper/hex"
-	"github.com/familychain/family/helper/keystore"
-	"github.com/familychain/family/secrets"
-	"github.com/familychain/family/types"
 	"github.com/umbracle/fastrlp"
 	"golang.org/x/crypto/sha3"
+	"https://github.com/FitRTeams/familychain/helper/hex"
+	"https://github.com/FitRTeams/familychain/helper/keystore"
+	"https://github.com/FitRTeams/familychain/secrets"
+	"https://github.com/FitRTeams/familychain/types"
 )
 
 // S256 is the secp256k1 elliptic curve

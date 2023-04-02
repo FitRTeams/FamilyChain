@@ -1,10 +1,10 @@
 package license
 
 import (
-	"github.com/familychain/family/command"
 	"github.com/spf13/cobra"
+	"https://github.com/FitRTeams/familychain/command"
 
-	"github.com/familychain/family/licenses"
+	"https://github.com/FitRTeams/familychain/licenses"
 )
 
 func GetCommand() *cobra.Command {

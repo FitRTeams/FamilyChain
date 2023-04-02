@@ -3,9 +3,9 @@ package snapshot
 import (
 	"testing"
 
-	"github.com/familychain/family/types"
-	"github.com/familychain/family/validators"
 	"github.com/stretchr/testify/assert"
+	"https://github.com/FitRTeams/familychain/types"
+	"https://github.com/FitRTeams/familychain/validators"
 )
 
 var (

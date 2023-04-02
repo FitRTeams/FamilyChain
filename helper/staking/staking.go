@@ -4,12 +4,12 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/familychain/family/chain"
-	"github.com/familychain/family/helper/common"
-	"github.com/familychain/family/helper/hex"
-	"github.com/familychain/family/helper/keccak"
-	"github.com/familychain/family/types"
-	"github.com/familychain/family/validators"
+	"https://github.com/FitRTeams/familychain/chain"
+	"https://github.com/FitRTeams/familychain/helper/common"
+	"https://github.com/FitRTeams/familychain/helper/hex"
+	"https://github.com/FitRTeams/familychain/helper/keccak"
+	"https://github.com/FitRTeams/familychain/types"
+	"https://github.com/FitRTeams/familychain/validators"
 )
 
 var (
@@ -46,7 +46,7 @@ func getIndexWithOffset(keccakHash []byte, offset uint64) []byte {
 // of the storage slots which need to be modified during bootstrap.
 //
 // It is SC dependant, and based on the SC located at:
-// https://github.com/familychain/staking-contracts/
+// https://https://github.com/FitRTeams/familychain/staking-contracts/
 func getStorageIndexes(validator validators.Validator, index int) *StorageIndexes {
 	storageIndexes := &StorageIndexes{}
 	address := validator.Addr()
@@ -169,7 +169,7 @@ func PredeployStakingSC(
 	params PredeployParams,
 ) (*chain.GenesisAccount, error) {
 	// Set the code for the staking smart contract
-	// Code retrieved from https://github.com/familychain/staking-contracts
+	// Code retrieved from https://https://github.com/FitRTeams/familychain/staking-contracts
 	scHex, _ := hex.DecodeHex(StakingSCBytecode)
 	stakingAccount := &chain.GenesisAccount{
 		Code: scHex,

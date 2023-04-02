@@ -1,10 +1,10 @@
 package buildroot
 
 import (
-	"github.com/familychain/family/helper/keccak"
-	itrie "github.com/familychain/family/state/immutable-trie"
-	"github.com/familychain/family/types"
 	"github.com/umbracle/fastrlp"
+	"https://github.com/FitRTeams/familychain/helper/keccak"
+	itrie "https://github.com/FitRTeams/familychain/state/immutable-trie"
+	"https://github.com/FitRTeams/familychain/types"
 )
 
 var arenaPool fastrlp.ArenaPool

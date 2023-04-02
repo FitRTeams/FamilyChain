@@ -3,11 +3,11 @@ package polybft
 import (
 	"time"
 
-	"github.com/familychain/family/consensus"
-	"github.com/familychain/family/state"
-	"github.com/familychain/family/txpool"
-	"github.com/familychain/family/types"
 	hcf "github.com/hashicorp/go-hclog"
+	"https://github.com/FitRTeams/familychain/consensus"
+	"https://github.com/FitRTeams/familychain/state"
+	"https://github.com/FitRTeams/familychain/txpool"
+	"https://github.com/FitRTeams/familychain/types"
 )
 
 //nolint:godox

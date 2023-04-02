@@ -3,10 +3,10 @@ package allowlist
 import (
 	"testing"
 
-	"github.com/familychain/family/state/runtime"
-	"github.com/familychain/family/types"
 	"github.com/stretchr/testify/require"
 	"github.com/umbracle/ethgo/abi"
+	"https://github.com/FitRTeams/familychain/state/runtime"
+	"https://github.com/FitRTeams/familychain/types"
 )
 
 type mockState struct {

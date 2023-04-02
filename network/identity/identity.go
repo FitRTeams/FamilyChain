@@ -6,12 +6,12 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/familychain/family/network/event"
 	"github.com/hashicorp/go-hclog"
+	"https://github.com/FitRTeams/familychain/network/event"
 
-	"github.com/familychain/family/network/proto"
 	"github.com/libp2p/go-libp2p/core/network"
 	"github.com/libp2p/go-libp2p/core/peer"
+	"https://github.com/FitRTeams/familychain/network/proto"
 )
 
 const PeerID = "peerID"

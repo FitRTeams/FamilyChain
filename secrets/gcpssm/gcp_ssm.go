@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/familychain/family/secrets"
 	"github.com/hashicorp/go-hclog"
+	"https://github.com/FitRTeams/familychain/secrets"
 
 	sm "cloud.google.com/go/secretmanager/apiv1"
 	smpb "google.golang.org/genproto/googleapis/cloud/secretmanager/v1"

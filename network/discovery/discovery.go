@@ -6,15 +6,15 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/familychain/family/network/common"
-	"github.com/familychain/family/network/event"
 	"github.com/hashicorp/go-hclog"
 	"github.com/libp2p/go-libp2p/core/network"
+	"https://github.com/FitRTeams/familychain/network/common"
+	"https://github.com/FitRTeams/familychain/network/event"
 
-	"github.com/familychain/family/network/grpc"
-	"github.com/familychain/family/network/proto"
 	kb "github.com/libp2p/go-libp2p-kbucket"
 	"github.com/libp2p/go-libp2p/core/peer"
+	"https://github.com/FitRTeams/familychain/network/grpc"
+	"https://github.com/FitRTeams/familychain/network/proto"
 )
 
 const (

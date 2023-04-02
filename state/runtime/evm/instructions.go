@@ -8,10 +8,10 @@ import (
 	"math/bits"
 	"sync"
 
-	"github.com/familychain/family/crypto"
-	"github.com/familychain/family/helper/keccak"
-	"github.com/familychain/family/state/runtime"
-	"github.com/familychain/family/types"
+	"https://github.com/FitRTeams/familychain/crypto"
+	"https://github.com/FitRTeams/familychain/helper/keccak"
+	"https://github.com/FitRTeams/familychain/state/runtime"
+	"https://github.com/FitRTeams/familychain/types"
 )
 
 type instruction func(c *state)

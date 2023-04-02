@@ -3,12 +3,12 @@ package status
 import (
 	"context"
 
-	"github.com/familychain/family/command"
-	"github.com/familychain/family/command/helper"
 	"github.com/spf13/cobra"
+	"https://github.com/FitRTeams/familychain/command"
+	"https://github.com/FitRTeams/familychain/command/helper"
 
-	txpoolOp "github.com/familychain/family/txpool/proto"
 	empty "google.golang.org/protobuf/types/known/emptypb"
+	txpoolOp "https://github.com/FitRTeams/familychain/txpool/proto"
 )
 
 func GetCommand() *cobra.Command {

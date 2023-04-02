@@ -4,10 +4,10 @@ import (
 	"bytes"
 	"fmt"
 
-	"github.com/familychain/family/chain"
-	"github.com/familychain/family/state/runtime"
-	"github.com/familychain/family/types"
 	"github.com/umbracle/ethgo/abi"
+	"https://github.com/FitRTeams/familychain/chain"
+	"https://github.com/FitRTeams/familychain/state/runtime"
+	"https://github.com/FitRTeams/familychain/types"
 )
 
 // list of function methods for the allow list functionality

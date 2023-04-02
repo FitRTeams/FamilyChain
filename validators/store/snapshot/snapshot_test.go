@@ -7,13 +7,13 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/familychain/family/crypto"
-	testHelper "github.com/familychain/family/helper/tests"
-	"github.com/familychain/family/types"
-	"github.com/familychain/family/validators"
-	"github.com/familychain/family/validators/store"
 	"github.com/hashicorp/go-hclog"
 	"github.com/stretchr/testify/assert"
+	"https://github.com/FitRTeams/familychain/crypto"
+	testHelper "https://github.com/FitRTeams/familychain/helper/tests"
+	"https://github.com/FitRTeams/familychain/types"
+	"https://github.com/FitRTeams/familychain/validators"
+	"https://github.com/FitRTeams/familychain/validators/store"
 )
 
 var (

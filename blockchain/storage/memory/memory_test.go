@@ -3,7 +3,7 @@ package memory
 import (
 	"testing"
 
-	"github.com/familychain/family/blockchain/storage"
+	"https://github.com/FitRTeams/familychain/blockchain/storage"
 )
 
 func TestStorage(t *testing.T) {

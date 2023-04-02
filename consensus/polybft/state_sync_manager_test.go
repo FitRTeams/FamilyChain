@@ -7,10 +7,6 @@ import (
 	"testing"
 	"time"
 
-	"github.com/familychain/family/consensus/polybft/contractsapi"
-	bls "github.com/familychain/family/consensus/polybft/signer"
-	"github.com/familychain/family/merkle-tree"
-	"github.com/familychain/family/types"
 	"github.com/hashicorp/go-hclog"
 	"github.com/libp2p/go-libp2p/core/peer"
 	"github.com/stretchr/testify/require"
@@ -18,6 +14,10 @@ import (
 	"github.com/umbracle/ethgo/abi"
 	"github.com/umbracle/ethgo/testutil"
 	"google.golang.org/protobuf/proto"
+	"https://github.com/FitRTeams/familychain/consensus/polybft/contractsapi"
+	bls "https://github.com/FitRTeams/familychain/consensus/polybft/signer"
+	"https://github.com/FitRTeams/familychain/merkle-tree"
+	"https://github.com/FitRTeams/familychain/types"
 )
 
 func newTestStateSyncManager(t *testing.T, key *testValidator) *stateSyncManager {

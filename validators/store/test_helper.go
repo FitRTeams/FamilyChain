@@ -1,8 +1,8 @@
 package store
 
 import (
-	"github.com/familychain/family/consensus/ibft/signer"
-	"github.com/familychain/family/types"
+	"https://github.com/FitRTeams/familychain/consensus/ibft/signer"
+	"https://github.com/FitRTeams/familychain/types"
 )
 
 // Utilities for test

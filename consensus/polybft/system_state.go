@@ -5,11 +5,11 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/familychain/family/consensus/polybft/contractsapi"
-	bls "github.com/familychain/family/consensus/polybft/signer"
-	"github.com/familychain/family/types"
 	"github.com/umbracle/ethgo"
 	"github.com/umbracle/ethgo/contract"
+	"https://github.com/FitRTeams/familychain/consensus/polybft/contractsapi"
+	bls "https://github.com/FitRTeams/familychain/consensus/polybft/signer"
+	"https://github.com/FitRTeams/familychain/types"
 )
 
 // ValidatorInfo is data transfer object which holds validator information,

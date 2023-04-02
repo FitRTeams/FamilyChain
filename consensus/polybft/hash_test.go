@@ -3,11 +3,11 @@ package polybft
 import (
 	"testing"
 
-	"github.com/familychain/family/consensus/polybft/bitmap"
-	bls "github.com/familychain/family/consensus/polybft/signer"
-	"github.com/familychain/family/consensus/polybft/wallet"
-	"github.com/familychain/family/types"
 	"github.com/stretchr/testify/assert"
+	"https://github.com/FitRTeams/familychain/consensus/polybft/bitmap"
+	bls "https://github.com/FitRTeams/familychain/consensus/polybft/signer"
+	"https://github.com/FitRTeams/familychain/consensus/polybft/wallet"
+	"https://github.com/FitRTeams/familychain/types"
 )
 
 func Test_setupHeaderHashFunc(t *testing.T) {

@@ -3,8 +3,8 @@ package validators
 import (
 	"testing"
 
-	"github.com/familychain/family/types"
 	"github.com/stretchr/testify/assert"
+	"https://github.com/FitRTeams/familychain/types"
 )
 
 func TestNewECDSAValidator(t *testing.T) {

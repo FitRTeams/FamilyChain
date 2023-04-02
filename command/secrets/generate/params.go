@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/familychain/family/command"
-	"github.com/familychain/family/secrets"
+	"https://github.com/FitRTeams/familychain/command"
+	"https://github.com/FitRTeams/familychain/secrets"
 )
 
 var (

@@ -5,11 +5,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/familychain/family/e2e-polybft/framework"
-	serverProto "github.com/familychain/family/server/proto"
-	txpoolProto "github.com/familychain/family/txpool/proto"
 	"github.com/stretchr/testify/require"
 	"google.golang.org/protobuf/types/known/emptypb"
+	"https://github.com/FitRTeams/familychain/e2e-polybft/framework"
+	serverProto "https://github.com/FitRTeams/familychain/server/proto"
+	txpoolProto "https://github.com/FitRTeams/familychain/txpool/proto"
 )
 
 // Tests if interceptor triggers validation of grpc requests

@@ -3,12 +3,12 @@ package server
 import (
 	"fmt"
 
-	"github.com/familychain/family/command"
-	"github.com/familychain/family/command/helper"
-	"github.com/familychain/family/command/server/config"
-	"github.com/familychain/family/command/server/export"
-	"github.com/familychain/family/server"
 	"github.com/spf13/cobra"
+	"https://github.com/FitRTeams/familychain/command"
+	"https://github.com/FitRTeams/familychain/command/helper"
+	"https://github.com/FitRTeams/familychain/command/server/config"
+	"https://github.com/FitRTeams/familychain/command/server/export"
+	"https://github.com/FitRTeams/familychain/server"
 )
 
 func GetCommand() *cobra.Command {

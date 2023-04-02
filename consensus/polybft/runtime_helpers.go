@@ -1,8 +1,8 @@
 package polybft
 
 import (
-	"github.com/familychain/family/blockchain"
-	"github.com/familychain/family/types"
+	"https://github.com/FitRTeams/familychain/blockchain"
+	"https://github.com/FitRTeams/familychain/types"
 )
 
 // isEndOfPeriod checks if an end of a period (either it be sprint or epoch)

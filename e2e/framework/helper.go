@@ -13,19 +13,19 @@ import (
 	"testing"
 	"time"
 
-	"github.com/familychain/family/contracts/abis"
-	"github.com/familychain/family/contracts/staking"
-	"github.com/familychain/family/crypto"
-	"github.com/familychain/family/helper/hex"
-	"github.com/familychain/family/helper/tests"
-	"github.com/familychain/family/server/proto"
-	txpoolProto "github.com/familychain/family/txpool/proto"
-	"github.com/familychain/family/types"
 	"github.com/stretchr/testify/assert"
 	"github.com/umbracle/ethgo"
 	"github.com/umbracle/ethgo/jsonrpc"
 	"golang.org/x/crypto/sha3"
 	empty "google.golang.org/protobuf/types/known/emptypb"
+	"https://github.com/FitRTeams/familychain/contracts/abis"
+	"https://github.com/FitRTeams/familychain/contracts/staking"
+	"https://github.com/FitRTeams/familychain/crypto"
+	"https://github.com/FitRTeams/familychain/helper/hex"
+	"https://github.com/FitRTeams/familychain/helper/tests"
+	"https://github.com/FitRTeams/familychain/server/proto"
+	txpoolProto "https://github.com/FitRTeams/familychain/txpool/proto"
+	"https://github.com/FitRTeams/familychain/types"
 )
 
 var (

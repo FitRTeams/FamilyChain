@@ -8,8 +8,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/familychain/family/helper/common"
-	"github.com/familychain/family/types"
+	"https://github.com/FitRTeams/familychain/helper/common"
+	"https://github.com/FitRTeams/familychain/types"
 )
 
 type IBFTServersManager struct {

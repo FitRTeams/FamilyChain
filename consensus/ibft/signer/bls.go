@@ -6,11 +6,11 @@ import (
 	"math/big"
 
 	"github.com/coinbase/kryptology/pkg/signatures/bls/bls_sig"
-	"github.com/familychain/family/crypto"
-	"github.com/familychain/family/secrets"
-	"github.com/familychain/family/types"
-	"github.com/familychain/family/validators"
 	"github.com/umbracle/fastrlp"
+	"https://github.com/FitRTeams/familychain/crypto"
+	"https://github.com/FitRTeams/familychain/secrets"
+	"https://github.com/FitRTeams/familychain/types"
+	"https://github.com/FitRTeams/familychain/validators"
 )
 
 // BLSKeyManager is a module that holds ECDSA and BLS keys

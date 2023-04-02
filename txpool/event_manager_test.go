@@ -5,10 +5,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/familychain/family/txpool/proto"
-	"github.com/familychain/family/types"
 	"github.com/hashicorp/go-hclog"
 	"github.com/stretchr/testify/assert"
+	"https://github.com/FitRTeams/familychain/txpool/proto"
+	"https://github.com/FitRTeams/familychain/types"
 )
 
 func TestEventManager_SubscribeCancel(t *testing.T) {

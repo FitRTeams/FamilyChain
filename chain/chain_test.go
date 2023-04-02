@@ -7,8 +7,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/familychain/family/types"
 	"github.com/stretchr/testify/require"
+	"https://github.com/FitRTeams/familychain/types"
 )
 
 var emptyAddr types.Address

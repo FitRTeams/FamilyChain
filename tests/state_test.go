@@ -8,11 +8,11 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/familychain/family/chain"
-	"github.com/familychain/family/helper/hex"
-	"github.com/familychain/family/state"
-	"github.com/familychain/family/types"
 	"github.com/hashicorp/go-hclog"
+	"https://github.com/FitRTeams/familychain/chain"
+	"https://github.com/FitRTeams/familychain/helper/hex"
+	"https://github.com/FitRTeams/familychain/state"
+	"https://github.com/FitRTeams/familychain/types"
 )
 
 var (

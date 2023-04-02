@@ -1,9 +1,9 @@
 package version
 
 import (
-	"github.com/familychain/family/command"
-	"github.com/familychain/family/versioning"
 	"github.com/spf13/cobra"
+	"https://github.com/FitRTeams/familychain/command"
+	"https://github.com/FitRTeams/familychain/versioning"
 )
 
 func GetCommand() *cobra.Command {

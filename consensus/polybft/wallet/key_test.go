@@ -3,10 +3,10 @@ package wallet
 import (
 	"testing"
 
-	bls "github.com/familychain/family/consensus/polybft/signer"
-	"github.com/familychain/go-ibft/messages/proto"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
+	bls "https://github.com/FitRTeams/familychain/consensus/polybft/signer"
+	"https://github.com/FitRTeams/familychain/go-ibft/messages/proto"
 )
 
 func Test_RecoverAddressFromSignature(t *testing.T) {

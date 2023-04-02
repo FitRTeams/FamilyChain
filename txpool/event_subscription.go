@@ -1,7 +1,7 @@
 package txpool
 
 import (
-	"github.com/familychain/family/txpool/proto"
+	"https://github.com/FitRTeams/familychain/txpool/proto"
 )
 
 type subscriptionID int32

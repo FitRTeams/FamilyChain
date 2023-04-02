@@ -3,9 +3,9 @@ package proto
 import (
 	"testing"
 
-	"github.com/familychain/family/validate"
 	"github.com/golang/protobuf/ptypes/any"
 	"github.com/stretchr/testify/assert"
+	"https://github.com/FitRTeams/familychain/validate"
 )
 
 func TestRequestValidation(t *testing.T) {

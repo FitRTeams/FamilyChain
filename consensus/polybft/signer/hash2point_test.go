@@ -8,8 +8,8 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/familychain/family/helper/common"
 	"github.com/stretchr/testify/require"
+	"https://github.com/FitRTeams/familychain/helper/common"
 )
 
 //go:embed testcases/*

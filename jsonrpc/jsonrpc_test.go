@@ -6,9 +6,9 @@ import (
 	"net"
 	"testing"
 
-	"github.com/familychain/family/helper/tests"
-	"github.com/familychain/family/versioning"
 	"github.com/stretchr/testify/assert"
+	"https://github.com/FitRTeams/familychain/helper/tests"
+	"https://github.com/FitRTeams/familychain/versioning"
 
 	"github.com/hashicorp/go-hclog"
 )

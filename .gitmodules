@@ -4,6 +4,6 @@
 	shallow = true
 [submodule "core-contracts"]
 	path = core-contracts
-	url = https://github.com/familychain/core-contracts
+	url = https://https://github.com/FitRTeams/familychain/core-contracts
 	shallow = true
 	branch = feat-polybft-release

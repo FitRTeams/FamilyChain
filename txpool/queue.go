@@ -5,7 +5,7 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/familychain/family/types"
+	"https://github.com/FitRTeams/familychain/types"
 )
 
 // A thread-safe wrapper of a minNonceQueue.

@@ -8,16 +8,16 @@ import (
 	mrand "math/rand"
 	"testing"
 
-	"github.com/familychain/family/chain"
-	"github.com/familychain/family/consensus/polybft/bitmap"
-	bls "github.com/familychain/family/consensus/polybft/signer"
-	"github.com/familychain/family/consensus/polybft/wallet"
-	"github.com/familychain/family/types"
 	"github.com/hashicorp/go-hclog"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"
 	"github.com/stretchr/testify/require"
 	"github.com/umbracle/fastrlp"
+	"https://github.com/FitRTeams/familychain/chain"
+	"https://github.com/FitRTeams/familychain/consensus/polybft/bitmap"
+	bls "https://github.com/FitRTeams/familychain/consensus/polybft/signer"
+	"https://github.com/FitRTeams/familychain/consensus/polybft/wallet"
+	"https://github.com/FitRTeams/familychain/types"
 )
 
 func TestExtra_Encoding(t *testing.T) {

@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/familychain/family/helper/common"
 	bn256 "github.com/umbracle/go-eth-bn256"
+	"https://github.com/FitRTeams/familychain/helper/common"
 )
 
 // PublicKey represents bls public key

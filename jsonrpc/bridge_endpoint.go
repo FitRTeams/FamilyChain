@@ -1,7 +1,7 @@
 package jsonrpc
 
 import (
-	"github.com/familychain/family/types"
+	"https://github.com/FitRTeams/familychain/types"
 )
 
 // bridgeStore interface provides access to the methods needed by bridge endpoint

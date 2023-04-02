@@ -7,9 +7,9 @@ import (
 	"path/filepath"
 	"sync"
 
-	"github.com/familychain/family/helper/common"
-	"github.com/familychain/family/secrets"
 	"github.com/hashicorp/go-hclog"
+	"https://github.com/FitRTeams/familychain/helper/common"
+	"https://github.com/FitRTeams/familychain/secrets"
 )
 
 // LocalSecretsManager is a SecretsManager that

@@ -3,9 +3,9 @@ package status
 import (
 	"context"
 
-	"github.com/familychain/family/command"
-	"github.com/familychain/family/command/helper"
-	"github.com/familychain/family/server/proto"
+	"https://github.com/FitRTeams/familychain/command"
+	"https://github.com/FitRTeams/familychain/command/helper"
+	"https://github.com/FitRTeams/familychain/server/proto"
 )
 
 var (

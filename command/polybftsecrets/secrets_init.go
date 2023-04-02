@@ -3,7 +3,7 @@ package polybftsecrets
 import (
 	"github.com/spf13/cobra"
 
-	"github.com/familychain/family/command"
+	"https://github.com/FitRTeams/familychain/command"
 )
 
 var basicParams = &initParams{}

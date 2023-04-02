@@ -3,12 +3,12 @@ package validators
 import (
 	"fmt"
 
-	"github.com/familychain/family/command"
-	"github.com/familychain/family/command/helper"
-	"github.com/familychain/family/command/polybftsecrets"
-	sidechainHelper "github.com/familychain/family/command/sidechain"
-	"github.com/familychain/family/txrelayer"
 	"github.com/spf13/cobra"
+	"https://github.com/FitRTeams/familychain/command"
+	"https://github.com/FitRTeams/familychain/command/helper"
+	"https://github.com/FitRTeams/familychain/command/polybftsecrets"
+	sidechainHelper "https://github.com/FitRTeams/familychain/command/sidechain"
+	"https://github.com/FitRTeams/familychain/txrelayer"
 )
 
 var (

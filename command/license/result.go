@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"fmt"
 
-	"github.com/familychain/family/licenses"
+	"https://github.com/FitRTeams/familychain/licenses"
 )
 
 type LicenseResult struct {

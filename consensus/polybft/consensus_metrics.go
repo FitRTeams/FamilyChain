@@ -4,7 +4,7 @@ import (
 	"time"
 
 	"github.com/armon/go-metrics"
-	"github.com/familychain/family/types"
+	"https://github.com/FitRTeams/familychain/types"
 )
 
 const (

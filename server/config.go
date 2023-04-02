@@ -5,9 +5,9 @@ import (
 
 	"github.com/hashicorp/go-hclog"
 
-	"github.com/familychain/family/chain"
-	"github.com/familychain/family/network"
-	"github.com/familychain/family/secrets"
+	"https://github.com/FitRTeams/familychain/chain"
+	"https://github.com/FitRTeams/familychain/network"
+	"https://github.com/FitRTeams/familychain/secrets"
 )
 
 const DefaultGRPCPort int = 9632

@@ -21,9 +21,9 @@ import (
 	"github.com/docker/go-connections/nat"
 	"github.com/spf13/cobra"
 
-	"github.com/familychain/family/command"
-	"github.com/familychain/family/command/rootchain/helper"
-	"github.com/familychain/family/helper/common"
+	"https://github.com/FitRTeams/familychain/command"
+	"https://github.com/FitRTeams/familychain/command/rootchain/helper"
+	"https://github.com/FitRTeams/familychain/helper/common"
 )
 
 const (

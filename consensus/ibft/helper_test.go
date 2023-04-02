@@ -5,10 +5,10 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/familychain/family/crypto"
-	"github.com/familychain/family/types"
-	"github.com/familychain/family/validators"
 	"github.com/stretchr/testify/require"
+	"https://github.com/FitRTeams/familychain/crypto"
+	"https://github.com/FitRTeams/familychain/types"
+	"https://github.com/FitRTeams/familychain/validators"
 )
 
 type testerAccount struct {

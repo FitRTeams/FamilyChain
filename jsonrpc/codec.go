@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/familychain/family/types"
+	"https://github.com/FitRTeams/familychain/types"
 )
 
 // Request is a jsonrpc request

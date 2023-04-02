@@ -9,12 +9,12 @@ import (
 	"path"
 	"strings"
 
-	"github.com/familychain/family/command"
-	"github.com/familychain/family/command/genesis"
-	"github.com/familychain/family/consensus/polybft"
-	"github.com/familychain/family/types"
 	"github.com/multiformats/go-multiaddr"
 	"github.com/spf13/cobra"
+	"https://github.com/FitRTeams/familychain/command"
+	"https://github.com/FitRTeams/familychain/command/genesis"
+	"https://github.com/FitRTeams/familychain/consensus/polybft"
+	"https://github.com/FitRTeams/familychain/types"
 )
 
 const (

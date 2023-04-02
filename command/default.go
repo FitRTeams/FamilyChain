@@ -1,8 +1,8 @@
 package command
 
 import (
-	"github.com/familychain/family/server"
 	"github.com/umbracle/ethgo"
+	"https://github.com/FitRTeams/familychain/server"
 )
 
 const (

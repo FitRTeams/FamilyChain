@@ -6,9 +6,9 @@ import (
 	"fmt"
 	"testing"
 
-	testHelper "github.com/familychain/family/helper/tests"
-	"github.com/familychain/family/types"
 	"github.com/stretchr/testify/assert"
+	testHelper "https://github.com/FitRTeams/familychain/helper/tests"
+	"https://github.com/FitRTeams/familychain/types"
 )
 
 var (

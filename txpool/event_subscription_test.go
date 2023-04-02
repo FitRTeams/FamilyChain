@@ -10,10 +10,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/familychain/family/helper/tests"
-	"github.com/familychain/family/txpool/proto"
-	"github.com/familychain/family/types"
 	"github.com/stretchr/testify/assert"
+	"https://github.com/FitRTeams/familychain/helper/tests"
+	"https://github.com/FitRTeams/familychain/txpool/proto"
+	"https://github.com/FitRTeams/familychain/types"
 )
 
 func shuffleTxPoolEvents(

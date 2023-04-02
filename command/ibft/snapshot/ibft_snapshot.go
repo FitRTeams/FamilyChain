@@ -3,9 +3,9 @@ package snapshot
 import (
 	"math"
 
-	"github.com/familychain/family/command"
-	"github.com/familychain/family/command/helper"
 	"github.com/spf13/cobra"
+	"https://github.com/FitRTeams/familychain/command"
+	"https://github.com/FitRTeams/familychain/command/helper"
 )
 
 func GetCommand() *cobra.Command {

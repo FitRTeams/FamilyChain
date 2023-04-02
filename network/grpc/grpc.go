@@ -10,11 +10,11 @@ import (
 
 	manet "github.com/multiformats/go-multiaddr/net"
 
-	"github.com/familychain/family/validate"
 	"github.com/libp2p/go-libp2p/core/network"
 	"github.com/libp2p/go-libp2p/core/peer"
 	"google.golang.org/grpc"
 	grpcPeer "google.golang.org/grpc/peer"
+	"https://github.com/FitRTeams/familychain/validate"
 )
 
 type GrpcStream struct {

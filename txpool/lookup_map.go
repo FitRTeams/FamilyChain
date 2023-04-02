@@ -3,7 +3,7 @@ package txpool
 import (
 	"sync"
 
-	"github.com/familychain/family/types"
+	"https://github.com/FitRTeams/familychain/types"
 )
 
 // Lookup map used to find transactions present in the pool

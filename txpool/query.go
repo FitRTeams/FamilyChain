@@ -1,6 +1,6 @@
 package txpool
 
-import "github.com/familychain/family/types"
+import "https://github.com/FitRTeams/familychain/types"
 
 /* QUERY methods */
 // Used to query the pool for specific state info.

@@ -9,11 +9,11 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/familychain/family/chain"
-	"github.com/familychain/family/consensus/polybft/contractsapi"
-	bls "github.com/familychain/family/consensus/polybft/signer"
-	"github.com/familychain/family/helper/common"
-	"github.com/familychain/family/types"
+	"https://github.com/FitRTeams/familychain/chain"
+	"https://github.com/FitRTeams/familychain/consensus/polybft/contractsapi"
+	bls "https://github.com/FitRTeams/familychain/consensus/polybft/signer"
+	"https://github.com/FitRTeams/familychain/helper/common"
+	"https://github.com/FitRTeams/familychain/types"
 )
 
 // PolyBFTConfig is the configuration file for the Polybft consensus protocol.

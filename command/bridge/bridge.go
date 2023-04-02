@@ -3,9 +3,9 @@ package bridge
 import (
 	"github.com/spf13/cobra"
 
-	"github.com/familychain/family/command/bridge/deposit"
-	"github.com/familychain/family/command/bridge/exit"
-	"github.com/familychain/family/command/bridge/withdraw"
+	"https://github.com/FitRTeams/familychain/command/bridge/deposit"
+	"https://github.com/FitRTeams/familychain/command/bridge/exit"
+	"https://github.com/FitRTeams/familychain/command/bridge/withdraw"
 )
 
 // GetCommand creates "bridge" helper command

@@ -4,8 +4,8 @@ import (
 	"bytes"
 	"fmt"
 
-	"github.com/familychain/family/command/helper"
-	sidechainHelper "github.com/familychain/family/command/sidechain"
+	"https://github.com/FitRTeams/familychain/command/helper"
+	sidechainHelper "https://github.com/FitRTeams/familychain/command/sidechain"
 )
 
 var (

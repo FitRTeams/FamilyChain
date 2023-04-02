@@ -7,12 +7,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/familychain/family/consensus/ibft/fork"
-	ibftOp "github.com/familychain/family/consensus/ibft/proto"
-	"github.com/familychain/family/crypto"
-	"github.com/familychain/family/e2e/framework"
-	"github.com/familychain/family/types"
 	"github.com/stretchr/testify/assert"
+	"https://github.com/FitRTeams/familychain/consensus/ibft/fork"
+	ibftOp "https://github.com/FitRTeams/familychain/consensus/ibft/proto"
+	"https://github.com/FitRTeams/familychain/crypto"
+	"https://github.com/FitRTeams/familychain/e2e/framework"
+	"https://github.com/FitRTeams/familychain/types"
 )
 
 // Test scenario:

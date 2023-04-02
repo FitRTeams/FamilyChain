@@ -1,11 +1,11 @@
 package secrets
 
 import (
-	"github.com/familychain/family/command/helper"
-	"github.com/familychain/family/command/secrets/generate"
-	initCmd "github.com/familychain/family/command/secrets/init"
-	"github.com/familychain/family/command/secrets/output"
 	"github.com/spf13/cobra"
+	"https://github.com/FitRTeams/familychain/command/helper"
+	"https://github.com/FitRTeams/familychain/command/secrets/generate"
+	initCmd "https://github.com/FitRTeams/familychain/command/secrets/init"
+	"https://github.com/FitRTeams/familychain/command/secrets/output"
 )
 
 func GetCommand() *cobra.Command {

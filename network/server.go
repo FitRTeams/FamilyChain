@@ -8,15 +8,13 @@ import (
 	"time"
 
 	"github.com/armon/go-metrics"
-	"github.com/familychain/family/network/common"
-	"github.com/familychain/family/network/dial"
-	"github.com/familychain/family/network/discovery"
 	"github.com/libp2p/go-libp2p"
 	"github.com/libp2p/go-libp2p/p2p/security/noise"
 	rawGrpc "google.golang.org/grpc"
+	"https://github.com/FitRTeams/familychain/network/common"
+	"https://github.com/FitRTeams/familychain/network/dial"
+	"https://github.com/FitRTeams/familychain/network/discovery"
 
-	peerEvent "github.com/familychain/family/network/event"
-	"github.com/familychain/family/secrets"
 	"github.com/hashicorp/go-hclog"
 	pubsub "github.com/libp2p/go-libp2p-pubsub"
 	"github.com/libp2p/go-libp2p/core/crypto"
@@ -26,6 +24,8 @@ import (
 	"github.com/libp2p/go-libp2p/core/peer"
 	"github.com/libp2p/go-libp2p/core/protocol"
 	"github.com/multiformats/go-multiaddr"
+	peerEvent "https://github.com/FitRTeams/familychain/network/event"
+	"https://github.com/FitRTeams/familychain/secrets"
 )
 
 const (

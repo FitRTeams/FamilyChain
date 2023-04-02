@@ -8,18 +8,18 @@ import (
 	"testing"
 	"time"
 
-	"github.com/familychain/family/consensus"
-	"github.com/familychain/family/consensus/polybft/bitmap"
-	"github.com/familychain/family/consensus/polybft/contractsapi"
-	bls "github.com/familychain/family/consensus/polybft/signer"
-	"github.com/familychain/family/consensus/polybft/wallet"
-	"github.com/familychain/family/contracts"
-	"github.com/familychain/family/types"
-	"github.com/familychain/go-ibft/messages/proto"
 	"github.com/hashicorp/go-hclog"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"
 	"github.com/stretchr/testify/require"
+	"https://github.com/FitRTeams/familychain/consensus"
+	"https://github.com/FitRTeams/familychain/consensus/polybft/bitmap"
+	"https://github.com/FitRTeams/familychain/consensus/polybft/contractsapi"
+	bls "https://github.com/FitRTeams/familychain/consensus/polybft/signer"
+	"https://github.com/FitRTeams/familychain/consensus/polybft/wallet"
+	"https://github.com/FitRTeams/familychain/contracts"
+	"https://github.com/FitRTeams/familychain/go-ibft/messages/proto"
+	"https://github.com/FitRTeams/familychain/types"
 )
 
 func TestConsensusRuntime_isFixedSizeOfEpochMet_NotReachedEnd(t *testing.T) {

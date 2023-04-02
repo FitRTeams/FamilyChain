@@ -8,10 +8,10 @@ import (
 	"os"
 	"testing"
 
-	"github.com/familychain/family/blockchain"
-	"github.com/familychain/family/helper/progress"
-	"github.com/familychain/family/types"
 	"github.com/stretchr/testify/assert"
+	"https://github.com/FitRTeams/familychain/blockchain"
+	"https://github.com/FitRTeams/familychain/helper/progress"
+	"https://github.com/FitRTeams/familychain/types"
 )
 
 var (

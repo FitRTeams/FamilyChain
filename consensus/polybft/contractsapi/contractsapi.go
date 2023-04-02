@@ -4,7 +4,7 @@ package contractsapi
 import (
 	"math/big"
 
-	"github.com/familychain/family/types"
+	"https://github.com/FitRTeams/familychain/types"
 	"github.com/umbracle/ethgo"
 	"github.com/umbracle/ethgo/abi"
 )

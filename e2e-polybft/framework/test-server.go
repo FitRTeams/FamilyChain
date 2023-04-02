@@ -10,16 +10,16 @@ import (
 	"testing"
 	"time"
 
-	"github.com/familychain/family/command/polybftsecrets"
-	"github.com/familychain/family/consensus/polybft"
-	"github.com/familychain/family/server/proto"
-	txpoolProto "github.com/familychain/family/txpool/proto"
-	"github.com/familychain/family/types"
 	"github.com/google/uuid"
 	"github.com/stretchr/testify/assert"
 	"github.com/umbracle/ethgo"
 	"github.com/umbracle/ethgo/jsonrpc"
 	"google.golang.org/grpc"
+	"https://github.com/FitRTeams/familychain/command/polybftsecrets"
+	"https://github.com/FitRTeams/familychain/consensus/polybft"
+	"https://github.com/FitRTeams/familychain/server/proto"
+	txpoolProto "https://github.com/FitRTeams/familychain/txpool/proto"
+	"https://github.com/FitRTeams/familychain/types"
 )
 
 type TestServerConfig struct {

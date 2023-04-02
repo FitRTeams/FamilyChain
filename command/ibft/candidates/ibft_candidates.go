@@ -3,11 +3,11 @@ package candidates
 import (
 	"context"
 
-	"github.com/familychain/family/command"
-	"github.com/familychain/family/command/helper"
-	ibftOp "github.com/familychain/family/consensus/ibft/proto"
 	"github.com/spf13/cobra"
 	empty "google.golang.org/protobuf/types/known/emptypb"
+	"https://github.com/FitRTeams/familychain/command"
+	"https://github.com/FitRTeams/familychain/command/helper"
+	ibftOp "https://github.com/FitRTeams/familychain/consensus/ibft/proto"
 )
 
 func GetCommand() *cobra.Command {

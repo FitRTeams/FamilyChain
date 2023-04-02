@@ -1,18 +1,18 @@
 package server
 
 import (
-	"github.com/familychain/family/chain"
-	"github.com/familychain/family/consensus"
-	consensusDev "github.com/familychain/family/consensus/dev"
-	consensusDummy "github.com/familychain/family/consensus/dummy"
-	consensusIBFT "github.com/familychain/family/consensus/ibft"
-	consensusPolyBFT "github.com/familychain/family/consensus/polybft"
-	"github.com/familychain/family/secrets"
-	"github.com/familychain/family/secrets/awsssm"
-	"github.com/familychain/family/secrets/gcpssm"
-	"github.com/familychain/family/secrets/hashicorpvault"
-	"github.com/familychain/family/secrets/local"
-	"github.com/familychain/family/state"
+	"https://github.com/FitRTeams/familychain/chain"
+	"https://github.com/FitRTeams/familychain/consensus"
+	consensusDev "https://github.com/FitRTeams/familychain/consensus/dev"
+	consensusDummy "https://github.com/FitRTeams/familychain/consensus/dummy"
+	consensusIBFT "https://github.com/FitRTeams/familychain/consensus/ibft"
+	consensusPolyBFT "https://github.com/FitRTeams/familychain/consensus/polybft"
+	"https://github.com/FitRTeams/familychain/secrets"
+	"https://github.com/FitRTeams/familychain/secrets/awsssm"
+	"https://github.com/FitRTeams/familychain/secrets/gcpssm"
+	"https://github.com/FitRTeams/familychain/secrets/hashicorpvault"
+	"https://github.com/FitRTeams/familychain/secrets/local"
+	"https://github.com/FitRTeams/familychain/state"
 )
 
 type GenesisFactoryHook func(config *chain.Chain, engineName string) func(*state.Transition) error

@@ -5,9 +5,9 @@ import (
 
 	"math"
 
-	"github.com/familychain/family/chain"
-	"github.com/familychain/family/state/runtime"
-	"github.com/familychain/family/types"
+	"https://github.com/FitRTeams/familychain/chain"
+	"https://github.com/FitRTeams/familychain/state/runtime"
+	"https://github.com/FitRTeams/familychain/types"
 )
 
 type modExp struct {

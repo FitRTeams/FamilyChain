@@ -6,11 +6,11 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/familychain/family/command"
-	"github.com/familychain/family/helper/common"
-	"github.com/familychain/family/secrets"
-	"github.com/familychain/family/secrets/helper"
-	"github.com/familychain/family/types"
+	"https://github.com/FitRTeams/familychain/command"
+	"https://github.com/FitRTeams/familychain/helper/common"
+	"https://github.com/FitRTeams/familychain/secrets"
+	"https://github.com/FitRTeams/familychain/secrets/helper"
+	"https://github.com/FitRTeams/familychain/types"
 )
 
 const (

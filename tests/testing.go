@@ -9,13 +9,13 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/familychain/family/chain"
-	"github.com/familychain/family/crypto"
-	"github.com/familychain/family/helper/hex"
-	"github.com/familychain/family/state"
-	itrie "github.com/familychain/family/state/immutable-trie"
-	"github.com/familychain/family/state/runtime"
-	"github.com/familychain/family/types"
+	"https://github.com/FitRTeams/familychain/chain"
+	"https://github.com/FitRTeams/familychain/crypto"
+	"https://github.com/FitRTeams/familychain/helper/hex"
+	"https://github.com/FitRTeams/familychain/state"
+	itrie "https://github.com/FitRTeams/familychain/state/immutable-trie"
+	"https://github.com/FitRTeams/familychain/state/runtime"
+	"https://github.com/FitRTeams/familychain/types"
 )
 
 // TESTS is the default location of the tests folder

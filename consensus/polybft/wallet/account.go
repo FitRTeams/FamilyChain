@@ -5,9 +5,9 @@ import (
 	"encoding/hex"
 	"fmt"
 
-	bls "github.com/familychain/family/consensus/polybft/signer"
-	"github.com/familychain/family/secrets"
 	"github.com/umbracle/ethgo/wallet"
+	bls "https://github.com/FitRTeams/familychain/consensus/polybft/signer"
+	"https://github.com/FitRTeams/familychain/secrets"
 )
 
 // Account is an account for key signatures

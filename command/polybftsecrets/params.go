@@ -5,12 +5,12 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/familychain/family/command"
-	"github.com/familychain/family/consensus/polybft/wallet"
-	"github.com/familychain/family/secrets"
-	"github.com/familychain/family/secrets/helper"
-	"github.com/familychain/family/types"
 	"github.com/spf13/cobra"
+	"https://github.com/FitRTeams/familychain/command"
+	"https://github.com/FitRTeams/familychain/consensus/polybft/wallet"
+	"https://github.com/FitRTeams/familychain/secrets"
+	"https://github.com/FitRTeams/familychain/secrets/helper"
+	"https://github.com/FitRTeams/familychain/types"
 )
 
 const (

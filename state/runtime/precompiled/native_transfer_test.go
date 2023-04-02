@@ -4,12 +4,12 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/familychain/family/chain"
-	"github.com/familychain/family/contracts"
-	"github.com/familychain/family/state/runtime"
-	"github.com/familychain/family/types"
 	"github.com/stretchr/testify/require"
 	"github.com/umbracle/ethgo/abi"
+	"https://github.com/FitRTeams/familychain/chain"
+	"https://github.com/FitRTeams/familychain/contracts"
+	"https://github.com/FitRTeams/familychain/state/runtime"
+	"https://github.com/FitRTeams/familychain/types"
 )
 
 func Test_NativeTransferPrecompile(t *testing.T) {

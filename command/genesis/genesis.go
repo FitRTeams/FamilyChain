@@ -3,13 +3,13 @@ package genesis
 import (
 	"fmt"
 
-	"github.com/familychain/family/command"
-	"github.com/familychain/family/command/genesis/predeploy"
-	"github.com/familychain/family/command/helper"
-	"github.com/familychain/family/consensus/ibft"
-	"github.com/familychain/family/helper/common"
-	"github.com/familychain/family/validators"
 	"github.com/spf13/cobra"
+	"https://github.com/FitRTeams/familychain/command"
+	"https://github.com/FitRTeams/familychain/command/genesis/predeploy"
+	"https://github.com/FitRTeams/familychain/command/helper"
+	"https://github.com/FitRTeams/familychain/consensus/ibft"
+	"https://github.com/FitRTeams/familychain/helper/common"
+	"https://github.com/FitRTeams/familychain/validators"
 )
 
 func GetCommand() *cobra.Command {

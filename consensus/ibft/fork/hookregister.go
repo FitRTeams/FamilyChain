@@ -1,7 +1,7 @@
 package fork
 
 import (
-	"github.com/familychain/family/consensus/ibft/hook"
+	"https://github.com/FitRTeams/familychain/consensus/ibft/hook"
 )
 
 // PoAHookRegisterer that registers hooks for PoA mode

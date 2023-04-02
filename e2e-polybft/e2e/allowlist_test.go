@@ -4,13 +4,13 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/familychain/family/contracts"
-	"github.com/familychain/family/e2e-polybft/framework"
-	"github.com/familychain/family/helper/hex"
-	"github.com/familychain/family/state/runtime/allowlist"
-	"github.com/familychain/family/types"
 	"github.com/stretchr/testify/require"
 	"github.com/umbracle/ethgo/wallet"
+	"https://github.com/FitRTeams/familychain/contracts"
+	"https://github.com/FitRTeams/familychain/e2e-polybft/framework"
+	"https://github.com/FitRTeams/familychain/helper/hex"
+	"https://github.com/FitRTeams/familychain/state/runtime/allowlist"
+	"https://github.com/FitRTeams/familychain/types"
 )
 
 func TestAllowList_ContractDeployment(t *testing.T) {

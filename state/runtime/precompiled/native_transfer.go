@@ -3,10 +3,10 @@ package precompiled
 import (
 	"math/big"
 
-	"github.com/familychain/family/chain"
-	"github.com/familychain/family/contracts"
-	"github.com/familychain/family/state/runtime"
-	"github.com/familychain/family/types"
+	"https://github.com/FitRTeams/familychain/chain"
+	"https://github.com/FitRTeams/familychain/contracts"
+	"https://github.com/FitRTeams/familychain/state/runtime"
+	"https://github.com/FitRTeams/familychain/types"
 )
 
 type nativeTransfer struct{}

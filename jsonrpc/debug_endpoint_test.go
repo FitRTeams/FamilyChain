@@ -6,10 +6,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/familychain/family/helper/hex"
-	"github.com/familychain/family/state/runtime/tracer"
-	"github.com/familychain/family/types"
 	"github.com/stretchr/testify/assert"
+	"https://github.com/FitRTeams/familychain/helper/hex"
+	"https://github.com/FitRTeams/familychain/state/runtime/tracer"
+	"https://github.com/FitRTeams/familychain/types"
 )
 
 type debugEndpointMockStore struct {

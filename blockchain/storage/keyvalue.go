@@ -6,9 +6,9 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/familychain/family/types"
 	"github.com/hashicorp/go-hclog"
 	"github.com/umbracle/fastrlp"
+	"https://github.com/FitRTeams/familychain/types"
 )
 
 // Prefixes for the key-value store

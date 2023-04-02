@@ -4,11 +4,11 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/familychain/family/types"
 	"github.com/hashicorp/go-hclog"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"
 	"github.com/stretchr/testify/require"
+	"https://github.com/FitRTeams/familychain/types"
 )
 
 func TestValidatorsSnapshotCache_GetSnapshot_Build(t *testing.T) {

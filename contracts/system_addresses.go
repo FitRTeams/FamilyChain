@@ -1,6 +1,6 @@
 package contracts
 
-import "github.com/familychain/family/types"
+import "https://github.com/FitRTeams/familychain/types"
 
 var (
 	// ValidatorSetContract is an address of validator set contract deployed to child chain

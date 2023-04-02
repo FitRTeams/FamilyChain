@@ -9,14 +9,14 @@ import (
 	"math/big"
 	"reflect"
 
-	"github.com/familychain/family/consensus/polybft/contractsapi"
-	bls "github.com/familychain/family/consensus/polybft/signer"
-	"github.com/familychain/family/crypto"
+	"https://github.com/FitRTeams/familychain/consensus/polybft/contractsapi"
+	bls "https://github.com/FitRTeams/familychain/consensus/polybft/signer"
+	"https://github.com/FitRTeams/familychain/crypto"
 
-	"github.com/familychain/family/consensus/polybft/bitmap"
-	"github.com/familychain/family/types"
 	"github.com/umbracle/ethgo/abi"
 	"github.com/umbracle/fastrlp"
+	"https://github.com/FitRTeams/familychain/consensus/polybft/bitmap"
+	"https://github.com/FitRTeams/familychain/types"
 )
 
 var accountSetABIType = abi.MustNewType(`tuple(tuple(address _address, uint256[4] blsKey, uint256 votingPower)[])`)

@@ -4,10 +4,10 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/familychain/family/chain"
-	"github.com/familychain/family/state/runtime"
-	"github.com/familychain/family/types"
 	bn256 "github.com/umbracle/go-eth-bn256"
+	"https://github.com/FitRTeams/familychain/chain"
+	"https://github.com/FitRTeams/familychain/state/runtime"
+	"https://github.com/FitRTeams/familychain/types"
 )
 
 type bn256Add struct {

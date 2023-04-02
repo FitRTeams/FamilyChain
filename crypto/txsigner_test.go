@@ -4,9 +4,9 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/familychain/family/chain"
-	"github.com/familychain/family/types"
 	"github.com/stretchr/testify/assert"
+	"https://github.com/FitRTeams/familychain/chain"
+	"https://github.com/FitRTeams/familychain/types"
 )
 
 func TestFrontierSigner(t *testing.T) {

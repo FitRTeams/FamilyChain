@@ -3,10 +3,10 @@ package propose
 import (
 	"fmt"
 
-	"github.com/familychain/family/command"
 	"github.com/spf13/cobra"
+	"https://github.com/FitRTeams/familychain/command"
 
-	"github.com/familychain/family/command/helper"
+	"https://github.com/FitRTeams/familychain/command/helper"
 )
 
 func GetCommand() *cobra.Command {

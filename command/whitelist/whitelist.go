@@ -1,9 +1,9 @@
 package whitelist
 
 import (
-	"github.com/familychain/family/command/whitelist/deployment"
-	"github.com/familychain/family/command/whitelist/show"
 	"github.com/spf13/cobra"
+	"https://github.com/FitRTeams/familychain/command/whitelist/deployment"
+	"https://github.com/FitRTeams/familychain/command/whitelist/show"
 )
 
 func GetCommand() *cobra.Command {

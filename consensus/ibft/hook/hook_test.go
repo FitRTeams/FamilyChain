@@ -4,9 +4,9 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/familychain/family/state"
-	"github.com/familychain/family/types"
 	"github.com/stretchr/testify/assert"
+	"https://github.com/FitRTeams/familychain/state"
+	"https://github.com/FitRTeams/familychain/types"
 )
 
 var (

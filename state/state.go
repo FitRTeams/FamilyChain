@@ -8,8 +8,8 @@ import (
 	iradix "github.com/hashicorp/go-immutable-radix"
 	"github.com/umbracle/fastrlp"
 
-	"github.com/familychain/family/crypto"
-	"github.com/familychain/family/types"
+	"https://github.com/FitRTeams/familychain/crypto"
+	"https://github.com/FitRTeams/familychain/types"
 )
 
 type State interface {

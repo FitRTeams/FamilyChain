@@ -3,7 +3,7 @@ package itrie
 import (
 	"testing"
 
-	"github.com/familychain/family/state"
+	"https://github.com/FitRTeams/familychain/state"
 )
 
 func TestState(t *testing.T) {

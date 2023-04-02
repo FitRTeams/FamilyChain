@@ -3,8 +3,8 @@ package jsonrpc
 import (
 	"fmt"
 
-	"github.com/familychain/family/helper/keccak"
-	"github.com/familychain/family/versioning"
+	"https://github.com/FitRTeams/familychain/helper/keccak"
+	"https://github.com/FitRTeams/familychain/versioning"
 )
 
 // Web3 is the web3 jsonrpc endpoint
