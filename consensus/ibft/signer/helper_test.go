@@ -6,13 +6,13 @@ import (
 	"fmt"
 	"testing"
 
+	"github.com/FitRTeams/familychain/crypto"
+	"github.com/FitRTeams/familychain/helper/hex"
+	"github.com/FitRTeams/familychain/secrets"
+	"github.com/FitRTeams/familychain/types"
+	"github.com/FitRTeams/familychain/validators"
 	"github.com/coinbase/kryptology/pkg/signatures/bls/bls_sig"
 	"github.com/stretchr/testify/assert"
-	"https://github.com/FitRTeams/familychain/crypto"
-	"https://github.com/FitRTeams/familychain/helper/hex"
-	"https://github.com/FitRTeams/familychain/secrets"
-	"https://github.com/FitRTeams/familychain/types"
-	"https://github.com/FitRTeams/familychain/validators"
 )
 
 var (

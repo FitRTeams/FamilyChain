@@ -3,7 +3,7 @@ package fork
 import (
 	"fmt"
 
-	"https://github.com/FitRTeams/familychain/validators/store"
+	"github.com/FitRTeams/familychain/validators/store"
 )
 
 // Define the type of the IBFT consensus

@@ -6,9 +6,9 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/FitRTeams/familychain/helper/hex"
+	"github.com/FitRTeams/familychain/types"
 	"github.com/stretchr/testify/assert"
-	"https://github.com/FitRTeams/familychain/helper/hex"
-	"https://github.com/FitRTeams/familychain/types"
 )
 
 func TestBLSValidatorPublicKeyString(t *testing.T) {

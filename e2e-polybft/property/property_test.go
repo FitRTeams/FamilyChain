@@ -6,9 +6,9 @@ import (
 	"testing"
 	"time"
 
+	"github.com/FitRTeams/familychain/e2e-polybft/framework"
+	"github.com/FitRTeams/familychain/types"
 	"github.com/stretchr/testify/require"
-	"https://github.com/FitRTeams/familychain/e2e-polybft/framework"
-	"https://github.com/FitRTeams/familychain/types"
 	"pgregory.net/rapid"
 )
 

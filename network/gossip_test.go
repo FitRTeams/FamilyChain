@@ -7,8 +7,8 @@ import (
 	"testing"
 	"time"
 
+	testproto "github.com/FitRTeams/familychain/network/proto"
 	"github.com/libp2p/go-libp2p/core/peer"
-	testproto "https://github.com/FitRTeams/familychain/network/proto"
 )
 
 func NumSubscribers(srv *Server, topic string) int {

@@ -8,8 +8,8 @@ import (
 	"log"
 	"math/big"
 
+	pcrypto "github.com/FitRTeams/familychain/crypto"
 	bn256 "github.com/umbracle/go-eth-bn256"
-	pcrypto "https://github.com/FitRTeams/familychain/crypto"
 )
 
 var errInfinityPoint = fmt.Errorf("infinity point")

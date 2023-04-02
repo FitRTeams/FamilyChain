@@ -4,9 +4,9 @@ import (
 	"context"
 	"fmt"
 
+	"github.com/FitRTeams/familychain/txpool/proto"
+	"github.com/FitRTeams/familychain/types"
 	empty "google.golang.org/protobuf/types/known/emptypb"
-	"https://github.com/FitRTeams/familychain/txpool/proto"
-	"https://github.com/FitRTeams/familychain/types"
 )
 
 // Status implements the GRPC status endpoint. Returns the number of transactions in the pool

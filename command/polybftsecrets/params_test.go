@@ -6,11 +6,11 @@ import (
 	"path"
 	"testing"
 
+	bls "github.com/FitRTeams/familychain/consensus/polybft/signer"
+	"github.com/FitRTeams/familychain/secrets/helper"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"github.com/umbracle/ethgo/wallet"
-	bls "https://github.com/FitRTeams/familychain/consensus/polybft/signer"
-	"https://github.com/FitRTeams/familychain/secrets/helper"
 )
 
 // Test initKeys

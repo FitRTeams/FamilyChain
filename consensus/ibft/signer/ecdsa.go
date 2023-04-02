@@ -4,11 +4,11 @@ import (
 	"crypto/ecdsa"
 	"fmt"
 
+	"github.com/FitRTeams/familychain/crypto"
+	"github.com/FitRTeams/familychain/secrets"
+	"github.com/FitRTeams/familychain/types"
+	"github.com/FitRTeams/familychain/validators"
 	"github.com/umbracle/fastrlp"
-	"https://github.com/FitRTeams/familychain/crypto"
-	"https://github.com/FitRTeams/familychain/secrets"
-	"https://github.com/FitRTeams/familychain/types"
-	"https://github.com/FitRTeams/familychain/validators"
 )
 
 // ECDSAKeyManager is a module that holds ECDSA key

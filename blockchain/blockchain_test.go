@@ -7,15 +7,15 @@ import (
 	"reflect"
 	"testing"
 
+	"github.com/FitRTeams/familychain/state"
 	"github.com/hashicorp/go-hclog"
-	"https://github.com/FitRTeams/familychain/state"
 
+	"github.com/FitRTeams/familychain/chain"
 	"github.com/stretchr/testify/assert"
-	"https://github.com/FitRTeams/familychain/chain"
 
-	"https://github.com/FitRTeams/familychain/blockchain/storage"
-	"https://github.com/FitRTeams/familychain/blockchain/storage/memory"
-	"https://github.com/FitRTeams/familychain/types"
+	"github.com/FitRTeams/familychain/blockchain/storage"
+	"github.com/FitRTeams/familychain/blockchain/storage/memory"
+	"github.com/FitRTeams/familychain/types"
 )
 
 func TestGenesis(t *testing.T) {

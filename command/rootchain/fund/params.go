@@ -3,9 +3,9 @@ package fund
 import (
 	"errors"
 
-	"https://github.com/FitRTeams/familychain/secrets"
-	"https://github.com/FitRTeams/familychain/secrets/helper"
-	"https://github.com/FitRTeams/familychain/types"
+	"github.com/FitRTeams/familychain/secrets"
+	"github.com/FitRTeams/familychain/secrets/helper"
+	"github.com/FitRTeams/familychain/types"
 )
 
 const (

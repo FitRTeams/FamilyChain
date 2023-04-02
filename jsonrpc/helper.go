@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"math/big"
 
-	"https://github.com/FitRTeams/familychain/types"
+	"github.com/FitRTeams/familychain/types"
 )
 
 var (

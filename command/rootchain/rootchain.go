@@ -3,9 +3,9 @@ package rootchain
 import (
 	"github.com/spf13/cobra"
 
-	"https://github.com/FitRTeams/familychain/command/rootchain/fund"
-	"https://github.com/FitRTeams/familychain/command/rootchain/initcontracts"
-	"https://github.com/FitRTeams/familychain/command/rootchain/server"
+	"github.com/FitRTeams/familychain/command/rootchain/fund"
+	"github.com/FitRTeams/familychain/command/rootchain/initcontracts"
+	"github.com/FitRTeams/familychain/command/rootchain/server"
 )
 
 // GetCommand creates "rootchain" helper command

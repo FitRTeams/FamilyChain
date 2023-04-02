@@ -1,14 +1,14 @@
 package polybft
 
 import (
-	"https://github.com/FitRTeams/familychain/command/sidechain/registration"
-	"https://github.com/FitRTeams/familychain/command/sidechain/staking"
-	"https://github.com/FitRTeams/familychain/command/sidechain/unstaking"
-	"https://github.com/FitRTeams/familychain/command/sidechain/validators"
+	"github.com/FitRTeams/familychain/command/sidechain/registration"
+	"github.com/FitRTeams/familychain/command/sidechain/staking"
+	"github.com/FitRTeams/familychain/command/sidechain/unstaking"
+	"github.com/FitRTeams/familychain/command/sidechain/validators"
 
+	"github.com/FitRTeams/familychain/command/sidechain/whitelist"
+	"github.com/FitRTeams/familychain/command/sidechain/withdraw"
 	"github.com/spf13/cobra"
-	"https://github.com/FitRTeams/familychain/command/sidechain/whitelist"
-	"https://github.com/FitRTeams/familychain/command/sidechain/withdraw"
 )
 
 func GetCommand() *cobra.Command {

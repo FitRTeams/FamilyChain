@@ -9,15 +9,16 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"https://github.com/FitRTeams/familychain/consensus/polybft/contractsapi"
-	bls "https://github.com/FitRTeams/familychain/consensus/polybft/signer"
-	"https://github.com/FitRTeams/familychain/consensus/polybft/wallet"
-	"https://github.com/FitRTeams/familychain/txrelayer"
-	"https://github.com/FitRTeams/familychain/types"
+	"github.com/FitRTeams/familychain/consensus/polybft/contractsapi"
+	bls "github.com/FitRTeams/familychain/consensus/polybft/signer"
+	"github.com/FitRTeams/familychain/consensus/polybft/wallet"
+	"github.com/FitRTeams/familychain/txrelayer"
+	"github.com/FitRTeams/familychain/types"
+
+	"github.com/0xPolygon/go-ibft/messages"
+	"github.com/0xPolygon/go-ibft/messages/proto"
 
 	hcf "github.com/hashicorp/go-hclog"
-	"https://github.com/FitRTeams/familychain/go-ibft/messages"
-	"https://github.com/FitRTeams/familychain/go-ibft/messages/proto"
 )
 
 const (

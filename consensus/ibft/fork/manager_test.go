@@ -5,18 +5,18 @@ import (
 	"path"
 	"testing"
 
+	"github.com/FitRTeams/familychain/consensus/ibft/hook"
+	"github.com/FitRTeams/familychain/consensus/ibft/signer"
+	"github.com/FitRTeams/familychain/crypto"
+	"github.com/FitRTeams/familychain/helper/common"
+	testHelper "github.com/FitRTeams/familychain/helper/tests"
+	"github.com/FitRTeams/familychain/secrets"
+	"github.com/FitRTeams/familychain/types"
+	"github.com/FitRTeams/familychain/validators"
+	"github.com/FitRTeams/familychain/validators/store"
+	"github.com/FitRTeams/familychain/validators/store/snapshot"
 	"github.com/hashicorp/go-hclog"
 	"github.com/stretchr/testify/assert"
-	"https://github.com/FitRTeams/familychain/consensus/ibft/hook"
-	"https://github.com/FitRTeams/familychain/consensus/ibft/signer"
-	"https://github.com/FitRTeams/familychain/crypto"
-	"https://github.com/FitRTeams/familychain/helper/common"
-	testHelper "https://github.com/FitRTeams/familychain/helper/tests"
-	"https://github.com/FitRTeams/familychain/secrets"
-	"https://github.com/FitRTeams/familychain/types"
-	"https://github.com/FitRTeams/familychain/validators"
-	"https://github.com/FitRTeams/familychain/validators/store"
-	"https://github.com/FitRTeams/familychain/validators/store/snapshot"
 )
 
 type mockValidatorStore struct {

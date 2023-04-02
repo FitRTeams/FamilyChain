@@ -3,8 +3,8 @@ package validators
 import (
 	"encoding/json"
 
+	"github.com/FitRTeams/familychain/types"
 	"github.com/umbracle/fastrlp"
-	"https://github.com/FitRTeams/familychain/types"
 )
 
 type Set struct {

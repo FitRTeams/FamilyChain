@@ -5,14 +5,14 @@ import (
 	"fmt"
 	"testing"
 
+	"github.com/FitRTeams/familychain/crypto"
+	"github.com/FitRTeams/familychain/helper/keccak"
+	"github.com/FitRTeams/familychain/secrets"
+	"github.com/FitRTeams/familychain/secrets/helper"
+	"github.com/FitRTeams/familychain/types"
+	"github.com/FitRTeams/familychain/validators"
 	"github.com/coinbase/kryptology/pkg/signatures/bls/bls_sig"
 	"github.com/umbracle/fastrlp"
-	"https://github.com/FitRTeams/familychain/crypto"
-	"https://github.com/FitRTeams/familychain/helper/keccak"
-	"https://github.com/FitRTeams/familychain/secrets"
-	"https://github.com/FitRTeams/familychain/secrets/helper"
-	"https://github.com/FitRTeams/familychain/types"
-	"https://github.com/FitRTeams/familychain/validators"
 )
 
 const (

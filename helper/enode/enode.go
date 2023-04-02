@@ -9,8 +9,8 @@ import (
 	"net/url"
 	"strconv"
 
-	"https://github.com/FitRTeams/familychain/crypto"
-	"https://github.com/FitRTeams/familychain/helper/hex"
+	"github.com/FitRTeams/familychain/crypto"
+	"github.com/FitRTeams/familychain/helper/hex"
 )
 
 const nodeIDBytes = 512 / 8

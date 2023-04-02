@@ -4,8 +4,8 @@ import (
 	goHex "encoding/hex"
 	"strings"
 
-	"https://github.com/FitRTeams/familychain/helper/hex"
-	"https://github.com/FitRTeams/familychain/helper/keccak"
+	"github.com/FitRTeams/familychain/helper/hex"
+	"github.com/FitRTeams/familychain/helper/keccak"
 )
 
 type ReceiptStatus uint64

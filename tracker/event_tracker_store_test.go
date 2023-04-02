@@ -7,12 +7,12 @@ import (
 	"path/filepath"
 	"testing"
 
+	"github.com/FitRTeams/familychain/helper/common"
 	"github.com/hashicorp/go-hclog"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"github.com/umbracle/ethgo"
 	"github.com/umbracle/ethgo/tracker/store"
-	"https://github.com/FitRTeams/familychain/helper/common"
 )
 
 func createSetupDB(subscriber eventSubscription, numBlockConfirmations uint64) store.SetupDB {

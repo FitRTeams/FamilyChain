@@ -4,8 +4,8 @@ import (
 	"errors"
 	"testing"
 
+	testHelper "github.com/FitRTeams/familychain/helper/tests"
 	"github.com/stretchr/testify/assert"
-	testHelper "https://github.com/FitRTeams/familychain/helper/tests"
 )
 
 func TestIBFTTypeString(t *testing.T) {

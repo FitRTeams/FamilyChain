@@ -5,13 +5,13 @@ import (
 	"fmt"
 	"math/big"
 
+	"github.com/FitRTeams/familychain/consensus/polybft/bitmap"
+	bls "github.com/FitRTeams/familychain/consensus/polybft/signer"
+	"github.com/FitRTeams/familychain/crypto"
+	"github.com/FitRTeams/familychain/types"
 	"github.com/hashicorp/go-hclog"
 	"github.com/umbracle/ethgo/abi"
 	"github.com/umbracle/fastrlp"
-	"https://github.com/FitRTeams/familychain/consensus/polybft/bitmap"
-	bls "https://github.com/FitRTeams/familychain/consensus/polybft/signer"
-	"https://github.com/FitRTeams/familychain/crypto"
-	"https://github.com/FitRTeams/familychain/types"
 )
 
 const (

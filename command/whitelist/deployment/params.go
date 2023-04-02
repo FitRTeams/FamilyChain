@@ -4,11 +4,11 @@ import (
 	"fmt"
 	"os"
 
-	"https://github.com/FitRTeams/familychain/chain"
-	"https://github.com/FitRTeams/familychain/command"
-	"https://github.com/FitRTeams/familychain/command/helper"
-	"https://github.com/FitRTeams/familychain/helper/config"
-	"https://github.com/FitRTeams/familychain/types"
+	"github.com/FitRTeams/familychain/chain"
+	"github.com/FitRTeams/familychain/command"
+	"github.com/FitRTeams/familychain/command/helper"
+	"github.com/FitRTeams/familychain/helper/config"
+	"github.com/FitRTeams/familychain/types"
 )
 
 const (

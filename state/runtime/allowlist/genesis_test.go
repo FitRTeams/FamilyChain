@@ -4,9 +4,9 @@ import (
 	"math/big"
 	"testing"
 
+	"github.com/FitRTeams/familychain/chain"
+	"github.com/FitRTeams/familychain/types"
 	"github.com/stretchr/testify/require"
-	"https://github.com/FitRTeams/familychain/chain"
-	"https://github.com/FitRTeams/familychain/types"
 )
 
 func TestGenesis(t *testing.T) {

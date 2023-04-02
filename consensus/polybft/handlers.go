@@ -1,6 +1,6 @@
 package polybft
 
-import "https://github.com/FitRTeams/familychain/types"
+import "github.com/FitRTeams/familychain/types"
 
 type PostBlockRequest struct {
 	// FullBlock is a reference of the executed block

@@ -6,15 +6,15 @@ import (
 	"testing"
 	"time"
 
+	"github.com/FitRTeams/familychain/consensus/polybft/contractsapi"
+	"github.com/FitRTeams/familychain/e2e-polybft/framework"
+	"github.com/FitRTeams/familychain/txrelayer"
+	"github.com/FitRTeams/familychain/types"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"github.com/umbracle/ethgo"
 	"github.com/umbracle/ethgo/jsonrpc"
 	"github.com/umbracle/ethgo/wallet"
-	"https://github.com/FitRTeams/familychain/consensus/polybft/contractsapi"
-	"https://github.com/FitRTeams/familychain/e2e-polybft/framework"
-	"https://github.com/FitRTeams/familychain/txrelayer"
-	"https://github.com/FitRTeams/familychain/types"
 )
 
 func TestE2E_TxPool_Transfer(t *testing.T) {

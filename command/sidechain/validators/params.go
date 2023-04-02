@@ -4,8 +4,8 @@ import (
 	"bytes"
 	"fmt"
 
-	"https://github.com/FitRTeams/familychain/command/helper"
-	sidechainHelper "https://github.com/FitRTeams/familychain/command/sidechain"
+	"github.com/FitRTeams/familychain/command/helper"
+	sidechainHelper "github.com/FitRTeams/familychain/command/sidechain"
 )
 
 type validatorInfoParams struct {

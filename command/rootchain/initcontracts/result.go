@@ -4,9 +4,9 @@ import (
 	"bytes"
 	"fmt"
 
+	"github.com/FitRTeams/familychain/command/helper"
+	"github.com/FitRTeams/familychain/types"
 	"github.com/umbracle/ethgo"
-	"https://github.com/FitRTeams/familychain/command/helper"
-	"https://github.com/FitRTeams/familychain/types"
 )
 
 type deployContractResult struct {

@@ -5,13 +5,13 @@ import (
 	"os"
 	"strings"
 
+	"github.com/FitRTeams/familychain/crypto"
+	"github.com/FitRTeams/familychain/helper/common"
+	"github.com/FitRTeams/familychain/secrets"
+	"github.com/FitRTeams/familychain/secrets/local"
+	"github.com/FitRTeams/familychain/types"
+	"github.com/FitRTeams/familychain/validators"
 	"github.com/hashicorp/go-hclog"
-	"https://github.com/FitRTeams/familychain/crypto"
-	"https://github.com/FitRTeams/familychain/helper/common"
-	"https://github.com/FitRTeams/familychain/secrets"
-	"https://github.com/FitRTeams/familychain/secrets/local"
-	"https://github.com/FitRTeams/familychain/types"
-	"https://github.com/FitRTeams/familychain/validators"
 )
 
 const (

@@ -6,10 +6,10 @@ import (
 	"fmt"
 	"time"
 
-	"https://github.com/FitRTeams/familychain/helper/hex"
-	"https://github.com/FitRTeams/familychain/state/runtime/tracer"
-	"https://github.com/FitRTeams/familychain/state/runtime/tracer/structtracer"
-	"https://github.com/FitRTeams/familychain/types"
+	"github.com/FitRTeams/familychain/helper/hex"
+	"github.com/FitRTeams/familychain/state/runtime/tracer"
+	"github.com/FitRTeams/familychain/state/runtime/tracer/structtracer"
+	"github.com/FitRTeams/familychain/types"
 )
 
 var (

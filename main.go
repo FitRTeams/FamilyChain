@@ -3,8 +3,8 @@ package main
 import (
 	_ "embed"
 
-	"https://github.com/FitRTeams/familychain/command/root"
-	"https://github.com/FitRTeams/familychain/licenses"
+	"github.com/FitRTeams/familychain/command/root"
+	"github.com/FitRTeams/familychain/licenses"
 )
 
 var (

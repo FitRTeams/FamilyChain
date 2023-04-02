@@ -8,14 +8,14 @@ import (
 	"github.com/umbracle/ethgo"
 	"github.com/umbracle/ethgo/jsonrpc"
 
-	"https://github.com/FitRTeams/familychain/command"
-	"https://github.com/FitRTeams/familychain/command/rootchain/helper"
-	"https://github.com/FitRTeams/familychain/consensus/polybft"
-	"https://github.com/FitRTeams/familychain/consensus/polybft/contractsapi"
-	"https://github.com/FitRTeams/familychain/consensus/polybft/contractsapi/artifact"
-	"https://github.com/FitRTeams/familychain/contracts"
-	"https://github.com/FitRTeams/familychain/txrelayer"
-	"https://github.com/FitRTeams/familychain/types"
+	"github.com/FitRTeams/familychain/command"
+	"github.com/FitRTeams/familychain/command/rootchain/helper"
+	"github.com/FitRTeams/familychain/consensus/polybft"
+	"github.com/FitRTeams/familychain/consensus/polybft/contractsapi"
+	"github.com/FitRTeams/familychain/consensus/polybft/contractsapi/artifact"
+	"github.com/FitRTeams/familychain/contracts"
+	"github.com/FitRTeams/familychain/txrelayer"
+	"github.com/FitRTeams/familychain/types"
 )
 
 const (

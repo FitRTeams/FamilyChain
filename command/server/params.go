@@ -4,13 +4,13 @@ import (
 	"errors"
 	"net"
 
+	"github.com/FitRTeams/familychain/chain"
+	"github.com/FitRTeams/familychain/command/server/config"
+	"github.com/FitRTeams/familychain/network"
+	"github.com/FitRTeams/familychain/secrets"
+	"github.com/FitRTeams/familychain/server"
 	"github.com/hashicorp/go-hclog"
 	"github.com/multiformats/go-multiaddr"
-	"https://github.com/FitRTeams/familychain/chain"
-	"https://github.com/FitRTeams/familychain/command/server/config"
-	"https://github.com/FitRTeams/familychain/network"
-	"https://github.com/FitRTeams/familychain/secrets"
-	"https://github.com/FitRTeams/familychain/server"
 )
 
 const (

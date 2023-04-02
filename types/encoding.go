@@ -6,7 +6,7 @@ import (
 	"strconv"
 	"strings"
 
-	"https://github.com/FitRTeams/familychain/helper/hex"
+	"github.com/FitRTeams/familychain/helper/hex"
 )
 
 func ParseUint64orHex(val *string) (uint64, error) {

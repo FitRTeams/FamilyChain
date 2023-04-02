@@ -7,12 +7,12 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/FitRTeams/familychain/helper/hex"
+	"github.com/FitRTeams/familychain/state/runtime"
+	"github.com/FitRTeams/familychain/state/runtime/evm"
+	"github.com/FitRTeams/familychain/state/runtime/tracer"
+	"github.com/FitRTeams/familychain/types"
 	"github.com/stretchr/testify/assert"
-	"https://github.com/FitRTeams/familychain/helper/hex"
-	"https://github.com/FitRTeams/familychain/state/runtime"
-	"https://github.com/FitRTeams/familychain/state/runtime/evm"
-	"https://github.com/FitRTeams/familychain/state/runtime/tracer"
-	"https://github.com/FitRTeams/familychain/types"
 )
 
 var (

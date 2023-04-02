@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strconv"
 
-	"https://github.com/FitRTeams/familychain/types"
+	"github.com/FitRTeams/familychain/types"
 )
 
 // txPoolStore provides access to the methods needed for txpool endpoint

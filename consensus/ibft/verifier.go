@@ -5,11 +5,11 @@ import (
 	"encoding/binary"
 	"encoding/hex"
 
-	"https://github.com/FitRTeams/familychain/consensus/ibft/signer"
-	"https://github.com/FitRTeams/familychain/crypto"
-	"https://github.com/FitRTeams/familychain/go-ibft/messages"
-	protoIBFT "https://github.com/FitRTeams/familychain/go-ibft/messages/proto"
-	"https://github.com/FitRTeams/familychain/types"
+	"github.com/0xPolygon/go-ibft/messages"
+	protoIBFT "github.com/0xPolygon/go-ibft/messages/proto"
+	"github.com/FitRTeams/familychain/consensus/ibft/signer"
+	"github.com/FitRTeams/familychain/crypto"
+	"github.com/FitRTeams/familychain/types"
 )
 
 // Verifier impl for go-ibft

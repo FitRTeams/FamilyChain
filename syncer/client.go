@@ -9,14 +9,14 @@ import (
 	"sync/atomic"
 	"time"
 
+	"github.com/FitRTeams/familychain/blockchain"
+	"github.com/FitRTeams/familychain/network"
+	"github.com/FitRTeams/familychain/network/event"
+	"github.com/FitRTeams/familychain/syncer/proto"
+	"github.com/FitRTeams/familychain/types"
 	"github.com/hashicorp/go-hclog"
 	"github.com/libp2p/go-libp2p/core/peer"
 	"google.golang.org/protobuf/types/known/emptypb"
-	"https://github.com/FitRTeams/familychain/blockchain"
-	"https://github.com/FitRTeams/familychain/network"
-	"https://github.com/FitRTeams/familychain/network/event"
-	"https://github.com/FitRTeams/familychain/syncer/proto"
-	"https://github.com/FitRTeams/familychain/types"
 )
 
 const (

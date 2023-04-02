@@ -7,18 +7,18 @@ import (
 	"strings"
 	"time"
 
-	"https://github.com/FitRTeams/familychain/consensus/polybft/contractsapi"
-	"https://github.com/FitRTeams/familychain/consensus/polybft/contractsapi/artifact"
+	"github.com/FitRTeams/familychain/consensus/polybft/contractsapi"
+	"github.com/FitRTeams/familychain/consensus/polybft/contractsapi/artifact"
 
-	"https://github.com/FitRTeams/familychain/chain"
-	"https://github.com/FitRTeams/familychain/command"
-	"https://github.com/FitRTeams/familychain/command/helper"
+	"github.com/FitRTeams/familychain/chain"
+	"github.com/FitRTeams/familychain/command"
+	"github.com/FitRTeams/familychain/command/helper"
 
-	"https://github.com/FitRTeams/familychain/consensus/polybft"
-	"https://github.com/FitRTeams/familychain/consensus/polybft/bitmap"
-	"https://github.com/FitRTeams/familychain/contracts"
-	"https://github.com/FitRTeams/familychain/server"
-	"https://github.com/FitRTeams/familychain/types"
+	"github.com/FitRTeams/familychain/consensus/polybft"
+	"github.com/FitRTeams/familychain/consensus/polybft/bitmap"
+	"github.com/FitRTeams/familychain/contracts"
+	"github.com/FitRTeams/familychain/server"
+	"github.com/FitRTeams/familychain/types"
 )
 
 const (

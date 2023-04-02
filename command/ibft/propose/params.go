@@ -7,11 +7,11 @@ import (
 	"fmt"
 	"strings"
 
-	"https://github.com/FitRTeams/familychain/command"
-	"https://github.com/FitRTeams/familychain/command/helper"
-	ibftOp "https://github.com/FitRTeams/familychain/consensus/ibft/proto"
-	"https://github.com/FitRTeams/familychain/crypto"
-	"https://github.com/FitRTeams/familychain/types"
+	"github.com/FitRTeams/familychain/command"
+	"github.com/FitRTeams/familychain/command/helper"
+	ibftOp "github.com/FitRTeams/familychain/consensus/ibft/proto"
+	"github.com/FitRTeams/familychain/crypto"
+	"github.com/FitRTeams/familychain/types"
 )
 
 const (

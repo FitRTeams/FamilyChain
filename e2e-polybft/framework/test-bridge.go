@@ -8,8 +8,8 @@ import (
 	"testing"
 	"time"
 
-	"https://github.com/FitRTeams/familychain/command/rootchain/server"
-	"https://github.com/FitRTeams/familychain/types"
+	"github.com/FitRTeams/familychain/command/rootchain/server"
+	"github.com/FitRTeams/familychain/types"
 )
 
 type TestBridge struct {

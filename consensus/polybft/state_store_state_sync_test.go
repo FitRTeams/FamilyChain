@@ -6,12 +6,12 @@ import (
 	"math/big"
 	"testing"
 
+	"github.com/FitRTeams/familychain/consensus/polybft/contractsapi"
+	"github.com/FitRTeams/familychain/merkle-tree"
+	"github.com/FitRTeams/familychain/types"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"go.etcd.io/bbolt"
-	"https://github.com/FitRTeams/familychain/consensus/polybft/contractsapi"
-	"https://github.com/FitRTeams/familychain/merkle-tree"
-	"https://github.com/FitRTeams/familychain/types"
 )
 
 func TestState_InsertEvent(t *testing.T) {

@@ -6,11 +6,11 @@ import (
 	"math/big"
 	"testing"
 
+	"github.com/FitRTeams/familychain/e2e/framework"
+	"github.com/FitRTeams/familychain/types"
 	"github.com/stretchr/testify/require"
 	"github.com/umbracle/ethgo"
 	"github.com/umbracle/ethgo/wallet"
-	"https://github.com/FitRTeams/familychain/e2e/framework"
-	"https://github.com/FitRTeams/familychain/types"
 )
 
 var (

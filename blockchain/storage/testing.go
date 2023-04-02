@@ -5,9 +5,9 @@ import (
 	"reflect"
 	"testing"
 
+	"github.com/FitRTeams/familychain/helper/hex"
+	"github.com/FitRTeams/familychain/types"
 	"github.com/stretchr/testify/assert"
-	"https://github.com/FitRTeams/familychain/helper/hex"
-	"https://github.com/FitRTeams/familychain/types"
 )
 
 type PlaceholderStorage func(t *testing.T) (Storage, func())

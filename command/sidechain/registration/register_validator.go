@@ -5,18 +5,18 @@ import (
 	"errors"
 	"fmt"
 
+	"github.com/FitRTeams/familychain/command"
+	"github.com/FitRTeams/familychain/command/helper"
+	"github.com/FitRTeams/familychain/command/polybftsecrets"
+	"github.com/FitRTeams/familychain/consensus/polybft/contractsapi"
+	bls "github.com/FitRTeams/familychain/consensus/polybft/signer"
+	"github.com/FitRTeams/familychain/consensus/polybft/wallet"
+	"github.com/FitRTeams/familychain/contracts"
+	"github.com/FitRTeams/familychain/secrets"
+	"github.com/FitRTeams/familychain/txrelayer"
+	"github.com/FitRTeams/familychain/types"
 	"github.com/spf13/cobra"
 	"github.com/umbracle/ethgo"
-	"https://github.com/FitRTeams/familychain/command"
-	"https://github.com/FitRTeams/familychain/command/helper"
-	"https://github.com/FitRTeams/familychain/command/polybftsecrets"
-	"https://github.com/FitRTeams/familychain/consensus/polybft/contractsapi"
-	bls "https://github.com/FitRTeams/familychain/consensus/polybft/signer"
-	"https://github.com/FitRTeams/familychain/consensus/polybft/wallet"
-	"https://github.com/FitRTeams/familychain/contracts"
-	"https://github.com/FitRTeams/familychain/secrets"
-	"https://github.com/FitRTeams/familychain/txrelayer"
-	"https://github.com/FitRTeams/familychain/types"
 )
 
 var (

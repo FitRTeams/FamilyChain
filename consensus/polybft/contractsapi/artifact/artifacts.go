@@ -6,8 +6,8 @@ import (
 	"io/ioutil"
 	"path/filepath"
 
+	"github.com/FitRTeams/familychain/helper/hex"
 	"github.com/umbracle/ethgo/abi"
-	"https://github.com/FitRTeams/familychain/helper/hex"
 )
 
 func ReadArtifactData(rootFolder, contractPath, contractName string) ([]byte, error) {

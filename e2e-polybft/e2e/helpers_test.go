@@ -10,16 +10,16 @@ import (
 	"net/http"
 	"testing"
 
+	"github.com/FitRTeams/familychain/consensus/polybft"
+	"github.com/FitRTeams/familychain/consensus/polybft/contractsapi"
+	"github.com/FitRTeams/familychain/consensus/polybft/contractsapi/artifact"
+	"github.com/FitRTeams/familychain/helper/hex"
+	"github.com/FitRTeams/familychain/txrelayer"
+	"github.com/FitRTeams/familychain/types"
 	"github.com/stretchr/testify/require"
 	"github.com/umbracle/ethgo"
 	"github.com/umbracle/ethgo/contract"
 	ethgow "github.com/umbracle/ethgo/wallet"
-	"https://github.com/FitRTeams/familychain/consensus/polybft"
-	"https://github.com/FitRTeams/familychain/consensus/polybft/contractsapi"
-	"https://github.com/FitRTeams/familychain/consensus/polybft/contractsapi/artifact"
-	"https://github.com/FitRTeams/familychain/helper/hex"
-	"https://github.com/FitRTeams/familychain/txrelayer"
-	"https://github.com/FitRTeams/familychain/types"
 )
 
 type e2eStateProvider struct {

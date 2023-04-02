@@ -8,17 +8,17 @@ import (
 	"testing"
 	"time"
 
+	"github.com/FitRTeams/familychain/chain"
+	"github.com/FitRTeams/familychain/txpool"
 	"github.com/umbracle/ethgo"
-	"https://github.com/FitRTeams/familychain/chain"
-	"https://github.com/FitRTeams/familychain/txpool"
 
+	"github.com/FitRTeams/familychain/crypto"
+	"github.com/FitRTeams/familychain/e2e/framework"
+	"github.com/FitRTeams/familychain/helper/tests"
+	txpoolOp "github.com/FitRTeams/familychain/txpool/proto"
+	"github.com/FitRTeams/familychain/types"
 	"github.com/golang/protobuf/ptypes/any"
 	"github.com/stretchr/testify/assert"
-	"https://github.com/FitRTeams/familychain/crypto"
-	"https://github.com/FitRTeams/familychain/e2e/framework"
-	"https://github.com/FitRTeams/familychain/helper/tests"
-	txpoolOp "https://github.com/FitRTeams/familychain/txpool/proto"
-	"https://github.com/FitRTeams/familychain/types"
 )
 
 var (

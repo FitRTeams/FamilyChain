@@ -4,10 +4,10 @@ import (
 	"math/big"
 	"testing"
 
+	"github.com/FitRTeams/familychain/state/runtime"
+	"github.com/FitRTeams/familychain/types"
 	"github.com/hashicorp/go-hclog"
 	"github.com/stretchr/testify/assert"
-	"https://github.com/FitRTeams/familychain/state/runtime"
-	"https://github.com/FitRTeams/familychain/types"
 )
 
 func newTestTransition(preState map[types.Address]*PreState) *Transition {

@@ -5,10 +5,10 @@ import (
 	"sync"
 	"testing"
 
+	bls "github.com/FitRTeams/familychain/consensus/polybft/signer"
+	"github.com/FitRTeams/familychain/types"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	bls "https://github.com/FitRTeams/familychain/consensus/polybft/signer"
-	"https://github.com/FitRTeams/familychain/types"
 )
 
 func TestState_insertAndGetValidatorSnapshot(t *testing.T) {

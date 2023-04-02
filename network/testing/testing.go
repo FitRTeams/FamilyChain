@@ -4,11 +4,11 @@ import (
 	"context"
 	"time"
 
+	"github.com/FitRTeams/familychain/network/event"
+	"github.com/FitRTeams/familychain/network/proto"
 	"github.com/libp2p/go-libp2p/core/network"
 	"github.com/libp2p/go-libp2p/core/peer"
 	"google.golang.org/grpc"
-	"https://github.com/FitRTeams/familychain/network/event"
-	"https://github.com/FitRTeams/familychain/network/proto"
 )
 
 type MockNetworkingServer struct {

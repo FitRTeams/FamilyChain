@@ -9,19 +9,19 @@ import (
 	"testing"
 	"time"
 
+	"github.com/FitRTeams/familychain/chain"
+	ibftOp "github.com/FitRTeams/familychain/consensus/ibft/proto"
+	"github.com/FitRTeams/familychain/contracts/staking"
+	"github.com/FitRTeams/familychain/crypto"
+	"github.com/FitRTeams/familychain/e2e/framework"
+	stakingHelper "github.com/FitRTeams/familychain/helper/staking"
+	"github.com/FitRTeams/familychain/helper/tests"
+	txpoolOp "github.com/FitRTeams/familychain/txpool/proto"
+	"github.com/FitRTeams/familychain/types"
 	"github.com/golang/protobuf/ptypes/any"
 	"github.com/stretchr/testify/assert"
 	"github.com/umbracle/ethgo"
 	"github.com/umbracle/ethgo/jsonrpc"
-	"https://github.com/FitRTeams/familychain/chain"
-	ibftOp "https://github.com/FitRTeams/familychain/consensus/ibft/proto"
-	"https://github.com/FitRTeams/familychain/contracts/staking"
-	"https://github.com/FitRTeams/familychain/crypto"
-	"https://github.com/FitRTeams/familychain/e2e/framework"
-	stakingHelper "https://github.com/FitRTeams/familychain/helper/staking"
-	"https://github.com/FitRTeams/familychain/helper/tests"
-	txpoolOp "https://github.com/FitRTeams/familychain/txpool/proto"
-	"https://github.com/FitRTeams/familychain/types"
 )
 
 // foundInValidatorSet is a helper function for searching through the passed in set for a specific

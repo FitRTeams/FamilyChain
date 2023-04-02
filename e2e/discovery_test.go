@@ -7,9 +7,9 @@ import (
 	"testing"
 	"time"
 
+	"github.com/FitRTeams/familychain/e2e/framework"
+	"github.com/FitRTeams/familychain/server/proto"
 	empty "google.golang.org/protobuf/types/known/emptypb"
-	"https://github.com/FitRTeams/familychain/e2e/framework"
-	"https://github.com/FitRTeams/familychain/server/proto"
 )
 
 func TestDiscovery(t *testing.T) {

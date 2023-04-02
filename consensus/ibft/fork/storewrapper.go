@@ -5,12 +5,12 @@ import (
 	"errors"
 	"path/filepath"
 
+	"github.com/FitRTeams/familychain/consensus/ibft/signer"
+	"github.com/FitRTeams/familychain/validators"
+	"github.com/FitRTeams/familychain/validators/store"
+	"github.com/FitRTeams/familychain/validators/store/contract"
+	"github.com/FitRTeams/familychain/validators/store/snapshot"
 	"github.com/hashicorp/go-hclog"
-	"https://github.com/FitRTeams/familychain/consensus/ibft/signer"
-	"https://github.com/FitRTeams/familychain/validators"
-	"https://github.com/FitRTeams/familychain/validators/store"
-	"https://github.com/FitRTeams/familychain/validators/store/contract"
-	"https://github.com/FitRTeams/familychain/validators/store/snapshot"
 )
 
 // isJSONSyntaxError returns bool indicating the giving error is json.SyntaxError or not

@@ -3,7 +3,7 @@ package polybft
 import (
 	"sync"
 
-	"https://github.com/FitRTeams/familychain/types"
+	"github.com/FitRTeams/familychain/types"
 )
 
 var setupHeaderHashFuncOnce sync.Once

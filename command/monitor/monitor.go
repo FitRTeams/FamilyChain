@@ -6,13 +6,13 @@ import (
 	"fmt"
 	"io"
 
+	"github.com/FitRTeams/familychain/command"
+	"github.com/FitRTeams/familychain/helper/common"
 	"github.com/spf13/cobra"
-	"https://github.com/FitRTeams/familychain/command"
-	"https://github.com/FitRTeams/familychain/helper/common"
 
+	"github.com/FitRTeams/familychain/command/helper"
+	"github.com/FitRTeams/familychain/server/proto"
 	empty "google.golang.org/protobuf/types/known/emptypb"
-	"https://github.com/FitRTeams/familychain/command/helper"
-	"https://github.com/FitRTeams/familychain/server/proto"
 )
 
 func GetCommand() *cobra.Command {

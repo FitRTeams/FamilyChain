@@ -4,12 +4,12 @@ import (
 	"os"
 	"testing"
 
+	"github.com/FitRTeams/familychain/command"
+	"github.com/FitRTeams/familychain/command/rootchain/helper"
+	"github.com/FitRTeams/familychain/consensus/polybft"
 	"github.com/stretchr/testify/require"
 	"github.com/umbracle/ethgo/jsonrpc"
 	"github.com/umbracle/ethgo/testutil"
-	"https://github.com/FitRTeams/familychain/command"
-	"https://github.com/FitRTeams/familychain/command/rootchain/helper"
-	"https://github.com/FitRTeams/familychain/consensus/polybft"
 )
 
 func TestDeployContracts_NoPanics(t *testing.T) {

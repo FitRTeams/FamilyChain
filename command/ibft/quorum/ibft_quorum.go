@@ -3,9 +3,9 @@ package quorum
 import (
 	"fmt"
 
+	"github.com/FitRTeams/familychain/command"
+	"github.com/FitRTeams/familychain/command/helper"
 	"github.com/spf13/cobra"
-	"https://github.com/FitRTeams/familychain/command"
-	"https://github.com/FitRTeams/familychain/command/helper"
 )
 
 func GetCommand() *cobra.Command {

@@ -4,9 +4,9 @@ import (
 	"errors"
 	"fmt"
 
+	"github.com/FitRTeams/familychain/secrets"
 	"github.com/hashicorp/go-hclog"
 	vault "github.com/hashicorp/vault/api"
-	"https://github.com/FitRTeams/familychain/secrets"
 )
 
 // VaultSecretsManager is a SecretsManager that

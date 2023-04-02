@@ -6,12 +6,12 @@ import (
 	"errors"
 	"fmt"
 
+	"github.com/FitRTeams/familychain/blockchain"
+	"github.com/FitRTeams/familychain/network/common"
+	"github.com/FitRTeams/familychain/server/proto"
+	"github.com/FitRTeams/familychain/types"
 	"github.com/libp2p/go-libp2p/core/peer"
 	empty "google.golang.org/protobuf/types/known/emptypb"
-	"https://github.com/FitRTeams/familychain/blockchain"
-	"https://github.com/FitRTeams/familychain/network/common"
-	"https://github.com/FitRTeams/familychain/server/proto"
-	"https://github.com/FitRTeams/familychain/types"
 )
 
 type systemService struct {

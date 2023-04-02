@@ -5,13 +5,13 @@ import (
 	"errors"
 	"fmt"
 
+	"github.com/FitRTeams/familychain/consensus/ibft/proto"
+	"github.com/FitRTeams/familychain/consensus/ibft/signer"
+	"github.com/FitRTeams/familychain/crypto"
+	"github.com/FitRTeams/familychain/types"
+	"github.com/FitRTeams/familychain/validators"
+	"github.com/FitRTeams/familychain/validators/store"
 	empty "google.golang.org/protobuf/types/known/emptypb"
-	"https://github.com/FitRTeams/familychain/consensus/ibft/proto"
-	"https://github.com/FitRTeams/familychain/consensus/ibft/signer"
-	"https://github.com/FitRTeams/familychain/crypto"
-	"https://github.com/FitRTeams/familychain/types"
-	"https://github.com/FitRTeams/familychain/validators"
-	"https://github.com/FitRTeams/familychain/validators/store"
 )
 
 var (

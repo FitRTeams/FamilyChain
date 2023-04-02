@@ -1,10 +1,11 @@
 package ibft
 
 import (
+	"github.com/0xPolygon/go-ibft/messages/proto"
+	"github.com/FitRTeams/familychain/network"
+	"github.com/FitRTeams/familychain/types"
+
 	"github.com/libp2p/go-libp2p/core/peer"
-	"https://github.com/FitRTeams/familychain/go-ibft/messages/proto"
-	"https://github.com/FitRTeams/familychain/network"
-	"https://github.com/FitRTeams/familychain/types"
 )
 
 type transport interface {

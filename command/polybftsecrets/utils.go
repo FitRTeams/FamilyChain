@@ -4,8 +4,8 @@ import (
 	"errors"
 	"fmt"
 
-	"https://github.com/FitRTeams/familychain/secrets"
-	"https://github.com/FitRTeams/familychain/secrets/helper"
+	"github.com/FitRTeams/familychain/secrets"
+	"github.com/FitRTeams/familychain/secrets/helper"
 )
 
 // common flags for all polybft commands

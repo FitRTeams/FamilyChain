@@ -9,13 +9,13 @@ import (
 	"testing"
 	"time"
 
+	"github.com/FitRTeams/familychain/consensus/polybft/bitmap"
+	"github.com/FitRTeams/familychain/consensus/polybft/contractsapi"
+	bls "github.com/FitRTeams/familychain/consensus/polybft/signer"
+	"github.com/FitRTeams/familychain/consensus/polybft/wallet"
+	"github.com/FitRTeams/familychain/types"
 	"github.com/hashicorp/go-hclog"
 	"github.com/stretchr/testify/require"
-	"https://github.com/FitRTeams/familychain/consensus/polybft/bitmap"
-	"https://github.com/FitRTeams/familychain/consensus/polybft/contractsapi"
-	bls "https://github.com/FitRTeams/familychain/consensus/polybft/signer"
-	"https://github.com/FitRTeams/familychain/consensus/polybft/wallet"
-	"https://github.com/FitRTeams/familychain/types"
 )
 
 func createTestKey(t *testing.T) *wallet.Key {

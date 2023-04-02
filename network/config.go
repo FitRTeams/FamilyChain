@@ -3,9 +3,9 @@ package network
 import (
 	"net"
 
+	"github.com/FitRTeams/familychain/chain"
+	"github.com/FitRTeams/familychain/secrets"
 	"github.com/multiformats/go-multiaddr"
-	"https://github.com/FitRTeams/familychain/chain"
-	"https://github.com/FitRTeams/familychain/secrets"
 )
 
 // Config details the params for the base networking server

@@ -7,12 +7,12 @@ import (
 	"io"
 	"testing"
 
+	"github.com/FitRTeams/familychain/server/proto"
+	"github.com/FitRTeams/familychain/types"
 	"github.com/hashicorp/go-hclog"
 	"github.com/stretchr/testify/assert"
 	"google.golang.org/grpc"
 	"google.golang.org/protobuf/types/known/emptypb"
-	"https://github.com/FitRTeams/familychain/server/proto"
-	"https://github.com/FitRTeams/familychain/types"
 )
 
 type recvData struct {

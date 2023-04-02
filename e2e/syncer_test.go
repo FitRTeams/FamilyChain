@@ -6,8 +6,8 @@ import (
 	"testing"
 	"time"
 
-	"https://github.com/FitRTeams/familychain/e2e/framework"
-	"https://github.com/FitRTeams/familychain/validators"
+	"github.com/FitRTeams/familychain/e2e/framework"
+	"github.com/FitRTeams/familychain/validators"
 )
 
 func TestClusterBlockSync(t *testing.T) {

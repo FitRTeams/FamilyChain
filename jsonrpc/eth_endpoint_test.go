@@ -5,9 +5,9 @@ import (
 	"math/big"
 	"testing"
 
+	"github.com/FitRTeams/familychain/types"
 	"github.com/hashicorp/go-hclog"
 	"github.com/stretchr/testify/assert"
-	"https://github.com/FitRTeams/familychain/types"
 )
 
 func TestEth_DecodeTxn(t *testing.T) {

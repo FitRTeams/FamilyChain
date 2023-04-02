@@ -5,11 +5,11 @@ import (
 	"errors"
 	"fmt"
 
+	"github.com/FitRTeams/familychain/command"
+	"github.com/FitRTeams/familychain/command/server/config"
+	"github.com/FitRTeams/familychain/helper/common"
 	"github.com/spf13/cobra"
 	"gopkg.in/yaml.v3"
-	"https://github.com/FitRTeams/familychain/command"
-	"https://github.com/FitRTeams/familychain/command/server/config"
-	"https://github.com/FitRTeams/familychain/helper/common"
 )
 
 func GetCommand() *cobra.Command {

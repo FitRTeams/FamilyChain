@@ -5,13 +5,13 @@ import (
 	"fmt"
 	"os"
 
-	"https://github.com/FitRTeams/familychain/chain"
-	"https://github.com/FitRTeams/familychain/command"
-	"https://github.com/FitRTeams/familychain/command/helper"
-	"https://github.com/FitRTeams/familychain/contracts/staking"
-	"https://github.com/FitRTeams/familychain/helper/hex"
-	"https://github.com/FitRTeams/familychain/helper/predeployment"
-	"https://github.com/FitRTeams/familychain/types"
+	"github.com/FitRTeams/familychain/chain"
+	"github.com/FitRTeams/familychain/command"
+	"github.com/FitRTeams/familychain/command/helper"
+	"github.com/FitRTeams/familychain/contracts/staking"
+	"github.com/FitRTeams/familychain/helper/hex"
+	"github.com/FitRTeams/familychain/helper/predeployment"
+	"github.com/FitRTeams/familychain/types"
 )
 
 const (

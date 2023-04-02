@@ -6,16 +6,16 @@ import (
 	"math"
 	"math/big"
 
+	"github.com/FitRTeams/familychain/chain"
+	"github.com/FitRTeams/familychain/contracts"
+	"github.com/FitRTeams/familychain/crypto"
+	"github.com/FitRTeams/familychain/state/runtime"
+	"github.com/FitRTeams/familychain/state/runtime/allowlist"
+	"github.com/FitRTeams/familychain/state/runtime/evm"
+	"github.com/FitRTeams/familychain/state/runtime/precompiled"
+	"github.com/FitRTeams/familychain/state/runtime/tracer"
+	"github.com/FitRTeams/familychain/types"
 	"github.com/hashicorp/go-hclog"
-	"https://github.com/FitRTeams/familychain/chain"
-	"https://github.com/FitRTeams/familychain/contracts"
-	"https://github.com/FitRTeams/familychain/crypto"
-	"https://github.com/FitRTeams/familychain/state/runtime"
-	"https://github.com/FitRTeams/familychain/state/runtime/allowlist"
-	"https://github.com/FitRTeams/familychain/state/runtime/evm"
-	"https://github.com/FitRTeams/familychain/state/runtime/precompiled"
-	"https://github.com/FitRTeams/familychain/state/runtime/tracer"
-	"https://github.com/FitRTeams/familychain/types"
 )
 
 const (

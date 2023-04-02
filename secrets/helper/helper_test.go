@@ -3,11 +3,11 @@ package helper
 import (
 	"testing"
 
+	bls "github.com/FitRTeams/familychain/consensus/polybft/signer"
+	"github.com/FitRTeams/familychain/helper/hex"
+	"github.com/FitRTeams/familychain/types"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	bls "https://github.com/FitRTeams/familychain/consensus/polybft/signer"
-	"https://github.com/FitRTeams/familychain/helper/hex"
-	"https://github.com/FitRTeams/familychain/types"
 )
 
 func Test_MakeKOSKSignature(t *testing.T) {

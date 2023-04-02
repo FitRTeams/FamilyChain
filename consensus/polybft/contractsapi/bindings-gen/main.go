@@ -11,9 +11,9 @@ import (
 	"strings"
 	"text/template"
 
+	gensc "github.com/FitRTeams/familychain/consensus/polybft/contractsapi"
+	"github.com/FitRTeams/familychain/consensus/polybft/contractsapi/artifact"
 	"github.com/umbracle/ethgo/abi"
-	gensc "https://github.com/FitRTeams/familychain/consensus/polybft/contractsapi"
-	"https://github.com/FitRTeams/familychain/consensus/polybft/contractsapi/artifact"
 )
 
 const (
@@ -168,7 +168,7 @@ package contractsapi
 import (
 	"math/big"
 
-	"https://github.com/FitRTeams/familychain/types"
+	"github.com/FitRTeams/familychain/types"
 	"github.com/umbracle/ethgo/abi"
 	"github.com/umbracle/ethgo"
 )

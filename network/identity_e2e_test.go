@@ -5,8 +5,8 @@ import (
 	"testing"
 	"time"
 
+	"github.com/FitRTeams/familychain/chain"
 	"github.com/stretchr/testify/assert"
-	"https://github.com/FitRTeams/familychain/chain"
 )
 
 func TestIdentityHandshake(t *testing.T) {

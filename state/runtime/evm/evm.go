@@ -3,8 +3,8 @@ package evm
 import (
 	"errors"
 
-	"https://github.com/FitRTeams/familychain/chain"
-	"https://github.com/FitRTeams/familychain/state/runtime"
+	"github.com/FitRTeams/familychain/chain"
+	"github.com/FitRTeams/familychain/state/runtime"
 )
 
 var _ runtime.Runtime = &EVM{}

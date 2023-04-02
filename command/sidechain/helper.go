@@ -6,15 +6,15 @@ import (
 	"math/big"
 	"os"
 
+	"github.com/FitRTeams/familychain/command/polybftsecrets"
+	"github.com/FitRTeams/familychain/consensus/polybft"
+	"github.com/FitRTeams/familychain/consensus/polybft/contractsapi"
+	"github.com/FitRTeams/familychain/consensus/polybft/wallet"
+	"github.com/FitRTeams/familychain/contracts"
+	"github.com/FitRTeams/familychain/helper/hex"
+	"github.com/FitRTeams/familychain/txrelayer"
+	"github.com/FitRTeams/familychain/types"
 	"github.com/umbracle/ethgo"
-	"https://github.com/FitRTeams/familychain/command/polybftsecrets"
-	"https://github.com/FitRTeams/familychain/consensus/polybft"
-	"https://github.com/FitRTeams/familychain/consensus/polybft/contractsapi"
-	"https://github.com/FitRTeams/familychain/consensus/polybft/wallet"
-	"https://github.com/FitRTeams/familychain/contracts"
-	"https://github.com/FitRTeams/familychain/helper/hex"
-	"https://github.com/FitRTeams/familychain/txrelayer"
-	"https://github.com/FitRTeams/familychain/types"
 )
 
 const (

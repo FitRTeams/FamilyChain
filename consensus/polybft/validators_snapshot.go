@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"sync"
 
+	"github.com/FitRTeams/familychain/blockchain"
+	"github.com/FitRTeams/familychain/types"
 	"github.com/hashicorp/go-hclog"
-	"https://github.com/FitRTeams/familychain/blockchain"
-	"https://github.com/FitRTeams/familychain/types"
 )
 
 type validatorSnapshot struct {

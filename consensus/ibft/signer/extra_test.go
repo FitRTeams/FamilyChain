@@ -5,9 +5,9 @@ import (
 	"math/big"
 	"testing"
 
+	"github.com/FitRTeams/familychain/types"
+	"github.com/FitRTeams/familychain/validators"
 	"github.com/stretchr/testify/assert"
-	"https://github.com/FitRTeams/familychain/types"
-	"https://github.com/FitRTeams/familychain/validators"
 )
 
 func JSONMarshalHelper(t *testing.T, extra *IstanbulExtra) string {

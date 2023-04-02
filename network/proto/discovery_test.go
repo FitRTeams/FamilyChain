@@ -3,8 +3,8 @@ package proto
 import (
 	"testing"
 
+	"github.com/FitRTeams/familychain/validate"
 	"github.com/stretchr/testify/assert"
-	"https://github.com/FitRTeams/familychain/validate"
 )
 
 func TestRequestValidation(t *testing.T) {

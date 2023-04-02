@@ -5,9 +5,9 @@ import (
 	"testing"
 	"time"
 
+	"github.com/FitRTeams/familychain/e2e-polybft/framework"
 	"github.com/stretchr/testify/assert"
 	"google.golang.org/protobuf/types/known/emptypb"
-	"https://github.com/FitRTeams/familychain/e2e-polybft/framework"
 )
 
 func TestE2E_NetworkDiscoveryProtocol(t *testing.T) {

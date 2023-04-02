@@ -4,11 +4,11 @@ import (
 	"fmt"
 	"math/big"
 
+	"github.com/FitRTeams/familychain/consensus/polybft/contractsapi"
+	"github.com/FitRTeams/familychain/contracts"
+	"github.com/FitRTeams/familychain/state"
+	"github.com/FitRTeams/familychain/types"
 	"github.com/umbracle/ethgo/abi"
-	"https://github.com/FitRTeams/familychain/consensus/polybft/contractsapi"
-	"https://github.com/FitRTeams/familychain/contracts"
-	"https://github.com/FitRTeams/familychain/state"
-	"https://github.com/FitRTeams/familychain/types"
 )
 
 const (

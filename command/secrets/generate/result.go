@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"fmt"
 
-	"https://github.com/FitRTeams/familychain/command/helper"
+	"github.com/FitRTeams/familychain/command/helper"
 )
 
 type SecretsGenerateResult struct {

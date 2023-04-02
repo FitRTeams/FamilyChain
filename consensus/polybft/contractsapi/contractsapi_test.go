@@ -5,12 +5,12 @@ import (
 	"reflect"
 	"testing"
 
+	"github.com/FitRTeams/familychain/contracts"
+	"github.com/FitRTeams/familychain/helper/common"
+	"github.com/FitRTeams/familychain/types"
 	"github.com/stretchr/testify/require"
 	"github.com/umbracle/ethgo"
 	"github.com/umbracle/ethgo/abi"
-	"https://github.com/FitRTeams/familychain/contracts"
-	"https://github.com/FitRTeams/familychain/helper/common"
-	"https://github.com/FitRTeams/familychain/types"
 )
 
 type method interface {

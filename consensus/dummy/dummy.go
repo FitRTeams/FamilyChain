@@ -1,13 +1,13 @@
 package dummy
 
 import (
+	"github.com/FitRTeams/familychain/blockchain"
+	"github.com/FitRTeams/familychain/consensus"
+	"github.com/FitRTeams/familychain/helper/progress"
+	"github.com/FitRTeams/familychain/state"
+	"github.com/FitRTeams/familychain/txpool"
+	"github.com/FitRTeams/familychain/types"
 	"github.com/hashicorp/go-hclog"
-	"https://github.com/FitRTeams/familychain/blockchain"
-	"https://github.com/FitRTeams/familychain/consensus"
-	"https://github.com/FitRTeams/familychain/helper/progress"
-	"https://github.com/FitRTeams/familychain/state"
-	"https://github.com/FitRTeams/familychain/txpool"
-	"https://github.com/FitRTeams/familychain/types"
 )
 
 type Dummy struct {

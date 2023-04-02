@@ -7,11 +7,11 @@ import (
 
 	"sync"
 
-	"https://github.com/FitRTeams/familychain/chain"
-	"https://github.com/FitRTeams/familychain/helper/common"
-	"https://github.com/FitRTeams/familychain/helper/hex"
-	"https://github.com/FitRTeams/familychain/state/runtime"
-	"https://github.com/FitRTeams/familychain/types"
+	"github.com/FitRTeams/familychain/chain"
+	"github.com/FitRTeams/familychain/helper/common"
+	"github.com/FitRTeams/familychain/helper/hex"
+	"github.com/FitRTeams/familychain/state/runtime"
+	"github.com/FitRTeams/familychain/types"
 )
 
 var statePool = sync.Pool{

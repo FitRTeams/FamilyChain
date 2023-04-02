@@ -1,9 +1,9 @@
 package memory
 
 import (
+	"github.com/FitRTeams/familychain/blockchain/storage"
+	"github.com/FitRTeams/familychain/helper/hex"
 	"github.com/hashicorp/go-hclog"
-	"https://github.com/FitRTeams/familychain/blockchain/storage"
-	"https://github.com/FitRTeams/familychain/helper/hex"
 )
 
 // NewMemoryStorage creates the new storage reference with inmemory

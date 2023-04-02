@@ -5,8 +5,8 @@ import (
 	"errors"
 	"math/big"
 
+	"github.com/FitRTeams/familychain/helper/common"
 	bn256 "github.com/umbracle/go-eth-bn256"
-	"https://github.com/FitRTeams/familychain/helper/common"
 )
 
 var (

@@ -4,8 +4,8 @@ import (
 	"math/big"
 	"testing"
 
+	"github.com/FitRTeams/familychain/types"
 	"github.com/stretchr/testify/require"
-	"https://github.com/FitRTeams/familychain/types"
 )
 
 func TestValidatorSet_HasQuorum(t *testing.T) {

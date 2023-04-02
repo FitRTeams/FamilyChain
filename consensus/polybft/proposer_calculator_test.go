@@ -5,11 +5,11 @@ import (
 	"math/big"
 	"testing"
 
+	bls "github.com/FitRTeams/familychain/consensus/polybft/signer"
+	"github.com/FitRTeams/familychain/types"
 	"github.com/hashicorp/go-hclog"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	bls "https://github.com/FitRTeams/familychain/consensus/polybft/signer"
-	"https://github.com/FitRTeams/familychain/types"
 )
 
 func TestProposerCalculator_SetIndex(t *testing.T) {

@@ -6,14 +6,14 @@ import (
 	"testing"
 	"time"
 
+	"github.com/FitRTeams/familychain/command/server/config"
+	ibftSigner "github.com/FitRTeams/familychain/consensus/ibft/signer"
+	"github.com/FitRTeams/familychain/e2e/framework"
+	"github.com/FitRTeams/familychain/helper/tests"
+	"github.com/FitRTeams/familychain/types"
+	"github.com/FitRTeams/familychain/validators"
 	"github.com/stretchr/testify/assert"
 	"github.com/umbracle/ethgo"
-	"https://github.com/FitRTeams/familychain/command/server/config"
-	ibftSigner "https://github.com/FitRTeams/familychain/consensus/ibft/signer"
-	"https://github.com/FitRTeams/familychain/e2e/framework"
-	"https://github.com/FitRTeams/familychain/helper/tests"
-	"https://github.com/FitRTeams/familychain/types"
-	"https://github.com/FitRTeams/familychain/validators"
 )
 
 // TestIbft_Transfer sends a transfer transaction (EOA -> EOA)

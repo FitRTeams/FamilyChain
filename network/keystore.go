@@ -3,8 +3,8 @@ package network
 import (
 	"encoding/hex"
 
+	"github.com/FitRTeams/familychain/secrets"
 	"github.com/libp2p/go-libp2p/core/crypto"
-	"https://github.com/FitRTeams/familychain/secrets"
 )
 
 // ReadLibp2pKey reads the private networking key from the secrets manager

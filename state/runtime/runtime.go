@@ -4,9 +4,9 @@ import (
 	"errors"
 	"math/big"
 
-	"https://github.com/FitRTeams/familychain/chain"
-	"https://github.com/FitRTeams/familychain/state/runtime/tracer"
-	"https://github.com/FitRTeams/familychain/types"
+	"github.com/FitRTeams/familychain/chain"
+	"github.com/FitRTeams/familychain/state/runtime/tracer"
+	"github.com/FitRTeams/familychain/types"
 )
 
 // TxContext is the context of the transaction

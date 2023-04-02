@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"https://github.com/FitRTeams/familychain/types"
+	"github.com/FitRTeams/familychain/types"
 )
 
 // LogQuery is a query to filter logs

@@ -3,7 +3,7 @@ package txpool
 import (
 	"sync"
 
-	"https://github.com/FitRTeams/familychain/txpool/proto"
+	"github.com/FitRTeams/familychain/txpool/proto"
 )
 
 type eventQueue struct {

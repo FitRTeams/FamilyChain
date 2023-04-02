@@ -8,18 +8,19 @@ import (
 	"testing"
 	"time"
 
+	"github.com/FitRTeams/familychain/blockchain"
+	bls "github.com/FitRTeams/familychain/consensus/polybft/signer"
+	"github.com/FitRTeams/familychain/consensus/polybft/wallet"
+	"github.com/FitRTeams/familychain/helper/hex"
+	"github.com/FitRTeams/familychain/helper/progress"
+	"github.com/FitRTeams/familychain/state"
+	"github.com/FitRTeams/familychain/syncer"
+	"github.com/FitRTeams/familychain/types"
+
 	"github.com/hashicorp/go-hclog"
 	"github.com/stretchr/testify/mock"
 	"github.com/umbracle/ethgo"
 	"github.com/umbracle/ethgo/contract"
-	"https://github.com/FitRTeams/familychain/blockchain"
-	bls "https://github.com/FitRTeams/familychain/consensus/polybft/signer"
-	"https://github.com/FitRTeams/familychain/consensus/polybft/wallet"
-	"https://github.com/FitRTeams/familychain/helper/hex"
-	"https://github.com/FitRTeams/familychain/helper/progress"
-	"https://github.com/FitRTeams/familychain/state"
-	"https://github.com/FitRTeams/familychain/syncer"
-	"https://github.com/FitRTeams/familychain/types"
 )
 
 var _ blockchainBackend = (*blockchainMock)(nil)

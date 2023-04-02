@@ -5,8 +5,8 @@ import (
 	"strconv"
 	"strings"
 
-	"https://github.com/FitRTeams/familychain/helper/hex"
-	"https://github.com/FitRTeams/familychain/types"
+	"github.com/FitRTeams/familychain/helper/hex"
+	"github.com/FitRTeams/familychain/types"
 )
 
 // For union type of transaction and types.Hash

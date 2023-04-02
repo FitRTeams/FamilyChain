@@ -3,8 +3,8 @@ package ibft
 import (
 	"math"
 
-	"https://github.com/FitRTeams/familychain/types"
-	"https://github.com/FitRTeams/familychain/validators"
+	"github.com/FitRTeams/familychain/types"
+	"github.com/FitRTeams/familychain/validators"
 )
 
 func CalcMaxFaultyNodes(s validators.Validators) int {

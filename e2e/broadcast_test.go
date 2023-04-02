@@ -8,11 +8,11 @@ import (
 	"testing"
 	"time"
 
+	"github.com/FitRTeams/familychain/crypto"
+	"github.com/FitRTeams/familychain/e2e/framework"
+	"github.com/FitRTeams/familychain/helper/tests"
+	"github.com/FitRTeams/familychain/types"
 	"github.com/stretchr/testify/assert"
-	"https://github.com/FitRTeams/familychain/crypto"
-	"https://github.com/FitRTeams/familychain/e2e/framework"
-	"https://github.com/FitRTeams/familychain/helper/tests"
-	"https://github.com/FitRTeams/familychain/types"
 )
 
 func TestBroadcast(t *testing.T) {

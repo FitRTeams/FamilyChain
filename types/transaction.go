@@ -5,7 +5,7 @@ import (
 	"math/big"
 	"sync/atomic"
 
-	"https://github.com/FitRTeams/familychain/helper/keccak"
+	"github.com/FitRTeams/familychain/helper/keccak"
 )
 
 type TxType byte

@@ -3,8 +3,8 @@ package archive
 import (
 	"fmt"
 
+	"github.com/FitRTeams/familychain/types"
 	"github.com/umbracle/fastrlp"
-	"https://github.com/FitRTeams/familychain/types"
 )
 
 // Metadata is the data stored in the beginning of backup

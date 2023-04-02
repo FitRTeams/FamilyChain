@@ -14,15 +14,15 @@ import (
 
 	"github.com/umbracle/ethgo"
 
+	"github.com/FitRTeams/familychain/chain"
+	"github.com/FitRTeams/familychain/contracts/abis"
+	"github.com/FitRTeams/familychain/crypto"
+	"github.com/FitRTeams/familychain/e2e/framework"
+	"github.com/FitRTeams/familychain/helper/tests"
+	"github.com/FitRTeams/familychain/types"
+	"github.com/FitRTeams/familychain/validators"
 	"github.com/stretchr/testify/assert"
 	"github.com/umbracle/ethgo/jsonrpc"
-	"https://github.com/FitRTeams/familychain/chain"
-	"https://github.com/FitRTeams/familychain/contracts/abis"
-	"https://github.com/FitRTeams/familychain/crypto"
-	"https://github.com/FitRTeams/familychain/e2e/framework"
-	"https://github.com/FitRTeams/familychain/helper/tests"
-	"https://github.com/FitRTeams/familychain/types"
-	"https://github.com/FitRTeams/familychain/validators"
 )
 
 func TestPreminedBalance(t *testing.T) {

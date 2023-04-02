@@ -3,8 +3,8 @@ package validators
 import (
 	"errors"
 
+	"github.com/FitRTeams/familychain/types"
 	"github.com/umbracle/fastrlp"
-	"https://github.com/FitRTeams/familychain/types"
 )
 
 var (

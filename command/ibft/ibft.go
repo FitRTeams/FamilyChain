@@ -1,14 +1,14 @@
 package ibft
 
 import (
+	"github.com/FitRTeams/familychain/command/helper"
+	"github.com/FitRTeams/familychain/command/ibft/candidates"
+	"github.com/FitRTeams/familychain/command/ibft/propose"
+	"github.com/FitRTeams/familychain/command/ibft/quorum"
+	"github.com/FitRTeams/familychain/command/ibft/snapshot"
+	"github.com/FitRTeams/familychain/command/ibft/status"
+	_switch "github.com/FitRTeams/familychain/command/ibft/switch"
 	"github.com/spf13/cobra"
-	"https://github.com/FitRTeams/familychain/command/helper"
-	"https://github.com/FitRTeams/familychain/command/ibft/candidates"
-	"https://github.com/FitRTeams/familychain/command/ibft/propose"
-	"https://github.com/FitRTeams/familychain/command/ibft/quorum"
-	"https://github.com/FitRTeams/familychain/command/ibft/snapshot"
-	"https://github.com/FitRTeams/familychain/command/ibft/status"
-	_switch "https://github.com/FitRTeams/familychain/command/ibft/switch"
 )
 
 func GetCommand() *cobra.Command {

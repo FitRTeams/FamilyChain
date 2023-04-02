@@ -3,11 +3,11 @@ package list
 import (
 	"context"
 
+	"github.com/FitRTeams/familychain/command"
+	"github.com/FitRTeams/familychain/command/helper"
+	"github.com/FitRTeams/familychain/server/proto"
 	"github.com/spf13/cobra"
 	empty "google.golang.org/protobuf/types/known/emptypb"
-	"https://github.com/FitRTeams/familychain/command"
-	"https://github.com/FitRTeams/familychain/command/helper"
-	"https://github.com/FitRTeams/familychain/server/proto"
 )
 
 func GetCommand() *cobra.Command {

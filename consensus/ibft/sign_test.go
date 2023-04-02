@@ -3,9 +3,9 @@ package ibft
 import (
 	"testing"
 
+	"github.com/FitRTeams/familychain/consensus/ibft/signer"
+	"github.com/FitRTeams/familychain/types"
 	"github.com/stretchr/testify/assert"
-	"https://github.com/FitRTeams/familychain/consensus/ibft/signer"
-	"https://github.com/FitRTeams/familychain/types"
 )
 
 func TestSign_Sealer(t *testing.T) {

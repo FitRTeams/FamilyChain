@@ -3,8 +3,8 @@ package allowlist
 import (
 	"math/big"
 
-	"https://github.com/FitRTeams/familychain/chain"
-	"https://github.com/FitRTeams/familychain/types"
+	"github.com/FitRTeams/familychain/chain"
+	"github.com/FitRTeams/familychain/types"
 )
 
 func ApplyGenesisAllocs(chain *chain.Genesis, allowListAddr types.Address, config *chain.AllowListConfig) {

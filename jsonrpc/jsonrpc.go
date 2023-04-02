@@ -9,9 +9,9 @@ import (
 	"sync"
 	"time"
 
+	"github.com/FitRTeams/familychain/versioning"
 	"github.com/gorilla/websocket"
 	"github.com/hashicorp/go-hclog"
-	"https://github.com/FitRTeams/familychain/versioning"
 )
 
 type serverType int

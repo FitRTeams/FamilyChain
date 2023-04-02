@@ -4,16 +4,16 @@ import (
 	"fmt"
 	"time"
 
+	"github.com/FitRTeams/familychain/command"
+	"github.com/FitRTeams/familychain/command/helper"
+	"github.com/FitRTeams/familychain/command/polybftsecrets"
+	sidechainHelper "github.com/FitRTeams/familychain/command/sidechain"
+	"github.com/FitRTeams/familychain/consensus/polybft/contractsapi"
+	"github.com/FitRTeams/familychain/contracts"
+	"github.com/FitRTeams/familychain/txrelayer"
+	"github.com/FitRTeams/familychain/types"
 	"github.com/spf13/cobra"
 	"github.com/umbracle/ethgo"
-	"https://github.com/FitRTeams/familychain/command"
-	"https://github.com/FitRTeams/familychain/command/helper"
-	"https://github.com/FitRTeams/familychain/command/polybftsecrets"
-	sidechainHelper "https://github.com/FitRTeams/familychain/command/sidechain"
-	"https://github.com/FitRTeams/familychain/consensus/polybft/contractsapi"
-	"https://github.com/FitRTeams/familychain/contracts"
-	"https://github.com/FitRTeams/familychain/txrelayer"
-	"https://github.com/FitRTeams/familychain/types"
 )
 
 var params whitelistParams

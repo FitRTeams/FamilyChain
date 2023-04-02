@@ -6,9 +6,9 @@ import (
 	"hash"
 	"sync"
 
+	"github.com/FitRTeams/familychain/types"
 	"github.com/umbracle/fastrlp"
 	"golang.org/x/crypto/sha3"
-	"https://github.com/FitRTeams/familychain/types"
 )
 
 var arenaPool fastrlp.ArenaPool

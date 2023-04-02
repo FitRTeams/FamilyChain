@@ -14,16 +14,16 @@ import (
 	"github.com/umbracle/ethgo"
 	ethgow "github.com/umbracle/ethgo/wallet"
 
-	"https://github.com/FitRTeams/familychain/command/genesis"
-	rootchainHelper "https://github.com/FitRTeams/familychain/command/rootchain/helper"
-	"https://github.com/FitRTeams/familychain/command/sidechain"
-	"https://github.com/FitRTeams/familychain/consensus/polybft"
-	"https://github.com/FitRTeams/familychain/consensus/polybft/contractsapi"
-	"https://github.com/FitRTeams/familychain/contracts"
-	"https://github.com/FitRTeams/familychain/e2e-polybft/framework"
+	"github.com/FitRTeams/familychain/command/genesis"
+	rootchainHelper "github.com/FitRTeams/familychain/command/rootchain/helper"
+	"github.com/FitRTeams/familychain/command/sidechain"
+	"github.com/FitRTeams/familychain/consensus/polybft"
+	"github.com/FitRTeams/familychain/consensus/polybft/contractsapi"
+	"github.com/FitRTeams/familychain/contracts"
+	"github.com/FitRTeams/familychain/e2e-polybft/framework"
 
-	"https://github.com/FitRTeams/familychain/txrelayer"
-	"https://github.com/FitRTeams/familychain/types"
+	"github.com/FitRTeams/familychain/txrelayer"
+	"github.com/FitRTeams/familychain/types"
 )
 
 const (

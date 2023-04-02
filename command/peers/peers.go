@@ -1,11 +1,11 @@
 package peers
 
 import (
+	"github.com/FitRTeams/familychain/command/helper"
+	"github.com/FitRTeams/familychain/command/peers/add"
+	"github.com/FitRTeams/familychain/command/peers/list"
+	"github.com/FitRTeams/familychain/command/peers/status"
 	"github.com/spf13/cobra"
-	"https://github.com/FitRTeams/familychain/command/helper"
-	"https://github.com/FitRTeams/familychain/command/peers/add"
-	"https://github.com/FitRTeams/familychain/command/peers/list"
-	"https://github.com/FitRTeams/familychain/command/peers/status"
 )
 
 func GetCommand() *cobra.Command {

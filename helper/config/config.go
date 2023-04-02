@@ -1,8 +1,8 @@
 package config
 
 import (
-	"https://github.com/FitRTeams/familychain/chain"
-	"https://github.com/FitRTeams/familychain/types"
+	"github.com/FitRTeams/familychain/chain"
+	"github.com/FitRTeams/familychain/types"
 )
 
 // GetWhitelist fetches whitelist object from the config

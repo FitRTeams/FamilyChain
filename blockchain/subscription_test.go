@@ -5,8 +5,8 @@ import (
 	"testing"
 	"time"
 
+	"github.com/FitRTeams/familychain/types"
 	"github.com/stretchr/testify/assert"
-	"https://github.com/FitRTeams/familychain/types"
 )
 
 func TestSubscription(t *testing.T) {

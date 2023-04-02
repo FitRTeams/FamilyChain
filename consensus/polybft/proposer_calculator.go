@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"math/big"
 
+	"github.com/FitRTeams/familychain/helper/common"
+	"github.com/FitRTeams/familychain/types"
 	"github.com/hashicorp/go-hclog"
-	"https://github.com/FitRTeams/familychain/helper/common"
-	"https://github.com/FitRTeams/familychain/types"
 )
 
 var (

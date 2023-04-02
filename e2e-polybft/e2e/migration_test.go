@@ -8,17 +8,17 @@ import (
 
 	"github.com/syndtr/goleveldb/leveldb/opt"
 
+	"github.com/FitRTeams/familychain/consensus/polybft/contractsapi"
+	frameworkpolybft "github.com/FitRTeams/familychain/e2e-polybft/framework"
+	"github.com/FitRTeams/familychain/e2e/framework"
+	itrie "github.com/FitRTeams/familychain/state/immutable-trie"
+	"github.com/FitRTeams/familychain/txrelayer"
+	"github.com/FitRTeams/familychain/types"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"github.com/syndtr/goleveldb/leveldb"
 	"github.com/umbracle/ethgo"
 	"github.com/umbracle/ethgo/wallet"
-	"https://github.com/FitRTeams/familychain/consensus/polybft/contractsapi"
-	frameworkpolybft "https://github.com/FitRTeams/familychain/e2e-polybft/framework"
-	"https://github.com/FitRTeams/familychain/e2e/framework"
-	itrie "https://github.com/FitRTeams/familychain/state/immutable-trie"
-	"https://github.com/FitRTeams/familychain/txrelayer"
-	"https://github.com/FitRTeams/familychain/types"
 )
 
 func TestMigration(t *testing.T) {

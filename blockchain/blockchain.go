@@ -7,12 +7,12 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"https://github.com/FitRTeams/familychain/blockchain/storage"
-	"https://github.com/FitRTeams/familychain/chain"
-	"https://github.com/FitRTeams/familychain/helper/common"
-	"https://github.com/FitRTeams/familychain/state"
-	"https://github.com/FitRTeams/familychain/types"
-	"https://github.com/FitRTeams/familychain/types/buildroot"
+	"github.com/FitRTeams/familychain/blockchain/storage"
+	"github.com/FitRTeams/familychain/chain"
+	"github.com/FitRTeams/familychain/helper/common"
+	"github.com/FitRTeams/familychain/state"
+	"github.com/FitRTeams/familychain/types"
+	"github.com/FitRTeams/familychain/types/buildroot"
 
 	"github.com/hashicorp/go-hclog"
 	lru "github.com/hashicorp/golang-lru"

@@ -5,11 +5,11 @@ import (
 	"math/big"
 	"testing"
 
+	"github.com/FitRTeams/familychain/blockchain"
+	"github.com/FitRTeams/familychain/helper/progress"
+	"github.com/FitRTeams/familychain/state/runtime"
+	"github.com/FitRTeams/familychain/types"
 	"github.com/stretchr/testify/assert"
-	"https://github.com/FitRTeams/familychain/blockchain"
-	"https://github.com/FitRTeams/familychain/helper/progress"
-	"https://github.com/FitRTeams/familychain/state/runtime"
-	"https://github.com/FitRTeams/familychain/types"
 )
 
 func TestEth_Block_GetBlockByNumber(t *testing.T) {

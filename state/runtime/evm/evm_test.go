@@ -4,11 +4,11 @@ import (
 	"math/big"
 	"testing"
 
+	"github.com/FitRTeams/familychain/chain"
+	"github.com/FitRTeams/familychain/state/runtime"
+	"github.com/FitRTeams/familychain/state/runtime/tracer"
+	"github.com/FitRTeams/familychain/types"
 	"github.com/stretchr/testify/assert"
-	"https://github.com/FitRTeams/familychain/chain"
-	"https://github.com/FitRTeams/familychain/state/runtime"
-	"https://github.com/FitRTeams/familychain/state/runtime/tracer"
-	"https://github.com/FitRTeams/familychain/types"
 )
 
 func newMockContract(value *big.Int, gas uint64, code []byte) *runtime.Contract {

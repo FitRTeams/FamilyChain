@@ -5,17 +5,17 @@ import (
 	"fmt"
 	"time"
 
-	"https://github.com/FitRTeams/familychain/chain"
-	"https://github.com/FitRTeams/familychain/command"
-	"https://github.com/FitRTeams/familychain/command/helper"
-	"https://github.com/FitRTeams/familychain/consensus/ibft"
-	"https://github.com/FitRTeams/familychain/consensus/ibft/fork"
-	"https://github.com/FitRTeams/familychain/consensus/ibft/signer"
-	"https://github.com/FitRTeams/familychain/contracts/staking"
-	stakingHelper "https://github.com/FitRTeams/familychain/helper/staking"
-	"https://github.com/FitRTeams/familychain/server"
-	"https://github.com/FitRTeams/familychain/types"
-	"https://github.com/FitRTeams/familychain/validators"
+	"github.com/FitRTeams/familychain/chain"
+	"github.com/FitRTeams/familychain/command"
+	"github.com/FitRTeams/familychain/command/helper"
+	"github.com/FitRTeams/familychain/consensus/ibft"
+	"github.com/FitRTeams/familychain/consensus/ibft/fork"
+	"github.com/FitRTeams/familychain/consensus/ibft/signer"
+	"github.com/FitRTeams/familychain/contracts/staking"
+	stakingHelper "github.com/FitRTeams/familychain/helper/staking"
+	"github.com/FitRTeams/familychain/server"
+	"github.com/FitRTeams/familychain/types"
+	"github.com/FitRTeams/familychain/validators"
 )
 
 const (

@@ -9,17 +9,17 @@ import (
 	"path"
 	"sync"
 
+	"github.com/FitRTeams/familychain/consensus/polybft/bitmap"
+	"github.com/FitRTeams/familychain/consensus/polybft/contractsapi"
+	polybftProto "github.com/FitRTeams/familychain/consensus/polybft/proto"
+	bls "github.com/FitRTeams/familychain/consensus/polybft/signer"
+	"github.com/FitRTeams/familychain/consensus/polybft/wallet"
+	"github.com/FitRTeams/familychain/tracker"
+	"github.com/FitRTeams/familychain/types"
 	"github.com/hashicorp/go-hclog"
 	"github.com/libp2p/go-libp2p/core/peer"
 	"github.com/umbracle/ethgo"
 	"google.golang.org/protobuf/proto"
-	"https://github.com/FitRTeams/familychain/consensus/polybft/bitmap"
-	"https://github.com/FitRTeams/familychain/consensus/polybft/contractsapi"
-	polybftProto "https://github.com/FitRTeams/familychain/consensus/polybft/proto"
-	bls "https://github.com/FitRTeams/familychain/consensus/polybft/signer"
-	"https://github.com/FitRTeams/familychain/consensus/polybft/wallet"
-	"https://github.com/FitRTeams/familychain/tracker"
-	"https://github.com/FitRTeams/familychain/types"
 )
 
 const (

@@ -4,8 +4,8 @@ import (
 	"math/big"
 	"testing"
 
+	"github.com/FitRTeams/familychain/types"
 	"github.com/stretchr/testify/assert"
-	"https://github.com/FitRTeams/familychain/types"
 )
 
 func TestEth_TxnPool_SendRawTransaction(t *testing.T) {

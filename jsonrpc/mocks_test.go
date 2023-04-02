@@ -4,8 +4,8 @@ import (
 	"math/big"
 	"sync"
 
-	"https://github.com/FitRTeams/familychain/blockchain"
-	"https://github.com/FitRTeams/familychain/types"
+	"github.com/FitRTeams/familychain/blockchain"
+	"github.com/FitRTeams/familychain/types"
 )
 
 type mockAccount struct {

@@ -4,9 +4,9 @@ import (
 	"math"
 	"testing"
 
+	"github.com/FitRTeams/familychain/helper/common"
+	"github.com/FitRTeams/familychain/types"
 	"github.com/stretchr/testify/require"
-	"https://github.com/FitRTeams/familychain/helper/common"
-	"https://github.com/FitRTeams/familychain/types"
 )
 
 func TestMerkleTree_VerifyProofs(t *testing.T) {

@@ -6,11 +6,11 @@ import (
 	"fmt"
 	"sort"
 
+	"github.com/FitRTeams/familychain/consensus/polybft/contractsapi"
+	"github.com/FitRTeams/familychain/helper/common"
+	"github.com/FitRTeams/familychain/types"
 	"github.com/umbracle/ethgo"
 	bolt "go.etcd.io/bbolt"
-	"https://github.com/FitRTeams/familychain/consensus/polybft/contractsapi"
-	"https://github.com/FitRTeams/familychain/helper/common"
-	"https://github.com/FitRTeams/familychain/types"
 )
 
 var (

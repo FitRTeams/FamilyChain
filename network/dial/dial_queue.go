@@ -4,7 +4,7 @@ import (
 	"container/heap"
 	"sync"
 
-	"https://github.com/FitRTeams/familychain/network/common"
+	"github.com/FitRTeams/familychain/network/common"
 
 	"github.com/libp2p/go-libp2p/core/peer"
 )

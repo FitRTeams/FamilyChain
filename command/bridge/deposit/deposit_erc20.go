@@ -10,13 +10,13 @@ import (
 	"github.com/umbracle/ethgo"
 	"golang.org/x/sync/errgroup"
 
-	"https://github.com/FitRTeams/familychain/command"
-	"https://github.com/FitRTeams/familychain/command/bridge/common"
-	cmdHelper "https://github.com/FitRTeams/familychain/command/helper"
-	"https://github.com/FitRTeams/familychain/command/rootchain/helper"
-	"https://github.com/FitRTeams/familychain/consensus/polybft/contractsapi"
-	"https://github.com/FitRTeams/familychain/txrelayer"
-	"https://github.com/FitRTeams/familychain/types"
+	"github.com/FitRTeams/familychain/command"
+	"github.com/FitRTeams/familychain/command/bridge/common"
+	cmdHelper "github.com/FitRTeams/familychain/command/helper"
+	"github.com/FitRTeams/familychain/command/rootchain/helper"
+	"github.com/FitRTeams/familychain/consensus/polybft/contractsapi"
+	"github.com/FitRTeams/familychain/txrelayer"
+	"github.com/FitRTeams/familychain/types"
 )
 
 const (

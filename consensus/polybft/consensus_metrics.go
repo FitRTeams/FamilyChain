@@ -3,8 +3,8 @@ package polybft
 import (
 	"time"
 
+	"github.com/FitRTeams/familychain/types"
 	"github.com/armon/go-metrics"
-	"https://github.com/FitRTeams/familychain/types"
 )
 
 const (

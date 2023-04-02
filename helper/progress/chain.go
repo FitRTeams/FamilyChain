@@ -3,7 +3,7 @@ package progress
 import (
 	"sync"
 
-	"https://github.com/FitRTeams/familychain/blockchain"
+	"github.com/FitRTeams/familychain/blockchain"
 )
 
 type ChainSyncType string

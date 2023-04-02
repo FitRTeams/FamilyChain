@@ -6,15 +6,15 @@ import (
 	"math/big"
 	"testing"
 
-	"https://github.com/FitRTeams/familychain/blockchain/storage"
-	"https://github.com/FitRTeams/familychain/blockchain/storage/memory"
+	"github.com/FitRTeams/familychain/blockchain/storage"
+	"github.com/FitRTeams/familychain/blockchain/storage/memory"
 
+	"github.com/FitRTeams/familychain/chain"
+	"github.com/FitRTeams/familychain/state"
+	itrie "github.com/FitRTeams/familychain/state/immutable-trie"
 	"github.com/hashicorp/go-hclog"
-	"https://github.com/FitRTeams/familychain/chain"
-	"https://github.com/FitRTeams/familychain/state"
-	itrie "https://github.com/FitRTeams/familychain/state/immutable-trie"
 
-	"https://github.com/FitRTeams/familychain/types"
+	"github.com/FitRTeams/familychain/types"
 )
 
 var (

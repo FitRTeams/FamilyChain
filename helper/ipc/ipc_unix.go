@@ -9,7 +9,7 @@ import (
 	"path/filepath"
 	"time"
 
-	"https://github.com/FitRTeams/familychain/helper/common"
+	"github.com/FitRTeams/familychain/helper/common"
 )
 
 // Dial dials an IPC path

@@ -6,8 +6,8 @@ import (
 	"math/big"
 	"testing"
 
+	"github.com/FitRTeams/familychain/types"
 	"github.com/stretchr/testify/assert"
-	"https://github.com/FitRTeams/familychain/types"
 )
 
 func createTestTransaction(hash types.Hash) *types.Transaction {

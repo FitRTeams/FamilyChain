@@ -4,8 +4,8 @@ import (
 	"context"
 	"math"
 
-	"https://github.com/FitRTeams/familychain/command/helper"
-	ibftOp "https://github.com/FitRTeams/familychain/consensus/ibft/proto"
+	"github.com/FitRTeams/familychain/command/helper"
+	ibftOp "github.com/FitRTeams/familychain/consensus/ibft/proto"
 )
 
 const (

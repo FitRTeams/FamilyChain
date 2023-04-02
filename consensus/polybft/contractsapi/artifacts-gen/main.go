@@ -7,8 +7,8 @@ import (
 	"path"
 	"runtime"
 
+	"github.com/FitRTeams/familychain/consensus/polybft/contractsapi/artifact"
 	"github.com/dave/jennifer/jen"
-	"https://github.com/FitRTeams/familychain/consensus/polybft/contractsapi/artifact"
 )
 
 func main() {

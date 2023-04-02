@@ -3,8 +3,8 @@ package storage
 import (
 	"math/big"
 
+	"github.com/FitRTeams/familychain/types"
 	"github.com/hashicorp/go-hclog"
-	"https://github.com/FitRTeams/familychain/types"
 )
 
 // Storage is a generic blockchain storage

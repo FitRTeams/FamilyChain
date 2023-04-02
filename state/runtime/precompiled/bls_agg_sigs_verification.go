@@ -3,11 +3,11 @@ package precompiled
 import (
 	"errors"
 
+	"github.com/FitRTeams/familychain/chain"
+	bls "github.com/FitRTeams/familychain/consensus/polybft/signer"
+	"github.com/FitRTeams/familychain/state/runtime"
+	"github.com/FitRTeams/familychain/types"
 	"github.com/umbracle/ethgo/abi"
-	"https://github.com/FitRTeams/familychain/chain"
-	bls "https://github.com/FitRTeams/familychain/consensus/polybft/signer"
-	"https://github.com/FitRTeams/familychain/state/runtime"
-	"https://github.com/FitRTeams/familychain/types"
 )
 
 var (

@@ -3,10 +3,10 @@ package regenesis
 import (
 	"fmt"
 
+	"github.com/FitRTeams/familychain/command"
 	"github.com/spf13/cobra"
 	"github.com/umbracle/ethgo"
 	"github.com/umbracle/ethgo/jsonrpc"
-	"https://github.com/FitRTeams/familychain/command"
 )
 
 var (

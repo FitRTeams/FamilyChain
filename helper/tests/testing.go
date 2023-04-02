@@ -16,13 +16,13 @@ import (
 	"github.com/multiformats/go-multiaddr"
 	"github.com/umbracle/ethgo"
 
+	"github.com/FitRTeams/familychain/chain"
+	"github.com/FitRTeams/familychain/crypto"
+	txpoolOp "github.com/FitRTeams/familychain/txpool/proto"
+	"github.com/FitRTeams/familychain/types"
 	"github.com/stretchr/testify/assert"
 	"github.com/umbracle/ethgo/jsonrpc"
 	empty "google.golang.org/protobuf/types/known/emptypb"
-	"https://github.com/FitRTeams/familychain/chain"
-	"https://github.com/FitRTeams/familychain/crypto"
-	txpoolOp "https://github.com/FitRTeams/familychain/txpool/proto"
-	"https://github.com/FitRTeams/familychain/types"
 )
 
 var (

@@ -11,11 +11,11 @@ import (
 	"testing"
 	"time"
 
+	"github.com/FitRTeams/familychain/blockchain"
+	"github.com/FitRTeams/familychain/types"
 	"github.com/gorilla/websocket"
 	"github.com/hashicorp/go-hclog"
 	"github.com/stretchr/testify/assert"
-	"https://github.com/FitRTeams/familychain/blockchain"
-	"https://github.com/FitRTeams/familychain/types"
 )
 
 func Test_GetLogsForQuery(t *testing.T) {

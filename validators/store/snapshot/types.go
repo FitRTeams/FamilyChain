@@ -6,9 +6,9 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"https://github.com/FitRTeams/familychain/types"
-	"https://github.com/FitRTeams/familychain/validators"
-	"https://github.com/FitRTeams/familychain/validators/store"
+	"github.com/FitRTeams/familychain/types"
+	"github.com/FitRTeams/familychain/validators"
+	"github.com/FitRTeams/familychain/validators/store"
 )
 
 // snapshotMetadata defines the metadata for the snapshot

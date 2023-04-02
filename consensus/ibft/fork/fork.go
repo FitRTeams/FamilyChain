@@ -4,8 +4,8 @@ import (
 	"encoding/json"
 	"errors"
 
-	"https://github.com/FitRTeams/familychain/helper/common"
-	"https://github.com/FitRTeams/familychain/validators"
+	"github.com/FitRTeams/familychain/helper/common"
+	"github.com/FitRTeams/familychain/validators"
 )
 
 const (

@@ -5,10 +5,10 @@ import (
 	"sync"
 	"sync/atomic"
 
+	"github.com/FitRTeams/familychain/txpool/proto"
+	"github.com/FitRTeams/familychain/types"
 	"github.com/google/uuid"
 	"github.com/hashicorp/go-hclog"
-	"https://github.com/FitRTeams/familychain/txpool/proto"
-	"https://github.com/FitRTeams/familychain/types"
 )
 
 type eventManager struct {

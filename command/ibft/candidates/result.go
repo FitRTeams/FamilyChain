@@ -4,9 +4,9 @@ import (
 	"bytes"
 	"fmt"
 
-	"https://github.com/FitRTeams/familychain/command/helper"
-	ibftHelper "https://github.com/FitRTeams/familychain/command/ibft/helper"
-	ibftOp "https://github.com/FitRTeams/familychain/consensus/ibft/proto"
+	"github.com/FitRTeams/familychain/command/helper"
+	ibftHelper "github.com/FitRTeams/familychain/command/ibft/helper"
+	ibftOp "github.com/FitRTeams/familychain/consensus/ibft/proto"
 )
 
 type IBFTCandidate struct {

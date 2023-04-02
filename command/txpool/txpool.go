@@ -1,10 +1,10 @@
 package txpool
 
 import (
+	"github.com/FitRTeams/familychain/command/helper"
+	"github.com/FitRTeams/familychain/command/txpool/status"
+	"github.com/FitRTeams/familychain/command/txpool/subscribe"
 	"github.com/spf13/cobra"
-	"https://github.com/FitRTeams/familychain/command/helper"
-	"https://github.com/FitRTeams/familychain/command/txpool/status"
-	"https://github.com/FitRTeams/familychain/command/txpool/subscribe"
 )
 
 func GetCommand() *cobra.Command {

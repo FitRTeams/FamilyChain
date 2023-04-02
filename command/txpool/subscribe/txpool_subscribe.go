@@ -6,11 +6,11 @@ import (
 	"fmt"
 	"io"
 
+	"github.com/FitRTeams/familychain/command"
+	"github.com/FitRTeams/familychain/command/helper"
+	"github.com/FitRTeams/familychain/helper/common"
+	txpoolProto "github.com/FitRTeams/familychain/txpool/proto"
 	"github.com/spf13/cobra"
-	"https://github.com/FitRTeams/familychain/command"
-	"https://github.com/FitRTeams/familychain/command/helper"
-	"https://github.com/FitRTeams/familychain/helper/common"
-	txpoolProto "https://github.com/FitRTeams/familychain/txpool/proto"
 )
 
 func GetCommand() *cobra.Command {

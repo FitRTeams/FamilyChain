@@ -11,15 +11,15 @@ import (
 	"testing"
 	"time"
 
+	"github.com/FitRTeams/familychain/command"
+	"github.com/FitRTeams/familychain/helper/hex"
+	"github.com/FitRTeams/familychain/types"
 	"github.com/umbracle/ethgo"
 	"github.com/umbracle/ethgo/abi"
-	"https://github.com/FitRTeams/familychain/command"
-	"https://github.com/FitRTeams/familychain/helper/hex"
-	"https://github.com/FitRTeams/familychain/types"
 
+	"github.com/FitRTeams/familychain/e2e/framework"
+	"github.com/FitRTeams/familychain/helper/tests"
 	"github.com/stretchr/testify/assert"
-	"https://github.com/FitRTeams/familychain/e2e/framework"
-	"https://github.com/FitRTeams/familychain/helper/tests"
 )
 
 // TestGenesisBlockGasLimit tests the genesis block limit setting

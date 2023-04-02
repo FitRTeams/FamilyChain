@@ -4,13 +4,13 @@ import (
 	"math/big"
 	"testing"
 
+	"github.com/FitRTeams/familychain/contracts"
+	"github.com/FitRTeams/familychain/types"
 	"github.com/hashicorp/go-hclog"
 	"github.com/stretchr/testify/mock"
 	"github.com/stretchr/testify/require"
 	"github.com/umbracle/ethgo"
 	"github.com/umbracle/ethgo/wallet"
-	"https://github.com/FitRTeams/familychain/contracts"
-	"https://github.com/FitRTeams/familychain/types"
 )
 
 type txRelayerMock struct {

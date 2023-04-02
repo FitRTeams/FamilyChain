@@ -1,8 +1,8 @@
 package consensus
 
 import (
-	"https://github.com/FitRTeams/familychain/types"
-	"https://github.com/FitRTeams/familychain/types/buildroot"
+	"github.com/FitRTeams/familychain/types"
+	"github.com/FitRTeams/familychain/types/buildroot"
 )
 
 // BuildBlockParams are parameters passed into the BuildBlock helper method

@@ -6,12 +6,12 @@ import (
 	"errors"
 	"fmt"
 
-	"https://github.com/FitRTeams/familychain/crypto"
+	"github.com/FitRTeams/familychain/crypto"
 
+	"github.com/FitRTeams/familychain/state"
+	"github.com/FitRTeams/familychain/types"
 	"github.com/syndtr/goleveldb/leveldb"
 	"github.com/umbracle/fastrlp"
-	"https://github.com/FitRTeams/familychain/state"
-	"https://github.com/FitRTeams/familychain/types"
 )
 
 var emptyCodeHash = crypto.Keccak256(nil)

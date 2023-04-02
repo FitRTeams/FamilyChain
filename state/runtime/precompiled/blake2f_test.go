@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"testing"
 
-	"https://github.com/FitRTeams/familychain/types"
+	"github.com/FitRTeams/familychain/types"
 )
 
 func TestBlake2f(t *testing.T) {

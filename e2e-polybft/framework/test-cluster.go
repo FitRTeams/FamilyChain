@@ -18,16 +18,16 @@ import (
 	"testing"
 	"time"
 
+	"github.com/FitRTeams/familychain/command/genesis"
+	"github.com/FitRTeams/familychain/command/rootchain/helper"
+	"github.com/FitRTeams/familychain/helper/common"
+	"github.com/FitRTeams/familychain/txrelayer"
+	"github.com/FitRTeams/familychain/types"
 	"github.com/stretchr/testify/require"
 	"github.com/umbracle/ethgo"
 	"github.com/umbracle/ethgo/abi"
 	"github.com/umbracle/ethgo/jsonrpc"
 	"github.com/umbracle/ethgo/wallet"
-	"https://github.com/FitRTeams/familychain/command/genesis"
-	"https://github.com/FitRTeams/familychain/command/rootchain/helper"
-	"https://github.com/FitRTeams/familychain/helper/common"
-	"https://github.com/FitRTeams/familychain/txrelayer"
-	"https://github.com/FitRTeams/familychain/types"
 )
 
 const (

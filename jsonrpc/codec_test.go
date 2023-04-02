@@ -3,8 +3,8 @@ package jsonrpc
 import (
 	"testing"
 
+	"github.com/FitRTeams/familychain/types"
 	"github.com/stretchr/testify/assert"
-	"https://github.com/FitRTeams/familychain/types"
 )
 
 func TestBlockNumberOrHash_UnmarshalJSON(t *testing.T) {

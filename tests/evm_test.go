@@ -7,16 +7,16 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/FitRTeams/familychain/chain"
+	"github.com/FitRTeams/familychain/crypto"
+	"github.com/FitRTeams/familychain/helper/hex"
+	"github.com/FitRTeams/familychain/helper/keccak"
+	"github.com/FitRTeams/familychain/state"
+	"github.com/FitRTeams/familychain/state/runtime"
+	"github.com/FitRTeams/familychain/state/runtime/evm"
+	"github.com/FitRTeams/familychain/types"
 	"github.com/hashicorp/go-hclog"
 	"github.com/umbracle/fastrlp"
-	"https://github.com/FitRTeams/familychain/chain"
-	"https://github.com/FitRTeams/familychain/crypto"
-	"https://github.com/FitRTeams/familychain/helper/hex"
-	"https://github.com/FitRTeams/familychain/helper/keccak"
-	"https://github.com/FitRTeams/familychain/state"
-	"https://github.com/FitRTeams/familychain/state/runtime"
-	"https://github.com/FitRTeams/familychain/state/runtime/evm"
-	"https://github.com/FitRTeams/familychain/types"
 )
 
 var mainnetChainConfig = chain.Params{

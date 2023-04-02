@@ -1,6 +1,6 @@
 package evm
 
-import "https://github.com/FitRTeams/familychain/helper/common"
+import "github.com/FitRTeams/familychain/helper/common"
 
 const bitmapSize = 8
 

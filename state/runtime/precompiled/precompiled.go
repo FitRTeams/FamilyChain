@@ -4,12 +4,12 @@ import (
 	"encoding/binary"
 	"log"
 
+	"github.com/FitRTeams/familychain/chain"
+	"github.com/FitRTeams/familychain/contracts"
+	"github.com/FitRTeams/familychain/helper/common"
+	"github.com/FitRTeams/familychain/state/runtime"
+	"github.com/FitRTeams/familychain/types"
 	"github.com/umbracle/ethgo/abi"
-	"https://github.com/FitRTeams/familychain/chain"
-	"https://github.com/FitRTeams/familychain/contracts"
-	"https://github.com/FitRTeams/familychain/helper/common"
-	"https://github.com/FitRTeams/familychain/state/runtime"
-	"https://github.com/FitRTeams/familychain/types"
 )
 
 var _ runtime.Runtime = &Precompiled{}

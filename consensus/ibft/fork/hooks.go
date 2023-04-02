@@ -3,14 +3,14 @@ package fork
 import (
 	"errors"
 
-	"https://github.com/FitRTeams/familychain/consensus/ibft/hook"
-	"https://github.com/FitRTeams/familychain/contracts/staking"
-	"https://github.com/FitRTeams/familychain/helper/hex"
-	stakingHelper "https://github.com/FitRTeams/familychain/helper/staking"
-	"https://github.com/FitRTeams/familychain/state"
-	"https://github.com/FitRTeams/familychain/types"
-	"https://github.com/FitRTeams/familychain/validators"
-	"https://github.com/FitRTeams/familychain/validators/store"
+	"github.com/FitRTeams/familychain/consensus/ibft/hook"
+	"github.com/FitRTeams/familychain/contracts/staking"
+	"github.com/FitRTeams/familychain/helper/hex"
+	stakingHelper "github.com/FitRTeams/familychain/helper/staking"
+	"github.com/FitRTeams/familychain/state"
+	"github.com/FitRTeams/familychain/types"
+	"github.com/FitRTeams/familychain/validators"
+	"github.com/FitRTeams/familychain/validators/store"
 )
 
 var (

@@ -11,14 +11,14 @@ import (
 	"strconv"
 	"strings"
 
+	"github.com/FitRTeams/familychain/command"
+	"github.com/FitRTeams/familychain/consensus/polybft"
+	"github.com/FitRTeams/familychain/consensus/polybft/wallet"
+	"github.com/FitRTeams/familychain/secrets"
+	"github.com/FitRTeams/familychain/secrets/helper"
+	"github.com/FitRTeams/familychain/secrets/local"
+	"github.com/FitRTeams/familychain/types"
 	"github.com/hashicorp/go-hclog"
-	"https://github.com/FitRTeams/familychain/command"
-	"https://github.com/FitRTeams/familychain/consensus/polybft"
-	"https://github.com/FitRTeams/familychain/consensus/polybft/wallet"
-	"https://github.com/FitRTeams/familychain/secrets"
-	"https://github.com/FitRTeams/familychain/secrets/helper"
-	"https://github.com/FitRTeams/familychain/secrets/local"
-	"https://github.com/FitRTeams/familychain/types"
 )
 
 const (

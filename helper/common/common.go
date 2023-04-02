@@ -15,8 +15,8 @@ import (
 	"strconv"
 	"syscall"
 
-	"https://github.com/FitRTeams/familychain/helper/hex"
-	"https://github.com/FitRTeams/familychain/types"
+	"github.com/FitRTeams/familychain/helper/hex"
+	"github.com/FitRTeams/familychain/types"
 )
 
 var (

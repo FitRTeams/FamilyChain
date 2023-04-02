@@ -8,13 +8,13 @@ import (
 
 	"github.com/hashicorp/go-hclog"
 
+	"github.com/FitRTeams/familychain/blockchain"
+	"github.com/FitRTeams/familychain/consensus"
+	"github.com/FitRTeams/familychain/contracts"
+	"github.com/FitRTeams/familychain/state"
+	"github.com/FitRTeams/familychain/types"
 	"github.com/umbracle/ethgo"
 	"github.com/umbracle/ethgo/contract"
-	"https://github.com/FitRTeams/familychain/blockchain"
-	"https://github.com/FitRTeams/familychain/consensus"
-	"https://github.com/FitRTeams/familychain/contracts"
-	"https://github.com/FitRTeams/familychain/state"
-	"https://github.com/FitRTeams/familychain/types"
 )
 
 const (

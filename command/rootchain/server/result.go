@@ -6,7 +6,7 @@ import (
 
 	"github.com/docker/docker/api/types/container"
 
-	"https://github.com/FitRTeams/familychain/command/helper"
+	"github.com/FitRTeams/familychain/command/helper"
 )
 
 type containerStopResult struct {

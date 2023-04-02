@@ -1,8 +1,8 @@
 package storage
 
 import (
+	"github.com/FitRTeams/familychain/types"
 	"github.com/umbracle/fastrlp"
-	"https://github.com/FitRTeams/familychain/types"
 )
 
 type Forks []types.Hash

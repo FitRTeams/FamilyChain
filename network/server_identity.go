@@ -3,17 +3,17 @@ package network
 import (
 	"math/big"
 
+	"github.com/FitRTeams/familychain/network/common"
+	peerEvent "github.com/FitRTeams/familychain/network/event"
+	"github.com/FitRTeams/familychain/network/grpc"
+	"github.com/FitRTeams/familychain/network/identity"
+	"github.com/FitRTeams/familychain/network/proto"
 	"github.com/armon/go-metrics"
 	kbucket "github.com/libp2p/go-libp2p-kbucket"
 	"github.com/libp2p/go-libp2p-kbucket/keyspace"
 	"github.com/libp2p/go-libp2p/core/network"
 	"github.com/libp2p/go-libp2p/core/peer"
 	rawGrpc "google.golang.org/grpc"
-	"https://github.com/FitRTeams/familychain/network/common"
-	peerEvent "https://github.com/FitRTeams/familychain/network/event"
-	"https://github.com/FitRTeams/familychain/network/grpc"
-	"https://github.com/FitRTeams/familychain/network/identity"
-	"https://github.com/FitRTeams/familychain/network/proto"
 )
 
 // NewIdentityClient returns a new identity service client connection

@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"testing"
 
+	"github.com/FitRTeams/familychain/secrets"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"https://github.com/FitRTeams/familychain/secrets"
 )
 
 func TestAccount(t *testing.T) {

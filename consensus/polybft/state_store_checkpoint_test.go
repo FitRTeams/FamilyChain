@@ -3,13 +3,13 @@ package polybft
 import (
 	"testing"
 
+	"github.com/FitRTeams/familychain/consensus/polybft/contractsapi"
+	"github.com/FitRTeams/familychain/helper/common"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"github.com/umbracle/ethgo"
 	"github.com/umbracle/ethgo/abi"
 	bolt "go.etcd.io/bbolt"
-	"https://github.com/FitRTeams/familychain/consensus/polybft/contractsapi"
-	"https://github.com/FitRTeams/familychain/helper/common"
 )
 
 func TestState_Insert_And_Get_ExitEvents_PerEpoch(t *testing.T) {

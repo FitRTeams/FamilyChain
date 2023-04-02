@@ -3,11 +3,11 @@ package contract
 import (
 	"fmt"
 
-	"https://github.com/FitRTeams/familychain/contracts/staking"
-	"https://github.com/FitRTeams/familychain/crypto"
-	"https://github.com/FitRTeams/familychain/state"
-	"https://github.com/FitRTeams/familychain/types"
-	"https://github.com/FitRTeams/familychain/validators"
+	"github.com/FitRTeams/familychain/contracts/staking"
+	"github.com/FitRTeams/familychain/crypto"
+	"github.com/FitRTeams/familychain/state"
+	"github.com/FitRTeams/familychain/types"
+	"github.com/FitRTeams/familychain/validators"
 )
 
 // FetchValidators fetches validators from a contract switched by validator type

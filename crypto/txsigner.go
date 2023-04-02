@@ -6,10 +6,10 @@ import (
 	"math/big"
 	"math/bits"
 
+	"github.com/FitRTeams/familychain/chain"
+	"github.com/FitRTeams/familychain/helper/keccak"
+	"github.com/FitRTeams/familychain/types"
 	"github.com/umbracle/fastrlp"
-	"https://github.com/FitRTeams/familychain/chain"
-	"https://github.com/FitRTeams/familychain/helper/keccak"
-	"https://github.com/FitRTeams/familychain/types"
 )
 
 // TxSigner is a utility interface used to recover data from a transaction

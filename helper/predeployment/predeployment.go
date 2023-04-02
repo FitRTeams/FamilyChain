@@ -8,14 +8,14 @@ import (
 	"math/big"
 	"os"
 
+	"github.com/FitRTeams/familychain/chain"
+	"github.com/FitRTeams/familychain/helper/hex"
+	"github.com/FitRTeams/familychain/state"
+	itrie "github.com/FitRTeams/familychain/state/immutable-trie"
+	"github.com/FitRTeams/familychain/state/runtime"
+	"github.com/FitRTeams/familychain/state/runtime/evm"
+	"github.com/FitRTeams/familychain/types"
 	"github.com/umbracle/ethgo/abi"
-	"https://github.com/FitRTeams/familychain/chain"
-	"https://github.com/FitRTeams/familychain/helper/hex"
-	"https://github.com/FitRTeams/familychain/state"
-	itrie "https://github.com/FitRTeams/familychain/state/immutable-trie"
-	"https://github.com/FitRTeams/familychain/state/runtime"
-	"https://github.com/FitRTeams/familychain/state/runtime/evm"
-	"https://github.com/FitRTeams/familychain/types"
 )
 
 var (

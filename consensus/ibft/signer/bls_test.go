@@ -6,14 +6,14 @@ import (
 	"math/big"
 	"testing"
 
+	"github.com/FitRTeams/familychain/crypto"
+	"github.com/FitRTeams/familychain/helper/hex"
+	testHelper "github.com/FitRTeams/familychain/helper/tests"
+	"github.com/FitRTeams/familychain/secrets"
+	"github.com/FitRTeams/familychain/types"
+	"github.com/FitRTeams/familychain/validators"
 	"github.com/coinbase/kryptology/pkg/signatures/bls/bls_sig"
 	"github.com/stretchr/testify/assert"
-	"https://github.com/FitRTeams/familychain/crypto"
-	"https://github.com/FitRTeams/familychain/helper/hex"
-	testHelper "https://github.com/FitRTeams/familychain/helper/tests"
-	"https://github.com/FitRTeams/familychain/secrets"
-	"https://github.com/FitRTeams/familychain/types"
-	"https://github.com/FitRTeams/familychain/validators"
 )
 
 func newTestBLSKeyManager(t *testing.T) (KeyManager, *ecdsa.PrivateKey, *bls_sig.SecretKey) {

@@ -5,9 +5,9 @@ import (
 	"errors"
 	"fmt"
 
+	"github.com/FitRTeams/familychain/consensus/polybft/contractsapi"
+	"github.com/FitRTeams/familychain/helper/common"
 	bolt "go.etcd.io/bbolt"
-	"https://github.com/FitRTeams/familychain/consensus/polybft/contractsapi"
-	"https://github.com/FitRTeams/familychain/helper/common"
 )
 
 var (
