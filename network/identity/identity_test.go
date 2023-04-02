@@ -4,8 +4,8 @@ import (
 	"context"
 	"testing"
 
-	"github.com/FamilyChain/family/network/proto"
-	networkTesting "github.com/FamilyChain/family/network/testing"
+	"github.com/familychain/family/network/proto"
+	networkTesting "github.com/familychain/family/network/testing"
 	"github.com/hashicorp/go-hclog"
 	"github.com/libp2p/go-libp2p/core/network"
 	"github.com/libp2p/go-libp2p/core/peer"

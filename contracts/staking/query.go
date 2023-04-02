@@ -6,9 +6,9 @@ import (
 
 	"github.com/umbracle/ethgo"
 
-	"github.com/FamilyChain/family/contracts/abis"
-	"github.com/FamilyChain/family/state/runtime"
-	"github.com/FamilyChain/family/types"
+	"github.com/familychain/family/contracts/abis"
+	"github.com/familychain/family/state/runtime"
+	"github.com/familychain/family/types"
 	"github.com/umbracle/ethgo/abi"
 )
 

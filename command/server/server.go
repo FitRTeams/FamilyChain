@@ -3,11 +3,11 @@ package server
 import (
 	"fmt"
 
-	"github.com/FamilyChain/family/command"
-	"github.com/FamilyChain/family/command/helper"
-	"github.com/FamilyChain/family/command/server/config"
-	"github.com/FamilyChain/family/command/server/export"
-	"github.com/FamilyChain/family/server"
+	"github.com/familychain/family/command"
+	"github.com/familychain/family/command/helper"
+	"github.com/familychain/family/command/server/config"
+	"github.com/familychain/family/command/server/export"
+	"github.com/familychain/family/server"
 	"github.com/spf13/cobra"
 )
 

@@ -6,11 +6,11 @@ import (
 
 	"golang.org/x/crypto/ripemd160" //nolint:staticcheck
 
-	"github.com/FamilyChain/family/chain"
-	"github.com/FamilyChain/family/crypto"
-	"github.com/FamilyChain/family/helper/keccak"
-	"github.com/FamilyChain/family/state/runtime"
-	"github.com/FamilyChain/family/types"
+	"github.com/familychain/family/chain"
+	"github.com/familychain/family/crypto"
+	"github.com/familychain/family/helper/keccak"
+	"github.com/familychain/family/state/runtime"
+	"github.com/familychain/family/types"
 )
 
 type ecrecover struct {

@@ -4,7 +4,7 @@ import (
 	"math/big"
 	"sync"
 
-	"github.com/FamilyChain/family/types"
+	"github.com/familychain/family/types"
 )
 
 type void struct{}

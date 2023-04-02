@@ -5,10 +5,10 @@ import (
 	"fmt"
 	"testing"
 
-	testHelper "github.com/FamilyChain/family/helper/tests"
-	"github.com/FamilyChain/family/state"
-	"github.com/FamilyChain/family/types"
-	"github.com/FamilyChain/family/validators"
+	testHelper "github.com/familychain/family/helper/tests"
+	"github.com/familychain/family/state"
+	"github.com/familychain/family/types"
+	"github.com/familychain/family/validators"
 	"github.com/stretchr/testify/assert"
 )
 

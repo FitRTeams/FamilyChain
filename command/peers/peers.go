@@ -1,10 +1,10 @@
 package peers
 
 import (
-	"github.com/FamilyChain/family/command/helper"
-	"github.com/FamilyChain/family/command/peers/add"
-	"github.com/FamilyChain/family/command/peers/list"
-	"github.com/FamilyChain/family/command/peers/status"
+	"github.com/familychain/family/command/helper"
+	"github.com/familychain/family/command/peers/add"
+	"github.com/familychain/family/command/peers/list"
+	"github.com/familychain/family/command/peers/status"
 	"github.com/spf13/cobra"
 )
 

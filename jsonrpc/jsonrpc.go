@@ -9,7 +9,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/FamilyChain/family/versioning"
+	"github.com/familychain/family/versioning"
 	"github.com/gorilla/websocket"
 	"github.com/hashicorp/go-hclog"
 )

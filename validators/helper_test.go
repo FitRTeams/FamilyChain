@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"testing"
 
-	testHelper "github.com/FamilyChain/family/helper/tests"
-	"github.com/FamilyChain/family/types"
+	testHelper "github.com/familychain/family/helper/tests"
+	"github.com/familychain/family/types"
 	"github.com/stretchr/testify/assert"
 )
 

@@ -8,15 +8,15 @@ import (
 	"testing"
 	"time"
 
-	"github.com/FamilyChain/family/chain"
-	"github.com/FamilyChain/family/txpool"
+	"github.com/familychain/family/chain"
+	"github.com/familychain/family/txpool"
 	"github.com/umbracle/ethgo"
 
-	"github.com/FamilyChain/family/crypto"
-	"github.com/FamilyChain/family/e2e/framework"
-	"github.com/FamilyChain/family/helper/tests"
-	txpoolOp "github.com/FamilyChain/family/txpool/proto"
-	"github.com/FamilyChain/family/types"
+	"github.com/familychain/family/crypto"
+	"github.com/familychain/family/e2e/framework"
+	"github.com/familychain/family/helper/tests"
+	txpoolOp "github.com/familychain/family/txpool/proto"
+	"github.com/familychain/family/types"
 	"github.com/golang/protobuf/ptypes/any"
 	"github.com/stretchr/testify/assert"
 )

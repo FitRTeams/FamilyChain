@@ -1,8 +1,8 @@
 package config
 
 import (
-	"github.com/FamilyChain/family/chain"
-	"github.com/FamilyChain/family/types"
+	"github.com/familychain/family/chain"
+	"github.com/familychain/family/types"
 )
 
 // GetWhitelist fetches whitelist object from the config

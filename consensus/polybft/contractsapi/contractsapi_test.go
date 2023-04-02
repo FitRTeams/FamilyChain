@@ -5,9 +5,9 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/FamilyChain/family/contracts"
-	"github.com/FamilyChain/family/helper/common"
-	"github.com/FamilyChain/family/types"
+	"github.com/familychain/family/contracts"
+	"github.com/familychain/family/helper/common"
+	"github.com/familychain/family/types"
 	"github.com/stretchr/testify/require"
 	"github.com/umbracle/ethgo"
 	"github.com/umbracle/ethgo/abi"

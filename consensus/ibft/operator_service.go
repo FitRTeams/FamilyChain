@@ -5,12 +5,12 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/FamilyChain/family/consensus/ibft/proto"
-	"github.com/FamilyChain/family/consensus/ibft/signer"
-	"github.com/FamilyChain/family/crypto"
-	"github.com/FamilyChain/family/types"
-	"github.com/FamilyChain/family/validators"
-	"github.com/FamilyChain/family/validators/store"
+	"github.com/familychain/family/consensus/ibft/proto"
+	"github.com/familychain/family/consensus/ibft/signer"
+	"github.com/familychain/family/crypto"
+	"github.com/familychain/family/types"
+	"github.com/familychain/family/validators"
+	"github.com/familychain/family/validators/store"
 	empty "google.golang.org/protobuf/types/known/emptypb"
 )
 

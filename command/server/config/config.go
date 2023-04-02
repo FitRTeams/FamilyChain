@@ -6,7 +6,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/FamilyChain/family/network"
+	"github.com/familychain/family/network"
 	"github.com/hashicorp/hcl"
 	"gopkg.in/yaml.v3"
 )

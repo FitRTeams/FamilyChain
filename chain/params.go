@@ -3,7 +3,7 @@ package chain
 import (
 	"math/big"
 
-	"github.com/FamilyChain/family/types"
+	"github.com/familychain/family/types"
 )
 
 // Params are all the set of params for the chain

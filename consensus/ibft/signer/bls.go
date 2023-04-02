@@ -5,11 +5,11 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/FamilyChain/family/crypto"
-	"github.com/FamilyChain/family/secrets"
-	"github.com/FamilyChain/family/types"
-	"github.com/FamilyChain/family/validators"
 	"github.com/coinbase/kryptology/pkg/signatures/bls/bls_sig"
+	"github.com/familychain/family/crypto"
+	"github.com/familychain/family/secrets"
+	"github.com/familychain/family/types"
+	"github.com/familychain/family/validators"
 	"github.com/umbracle/fastrlp"
 )
 

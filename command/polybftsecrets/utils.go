@@ -4,8 +4,8 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/FamilyChain/family/secrets"
-	"github.com/FamilyChain/family/secrets/helper"
+	"github.com/familychain/family/secrets"
+	"github.com/familychain/family/secrets/helper"
 )
 
 // common flags for all polybft commands

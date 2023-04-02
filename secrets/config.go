@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"os"
 
-	"github.com/FamilyChain/family/helper/common"
+	"github.com/familychain/family/helper/common"
 )
 
 // SecretsManagerConfig is the configuration that gets

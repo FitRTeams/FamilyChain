@@ -11,12 +11,12 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/FamilyChain/family/blockchain"
-	"github.com/FamilyChain/family/network"
-	"github.com/FamilyChain/family/network/event"
-	"github.com/FamilyChain/family/network/grpc"
-	"github.com/FamilyChain/family/syncer/proto"
-	"github.com/FamilyChain/family/types"
+	"github.com/familychain/family/blockchain"
+	"github.com/familychain/family/network"
+	"github.com/familychain/family/network/event"
+	"github.com/familychain/family/network/grpc"
+	"github.com/familychain/family/syncer/proto"
+	"github.com/familychain/family/types"
 )
 
 var (

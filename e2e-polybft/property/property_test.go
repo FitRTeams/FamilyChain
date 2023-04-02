@@ -6,8 +6,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/FamilyChain/family/e2e-polybft/framework"
-	"github.com/FamilyChain/family/types"
+	"github.com/familychain/family/e2e-polybft/framework"
+	"github.com/familychain/family/types"
 	"github.com/stretchr/testify/require"
 	"pgregory.net/rapid"
 )

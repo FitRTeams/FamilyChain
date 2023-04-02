@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"fmt"
 
-	"github.com/FamilyChain/family/types"
+	"github.com/familychain/family/types"
 )
 
 type DeploymentResult struct {

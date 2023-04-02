@@ -4,8 +4,8 @@ import (
 	"bytes"
 	"fmt"
 
-	"github.com/FamilyChain/family/command/helper"
-	"github.com/FamilyChain/family/helper/common"
+	"github.com/familychain/family/command/helper"
+	"github.com/familychain/family/helper/common"
 )
 
 type IBFTQuorumResult struct {

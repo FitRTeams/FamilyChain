@@ -3,9 +3,9 @@ package polybft
 import (
 	"fmt"
 
-	polybftProto "github.com/FamilyChain/family/consensus/polybft/proto"
-	"github.com/FamilyChain/family/types"
-	ibftProto "github.com/FamilyChain/go-ibft/messages/proto"
+	polybftProto "github.com/familychain/family/consensus/polybft/proto"
+	"github.com/familychain/family/types"
+	ibftProto "github.com/familychain/go-ibft/messages/proto"
 	"github.com/libp2p/go-libp2p/core/peer"
 )
 

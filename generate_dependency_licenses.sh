@@ -11,7 +11,7 @@
 # go get github.com/google/go-licenses
 
 # Constants
-PACKAGE="github.com/FamilyChain/family"
+PACKAGE="github.com/familychain/family"
 
 # Arguments
 licenses=( `echo $1 | tr -s ',' ' '`)

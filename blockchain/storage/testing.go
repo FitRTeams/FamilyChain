@@ -5,8 +5,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/FamilyChain/family/helper/hex"
-	"github.com/FamilyChain/family/types"
+	"github.com/familychain/family/helper/hex"
+	"github.com/familychain/family/types"
 	"github.com/stretchr/testify/assert"
 )
 

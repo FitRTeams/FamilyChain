@@ -3,7 +3,7 @@ package proto
 import (
 	"testing"
 
-	"github.com/FamilyChain/family/validate"
+	"github.com/familychain/family/validate"
 	"github.com/golang/protobuf/ptypes/any"
 	"github.com/stretchr/testify/assert"
 )

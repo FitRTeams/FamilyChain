@@ -3,8 +3,8 @@ package main
 import (
 	_ "embed"
 
-	"github.com/FamilyChain/family/command/root"
-	"github.com/FamilyChain/family/licenses"
+	"github.com/familychain/family/command/root"
+	"github.com/familychain/family/licenses"
 )
 
 var (

@@ -6,7 +6,7 @@ import (
 	"hash"
 	"sync"
 
-	"github.com/FamilyChain/family/types"
+	"github.com/familychain/family/types"
 	"github.com/umbracle/fastrlp"
 	"golang.org/x/crypto/sha3"
 )

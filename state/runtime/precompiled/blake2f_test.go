@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/FamilyChain/family/types"
+	"github.com/familychain/family/types"
 )
 
 func TestBlake2f(t *testing.T) {

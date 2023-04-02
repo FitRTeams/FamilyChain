@@ -1,13 +1,13 @@
 package ibft
 
 import (
-	"github.com/FamilyChain/family/command/helper"
-	"github.com/FamilyChain/family/command/ibft/candidates"
-	"github.com/FamilyChain/family/command/ibft/propose"
-	"github.com/FamilyChain/family/command/ibft/quorum"
-	"github.com/FamilyChain/family/command/ibft/snapshot"
-	"github.com/FamilyChain/family/command/ibft/status"
-	_switch "github.com/FamilyChain/family/command/ibft/switch"
+	"github.com/familychain/family/command/helper"
+	"github.com/familychain/family/command/ibft/candidates"
+	"github.com/familychain/family/command/ibft/propose"
+	"github.com/familychain/family/command/ibft/quorum"
+	"github.com/familychain/family/command/ibft/snapshot"
+	"github.com/familychain/family/command/ibft/status"
+	_switch "github.com/familychain/family/command/ibft/switch"
 	"github.com/spf13/cobra"
 )
 

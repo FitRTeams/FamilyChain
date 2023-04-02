@@ -1,7 +1,7 @@
 package command
 
 import (
-	"github.com/FamilyChain/family/server"
+	"github.com/familychain/family/server"
 	"github.com/umbracle/ethgo"
 )
 

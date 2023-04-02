@@ -6,12 +6,12 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/FamilyChain/family/command"
-	"github.com/FamilyChain/family/helper/common"
+	"github.com/familychain/family/command"
+	"github.com/familychain/family/helper/common"
 	"github.com/spf13/cobra"
 
-	"github.com/FamilyChain/family/command/helper"
-	"github.com/FamilyChain/family/server/proto"
+	"github.com/familychain/family/command/helper"
+	"github.com/familychain/family/server/proto"
 	empty "google.golang.org/protobuf/types/known/emptypb"
 )
 

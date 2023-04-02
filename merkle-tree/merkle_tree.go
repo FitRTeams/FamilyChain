@@ -8,8 +8,8 @@ import (
 	"hash"
 	"math"
 
-	"github.com/FamilyChain/family/crypto"
-	"github.com/FamilyChain/family/types"
+	"github.com/familychain/family/crypto"
+	"github.com/familychain/family/types"
 )
 
 // A Merkle tree example:

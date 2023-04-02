@@ -3,10 +3,10 @@ package polybft
 import (
 	"time"
 
-	"github.com/FamilyChain/family/consensus"
-	"github.com/FamilyChain/family/state"
-	"github.com/FamilyChain/family/txpool"
-	"github.com/FamilyChain/family/types"
+	"github.com/familychain/family/consensus"
+	"github.com/familychain/family/state"
+	"github.com/familychain/family/txpool"
+	"github.com/familychain/family/types"
 	hcf "github.com/hashicorp/go-hclog"
 )
 

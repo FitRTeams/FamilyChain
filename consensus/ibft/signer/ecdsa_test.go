@@ -5,12 +5,12 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/FamilyChain/family/crypto"
-	"github.com/FamilyChain/family/helper/hex"
-	testHelper "github.com/FamilyChain/family/helper/tests"
-	"github.com/FamilyChain/family/secrets"
-	"github.com/FamilyChain/family/types"
-	"github.com/FamilyChain/family/validators"
+	"github.com/familychain/family/crypto"
+	"github.com/familychain/family/helper/hex"
+	testHelper "github.com/familychain/family/helper/tests"
+	"github.com/familychain/family/secrets"
+	"github.com/familychain/family/types"
+	"github.com/familychain/family/validators"
 	"github.com/stretchr/testify/assert"
 )
 

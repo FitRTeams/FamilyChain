@@ -1,10 +1,10 @@
 package secrets
 
 import (
-	"github.com/FamilyChain/family/command/helper"
-	"github.com/FamilyChain/family/command/secrets/generate"
-	initCmd "github.com/FamilyChain/family/command/secrets/init"
-	"github.com/FamilyChain/family/command/secrets/output"
+	"github.com/familychain/family/command/helper"
+	"github.com/familychain/family/command/secrets/generate"
+	initCmd "github.com/familychain/family/command/secrets/init"
+	"github.com/familychain/family/command/secrets/output"
 	"github.com/spf13/cobra"
 )
 

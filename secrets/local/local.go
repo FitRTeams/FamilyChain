@@ -7,8 +7,8 @@ import (
 	"path/filepath"
 	"sync"
 
-	"github.com/FamilyChain/family/helper/common"
-	"github.com/FamilyChain/family/secrets"
+	"github.com/familychain/family/helper/common"
+	"github.com/familychain/family/secrets"
 	"github.com/hashicorp/go-hclog"
 )
 

@@ -7,9 +7,9 @@ import (
 	"io"
 	"os"
 
-	"github.com/FamilyChain/family/helper/common"
-	"github.com/FamilyChain/family/server/proto"
-	"github.com/FamilyChain/family/types"
+	"github.com/familychain/family/helper/common"
+	"github.com/familychain/family/server/proto"
+	"github.com/familychain/family/types"
 	"github.com/hashicorp/go-hclog"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/codes"

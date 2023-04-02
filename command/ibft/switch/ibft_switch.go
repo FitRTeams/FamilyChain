@@ -3,9 +3,9 @@ package ibftswitch
 import (
 	"fmt"
 
-	"github.com/FamilyChain/family/command"
-	"github.com/FamilyChain/family/command/helper"
-	"github.com/FamilyChain/family/validators"
+	"github.com/familychain/family/command"
+	"github.com/familychain/family/command/helper"
+	"github.com/familychain/family/validators"
 	"github.com/spf13/cobra"
 )
 

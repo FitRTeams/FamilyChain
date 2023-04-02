@@ -3,8 +3,8 @@ package polybft
 import (
 	"testing"
 
-	"github.com/FamilyChain/family/consensus/polybft/contractsapi"
-	"github.com/FamilyChain/family/helper/common"
+	"github.com/familychain/family/consensus/polybft/contractsapi"
+	"github.com/familychain/family/helper/common"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"github.com/umbracle/ethgo"

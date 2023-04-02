@@ -4,9 +4,9 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/FamilyChain/family/consensus/polybft/bitmap"
-	bls "github.com/FamilyChain/family/consensus/polybft/signer"
-	"github.com/FamilyChain/family/types"
+	"github.com/familychain/family/consensus/polybft/bitmap"
+	bls "github.com/familychain/family/consensus/polybft/signer"
+	"github.com/familychain/family/types"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

@@ -4,9 +4,9 @@ import (
 	"context"
 	"errors"
 
-	"github.com/FamilyChain/family/network/grpc"
-	"github.com/FamilyChain/family/syncer/proto"
-	"github.com/FamilyChain/family/types"
+	"github.com/familychain/family/network/grpc"
+	"github.com/familychain/family/syncer/proto"
+	"github.com/familychain/family/types"
 	"github.com/golang/protobuf/ptypes/empty"
 )
 

@@ -3,7 +3,7 @@ package polybft
 import (
 	"context"
 
-	"github.com/FamilyChain/go-ibft/core"
+	"github.com/familychain/go-ibft/core"
 )
 
 // IBFTConsensusWrapper is a convenience wrapper for the go-ibft package

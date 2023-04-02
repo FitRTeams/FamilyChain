@@ -1,9 +1,9 @@
 package signer
 
 import (
-	"github.com/FamilyChain/family/secrets"
-	"github.com/FamilyChain/family/types"
-	"github.com/FamilyChain/family/validators"
+	"github.com/familychain/family/secrets"
+	"github.com/familychain/family/types"
+	"github.com/familychain/family/validators"
 )
 
 type MockSecretManager struct {

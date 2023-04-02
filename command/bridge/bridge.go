@@ -3,9 +3,9 @@ package bridge
 import (
 	"github.com/spf13/cobra"
 
-	"github.com/FamilyChain/family/command/bridge/deposit"
-	"github.com/FamilyChain/family/command/bridge/exit"
-	"github.com/FamilyChain/family/command/bridge/withdraw"
+	"github.com/familychain/family/command/bridge/deposit"
+	"github.com/familychain/family/command/bridge/exit"
+	"github.com/familychain/family/command/bridge/withdraw"
 )
 
 // GetCommand creates "bridge" helper command

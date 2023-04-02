@@ -3,7 +3,7 @@ package leveldb
 import (
 	"fmt"
 
-	"github.com/FamilyChain/family/blockchain/storage"
+	"github.com/familychain/family/blockchain/storage"
 	"github.com/hashicorp/go-hclog"
 	"github.com/syndtr/goleveldb/leveldb"
 )

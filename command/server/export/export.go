@@ -5,9 +5,9 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/FamilyChain/family/command"
-	"github.com/FamilyChain/family/command/server/config"
-	"github.com/FamilyChain/family/helper/common"
+	"github.com/familychain/family/command"
+	"github.com/familychain/family/command/server/config"
+	"github.com/familychain/family/helper/common"
 	"github.com/spf13/cobra"
 	"gopkg.in/yaml.v3"
 )

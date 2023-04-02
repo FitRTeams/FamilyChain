@@ -4,7 +4,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/FamilyChain/family/types"
+	"github.com/familychain/family/types"
 )
 
 var (

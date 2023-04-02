@@ -9,10 +9,10 @@ import (
 	"path"
 	"strings"
 
-	"github.com/FamilyChain/family/command"
-	"github.com/FamilyChain/family/command/genesis"
-	"github.com/FamilyChain/family/consensus/polybft"
-	"github.com/FamilyChain/family/types"
+	"github.com/familychain/family/command"
+	"github.com/familychain/family/command/genesis"
+	"github.com/familychain/family/consensus/polybft"
+	"github.com/familychain/family/types"
 	"github.com/multiformats/go-multiaddr"
 	"github.com/spf13/cobra"
 )

@@ -4,8 +4,8 @@ import (
 	"encoding/json"
 	"errors"
 
-	"github.com/FamilyChain/family/helper/common"
-	"github.com/FamilyChain/family/validators"
+	"github.com/familychain/family/helper/common"
+	"github.com/familychain/family/validators"
 )
 
 const (

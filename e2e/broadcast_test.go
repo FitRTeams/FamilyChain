@@ -8,10 +8,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/FamilyChain/family/crypto"
-	"github.com/FamilyChain/family/e2e/framework"
-	"github.com/FamilyChain/family/helper/tests"
-	"github.com/FamilyChain/family/types"
+	"github.com/familychain/family/crypto"
+	"github.com/familychain/family/e2e/framework"
+	"github.com/familychain/family/helper/tests"
+	"github.com/familychain/family/types"
 	"github.com/stretchr/testify/assert"
 )
 

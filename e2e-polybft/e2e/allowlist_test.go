@@ -4,11 +4,11 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/FamilyChain/family/contracts"
-	"github.com/FamilyChain/family/e2e-polybft/framework"
-	"github.com/FamilyChain/family/helper/hex"
-	"github.com/FamilyChain/family/state/runtime/allowlist"
-	"github.com/FamilyChain/family/types"
+	"github.com/familychain/family/contracts"
+	"github.com/familychain/family/e2e-polybft/framework"
+	"github.com/familychain/family/helper/hex"
+	"github.com/familychain/family/state/runtime/allowlist"
+	"github.com/familychain/family/types"
 	"github.com/stretchr/testify/require"
 	"github.com/umbracle/ethgo/wallet"
 )

@@ -7,8 +7,8 @@ import (
 	"io"
 	"testing"
 
-	"github.com/FamilyChain/family/server/proto"
-	"github.com/FamilyChain/family/types"
+	"github.com/familychain/family/server/proto"
+	"github.com/familychain/family/types"
 	"github.com/hashicorp/go-hclog"
 	"github.com/stretchr/testify/assert"
 	"google.golang.org/grpc"

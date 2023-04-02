@@ -5,9 +5,9 @@ import (
 	"os"
 	"testing"
 
-	"github.com/FamilyChain/family/crypto"
-	"github.com/FamilyChain/family/helper/common"
-	"github.com/FamilyChain/family/secrets"
+	"github.com/familychain/family/crypto"
+	"github.com/familychain/family/helper/common"
+	"github.com/familychain/family/secrets"
 	"github.com/hashicorp/go-hclog"
 	libp2pCrypto "github.com/libp2p/go-libp2p/core/crypto"
 	"github.com/stretchr/testify/assert"

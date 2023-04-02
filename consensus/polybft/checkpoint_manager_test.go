@@ -9,21 +9,21 @@ import (
 
 	"github.com/umbracle/ethgo/abi"
 
-	"github.com/FamilyChain/family/consensus/polybft/contractsapi"
-	"github.com/FamilyChain/family/contracts"
-	"github.com/FamilyChain/family/helper/common"
-	"github.com/FamilyChain/family/merkle-tree"
+	"github.com/familychain/family/consensus/polybft/contractsapi"
+	"github.com/familychain/family/contracts"
+	"github.com/familychain/family/helper/common"
+	"github.com/familychain/family/merkle-tree"
 	hclog "github.com/hashicorp/go-hclog"
 	"github.com/stretchr/testify/mock"
 	"github.com/stretchr/testify/require"
 	"github.com/umbracle/ethgo"
 
-	"github.com/FamilyChain/family/consensus/ibft/signer"
-	"github.com/FamilyChain/family/consensus/polybft/bitmap"
-	bls "github.com/FamilyChain/family/consensus/polybft/signer"
-	"github.com/FamilyChain/family/consensus/polybft/wallet"
-	"github.com/FamilyChain/family/txrelayer"
-	"github.com/FamilyChain/family/types"
+	"github.com/familychain/family/consensus/ibft/signer"
+	"github.com/familychain/family/consensus/polybft/bitmap"
+	bls "github.com/familychain/family/consensus/polybft/signer"
+	"github.com/familychain/family/consensus/polybft/wallet"
+	"github.com/familychain/family/txrelayer"
+	"github.com/familychain/family/types"
 )
 
 func TestCheckpointManager_SubmitCheckpoint(t *testing.T) {

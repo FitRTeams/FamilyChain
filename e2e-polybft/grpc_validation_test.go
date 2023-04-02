@@ -5,9 +5,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/FamilyChain/family/e2e-polybft/framework"
-	serverProto "github.com/FamilyChain/family/server/proto"
-	txpoolProto "github.com/FamilyChain/family/txpool/proto"
+	"github.com/familychain/family/e2e-polybft/framework"
+	serverProto "github.com/familychain/family/server/proto"
+	txpoolProto "github.com/familychain/family/txpool/proto"
 	"github.com/stretchr/testify/require"
 	"google.golang.org/protobuf/types/known/emptypb"
 )

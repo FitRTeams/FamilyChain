@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/FamilyChain/family/versioning"
+	"github.com/familychain/family/versioning"
 
 	"github.com/hashicorp/go-hclog"
 	"github.com/stretchr/testify/assert"

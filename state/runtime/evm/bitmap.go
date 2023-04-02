@@ -1,6 +1,6 @@
 package evm
 
-import "github.com/FamilyChain/family/helper/common"
+import "github.com/familychain/family/helper/common"
 
 const bitmapSize = 8
 

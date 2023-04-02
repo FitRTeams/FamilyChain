@@ -3,12 +3,12 @@ package network
 import (
 	"math/big"
 
-	"github.com/FamilyChain/family/network/common"
-	peerEvent "github.com/FamilyChain/family/network/event"
-	"github.com/FamilyChain/family/network/grpc"
-	"github.com/FamilyChain/family/network/identity"
-	"github.com/FamilyChain/family/network/proto"
 	"github.com/armon/go-metrics"
+	"github.com/familychain/family/network/common"
+	peerEvent "github.com/familychain/family/network/event"
+	"github.com/familychain/family/network/grpc"
+	"github.com/familychain/family/network/identity"
+	"github.com/familychain/family/network/proto"
 	kbucket "github.com/libp2p/go-libp2p-kbucket"
 	"github.com/libp2p/go-libp2p-kbucket/keyspace"
 	"github.com/libp2p/go-libp2p/core/network"

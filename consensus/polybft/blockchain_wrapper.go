@@ -8,11 +8,11 @@ import (
 
 	"github.com/hashicorp/go-hclog"
 
-	"github.com/FamilyChain/family/blockchain"
-	"github.com/FamilyChain/family/consensus"
-	"github.com/FamilyChain/family/contracts"
-	"github.com/FamilyChain/family/state"
-	"github.com/FamilyChain/family/types"
+	"github.com/familychain/family/blockchain"
+	"github.com/familychain/family/consensus"
+	"github.com/familychain/family/contracts"
+	"github.com/familychain/family/state"
+	"github.com/familychain/family/types"
 	"github.com/umbracle/ethgo"
 	"github.com/umbracle/ethgo/contract"
 )

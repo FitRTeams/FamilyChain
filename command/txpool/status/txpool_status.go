@@ -3,11 +3,11 @@ package status
 import (
 	"context"
 
-	"github.com/FamilyChain/family/command"
-	"github.com/FamilyChain/family/command/helper"
+	"github.com/familychain/family/command"
+	"github.com/familychain/family/command/helper"
 	"github.com/spf13/cobra"
 
-	txpoolOp "github.com/FamilyChain/family/txpool/proto"
+	txpoolOp "github.com/familychain/family/txpool/proto"
 	empty "google.golang.org/protobuf/types/known/emptypb"
 )
 

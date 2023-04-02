@@ -1,9 +1,9 @@
 package ibft
 
 import (
-	"github.com/FamilyChain/family/network"
-	"github.com/FamilyChain/family/types"
-	"github.com/FamilyChain/go-ibft/messages/proto"
+	"github.com/familychain/family/network"
+	"github.com/familychain/family/types"
+	"github.com/familychain/go-ibft/messages/proto"
 	"github.com/libp2p/go-libp2p/core/peer"
 )
 

@@ -5,13 +5,13 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/FamilyChain/family/chain"
-	"github.com/FamilyChain/family/command"
-	"github.com/FamilyChain/family/command/helper"
-	"github.com/FamilyChain/family/contracts/staking"
-	"github.com/FamilyChain/family/helper/hex"
-	"github.com/FamilyChain/family/helper/predeployment"
-	"github.com/FamilyChain/family/types"
+	"github.com/familychain/family/chain"
+	"github.com/familychain/family/command"
+	"github.com/familychain/family/command/helper"
+	"github.com/familychain/family/contracts/staking"
+	"github.com/familychain/family/helper/hex"
+	"github.com/familychain/family/helper/predeployment"
+	"github.com/familychain/family/types"
 )
 
 const (

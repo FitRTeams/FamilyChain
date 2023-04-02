@@ -7,7 +7,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/FamilyChain/family/helper/hex"
+	"github.com/familychain/family/helper/hex"
 )
 
 type TestCase struct {

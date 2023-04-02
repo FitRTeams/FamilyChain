@@ -3,7 +3,7 @@ package txpool
 import (
 	"sync"
 
-	"github.com/FamilyChain/family/txpool/proto"
+	"github.com/familychain/family/txpool/proto"
 )
 
 type eventQueue struct {

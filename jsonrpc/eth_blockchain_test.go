@@ -5,10 +5,10 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/FamilyChain/family/blockchain"
-	"github.com/FamilyChain/family/helper/progress"
-	"github.com/FamilyChain/family/state/runtime"
-	"github.com/FamilyChain/family/types"
+	"github.com/familychain/family/blockchain"
+	"github.com/familychain/family/helper/progress"
+	"github.com/familychain/family/state/runtime"
+	"github.com/familychain/family/types"
 	"github.com/stretchr/testify/assert"
 )
 

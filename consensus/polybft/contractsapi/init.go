@@ -5,7 +5,7 @@ import (
 	"log"
 	"path"
 
-	"github.com/FamilyChain/family/consensus/polybft/contractsapi/artifact"
+	"github.com/familychain/family/consensus/polybft/contractsapi/artifact"
 )
 
 const (

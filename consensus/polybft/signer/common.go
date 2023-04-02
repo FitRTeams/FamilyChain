@@ -8,7 +8,7 @@ import (
 	"log"
 	"math/big"
 
-	pcrypto "github.com/FamilyChain/family/crypto"
+	pcrypto "github.com/familychain/family/crypto"
 	bn256 "github.com/umbracle/go-eth-bn256"
 )
 

@@ -3,10 +3,10 @@ package precompiled
 import (
 	"errors"
 
-	"github.com/FamilyChain/family/chain"
-	bls "github.com/FamilyChain/family/consensus/polybft/signer"
-	"github.com/FamilyChain/family/state/runtime"
-	"github.com/FamilyChain/family/types"
+	"github.com/familychain/family/chain"
+	bls "github.com/familychain/family/consensus/polybft/signer"
+	"github.com/familychain/family/state/runtime"
+	"github.com/familychain/family/types"
 	"github.com/umbracle/ethgo/abi"
 )
 

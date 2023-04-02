@@ -6,15 +6,15 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/FamilyChain/family/blockchain/storage"
-	"github.com/FamilyChain/family/blockchain/storage/memory"
+	"github.com/familychain/family/blockchain/storage"
+	"github.com/familychain/family/blockchain/storage/memory"
 
-	"github.com/FamilyChain/family/chain"
-	"github.com/FamilyChain/family/state"
-	itrie "github.com/FamilyChain/family/state/immutable-trie"
+	"github.com/familychain/family/chain"
+	"github.com/familychain/family/state"
+	itrie "github.com/familychain/family/state/immutable-trie"
 	"github.com/hashicorp/go-hclog"
 
-	"github.com/FamilyChain/family/types"
+	"github.com/familychain/family/types"
 )
 
 var (

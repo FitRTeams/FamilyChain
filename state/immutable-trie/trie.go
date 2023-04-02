@@ -7,8 +7,8 @@ import (
 	"github.com/umbracle/fastrlp"
 	"golang.org/x/crypto/sha3"
 
-	commonHelpers "github.com/FamilyChain/family/helper/common"
-	"github.com/FamilyChain/family/types"
+	commonHelpers "github.com/familychain/family/helper/common"
+	"github.com/familychain/family/types"
 )
 
 // Node represents a node reference

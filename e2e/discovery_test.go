@@ -7,8 +7,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/FamilyChain/family/e2e/framework"
-	"github.com/FamilyChain/family/server/proto"
+	"github.com/familychain/family/e2e/framework"
+	"github.com/familychain/family/server/proto"
 	empty "google.golang.org/protobuf/types/known/emptypb"
 )
 

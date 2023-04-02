@@ -1,8 +1,8 @@
 package hook
 
 import (
-	"github.com/FamilyChain/family/state"
-	"github.com/FamilyChain/family/types"
+	"github.com/familychain/family/state"
+	"github.com/familychain/family/types"
 )
 
 type ShouldWriteTransactionsFunc func(uint64) bool

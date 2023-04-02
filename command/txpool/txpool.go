@@ -1,9 +1,9 @@
 package txpool
 
 import (
-	"github.com/FamilyChain/family/command/helper"
-	"github.com/FamilyChain/family/command/txpool/status"
-	"github.com/FamilyChain/family/command/txpool/subscribe"
+	"github.com/familychain/family/command/helper"
+	"github.com/familychain/family/command/txpool/status"
+	"github.com/familychain/family/command/txpool/subscribe"
 	"github.com/spf13/cobra"
 )
 

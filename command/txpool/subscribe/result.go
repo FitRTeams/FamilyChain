@@ -4,8 +4,8 @@ import (
 	"bytes"
 	"fmt"
 
-	"github.com/FamilyChain/family/command/helper"
-	txpoolProto "github.com/FamilyChain/family/txpool/proto"
+	"github.com/familychain/family/command/helper"
+	txpoolProto "github.com/familychain/family/txpool/proto"
 )
 
 type TxPoolEventResult struct {

@@ -3,8 +3,8 @@ package wallet
 import (
 	"testing"
 
-	bls "github.com/FamilyChain/family/consensus/polybft/signer"
-	"github.com/FamilyChain/go-ibft/messages/proto"
+	bls "github.com/familychain/family/consensus/polybft/signer"
+	"github.com/familychain/go-ibft/messages/proto"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

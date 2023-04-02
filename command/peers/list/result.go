@@ -4,8 +4,8 @@ import (
 	"bytes"
 	"fmt"
 
-	"github.com/FamilyChain/family/command/helper"
-	"github.com/FamilyChain/family/server/proto"
+	"github.com/familychain/family/command/helper"
+	"github.com/familychain/family/server/proto"
 )
 
 type PeersListResult struct {

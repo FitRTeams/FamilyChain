@@ -6,10 +6,10 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/FamilyChain/family/command"
-	"github.com/FamilyChain/family/command/helper"
-	"github.com/FamilyChain/family/helper/common"
-	txpoolProto "github.com/FamilyChain/family/txpool/proto"
+	"github.com/familychain/family/command"
+	"github.com/familychain/family/command/helper"
+	"github.com/familychain/family/helper/common"
+	txpoolProto "github.com/familychain/family/txpool/proto"
 	"github.com/spf13/cobra"
 )
 

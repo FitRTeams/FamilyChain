@@ -4,9 +4,9 @@ import (
 	"bytes"
 	"fmt"
 
-	"github.com/FamilyChain/family/command"
-	itrie "github.com/FamilyChain/family/state/immutable-trie"
-	"github.com/FamilyChain/family/types"
+	"github.com/familychain/family/command"
+	itrie "github.com/familychain/family/state/immutable-trie"
+	"github.com/familychain/family/types"
 	"github.com/spf13/cobra"
 	"github.com/syndtr/goleveldb/leveldb"
 	"github.com/syndtr/goleveldb/leveldb/opt"

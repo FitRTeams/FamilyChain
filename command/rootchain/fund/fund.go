@@ -7,9 +7,9 @@ import (
 	"github.com/spf13/cobra"
 	"github.com/umbracle/ethgo"
 
-	"github.com/FamilyChain/family/command"
-	"github.com/FamilyChain/family/txrelayer"
-	"github.com/FamilyChain/family/types"
+	"github.com/familychain/family/command"
+	"github.com/familychain/family/txrelayer"
+	"github.com/familychain/family/types"
 )
 
 var (

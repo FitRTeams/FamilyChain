@@ -9,13 +9,13 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/FamilyChain/family/chain"
-	"github.com/FamilyChain/family/crypto"
-	"github.com/FamilyChain/family/helper/hex"
-	"github.com/FamilyChain/family/state"
-	itrie "github.com/FamilyChain/family/state/immutable-trie"
-	"github.com/FamilyChain/family/state/runtime"
-	"github.com/FamilyChain/family/types"
+	"github.com/familychain/family/chain"
+	"github.com/familychain/family/crypto"
+	"github.com/familychain/family/helper/hex"
+	"github.com/familychain/family/state"
+	itrie "github.com/familychain/family/state/immutable-trie"
+	"github.com/familychain/family/state/runtime"
+	"github.com/familychain/family/types"
 )
 
 // TESTS is the default location of the tests folder

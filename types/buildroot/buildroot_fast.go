@@ -4,7 +4,7 @@ import (
 	"encoding/binary"
 	"sync"
 
-	"github.com/FamilyChain/family/helper/keccak"
+	"github.com/familychain/family/helper/keccak"
 )
 
 func min(i, j int) int {

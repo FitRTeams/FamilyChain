@@ -1,6 +1,6 @@
 package subscribe
 
-import "github.com/FamilyChain/family/txpool/proto"
+import "github.com/familychain/family/txpool/proto"
 
 var (
 	params = &subscribeParams{}

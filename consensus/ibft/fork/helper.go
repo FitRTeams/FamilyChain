@@ -4,8 +4,8 @@ import (
 	"encoding/json"
 	"os"
 
-	"github.com/FamilyChain/family/helper/common"
-	"github.com/FamilyChain/family/validators/store/snapshot"
+	"github.com/familychain/family/helper/common"
+	"github.com/familychain/family/validators/store/snapshot"
 )
 
 // loadSnapshotMetadata loads Metadata from file

@@ -5,8 +5,8 @@ import (
 
 	lru "github.com/hashicorp/golang-lru"
 
-	"github.com/FamilyChain/family/state"
-	"github.com/FamilyChain/family/types"
+	"github.com/familychain/family/state"
+	"github.com/familychain/family/types"
 )
 
 type State struct {

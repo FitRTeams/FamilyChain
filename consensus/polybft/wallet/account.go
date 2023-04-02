@@ -5,8 +5,8 @@ import (
 	"encoding/hex"
 	"fmt"
 
-	bls "github.com/FamilyChain/family/consensus/polybft/signer"
-	"github.com/FamilyChain/family/secrets"
+	bls "github.com/familychain/family/consensus/polybft/signer"
+	"github.com/familychain/family/secrets"
 	"github.com/umbracle/ethgo/wallet"
 )
 

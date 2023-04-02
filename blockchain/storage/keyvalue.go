@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/FamilyChain/family/types"
+	"github.com/familychain/family/types"
 	"github.com/hashicorp/go-hclog"
 	"github.com/umbracle/fastrlp"
 )

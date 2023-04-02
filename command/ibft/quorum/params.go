@@ -5,10 +5,10 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/FamilyChain/family/chain"
-	"github.com/FamilyChain/family/command"
-	"github.com/FamilyChain/family/command/helper"
-	"github.com/FamilyChain/family/helper/common"
+	"github.com/familychain/family/chain"
+	"github.com/familychain/family/command"
+	"github.com/familychain/family/command/helper"
+	"github.com/familychain/family/helper/common"
 )
 
 const (

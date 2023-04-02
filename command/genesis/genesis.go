@@ -3,12 +3,12 @@ package genesis
 import (
 	"fmt"
 
-	"github.com/FamilyChain/family/command"
-	"github.com/FamilyChain/family/command/genesis/predeploy"
-	"github.com/FamilyChain/family/command/helper"
-	"github.com/FamilyChain/family/consensus/ibft"
-	"github.com/FamilyChain/family/helper/common"
-	"github.com/FamilyChain/family/validators"
+	"github.com/familychain/family/command"
+	"github.com/familychain/family/command/genesis/predeploy"
+	"github.com/familychain/family/command/helper"
+	"github.com/familychain/family/consensus/ibft"
+	"github.com/familychain/family/helper/common"
+	"github.com/familychain/family/validators"
 	"github.com/spf13/cobra"
 )
 

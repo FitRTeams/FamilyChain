@@ -6,10 +6,10 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/FamilyChain/family/crypto"
-	"github.com/FamilyChain/family/types"
-	"github.com/FamilyChain/family/validators"
-	"github.com/FamilyChain/family/validators/store"
+	"github.com/familychain/family/crypto"
+	"github.com/familychain/family/types"
+	"github.com/familychain/family/validators"
+	"github.com/familychain/family/validators/store"
 	"github.com/stretchr/testify/assert"
 )
 

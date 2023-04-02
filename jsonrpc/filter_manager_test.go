@@ -11,8 +11,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/FamilyChain/family/blockchain"
-	"github.com/FamilyChain/family/types"
+	"github.com/familychain/family/blockchain"
+	"github.com/familychain/family/types"
 	"github.com/gorilla/websocket"
 	"github.com/hashicorp/go-hclog"
 	"github.com/stretchr/testify/assert"

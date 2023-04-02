@@ -5,12 +5,12 @@ import (
 	"os"
 	"strings"
 
-	"github.com/FamilyChain/family/crypto"
-	"github.com/FamilyChain/family/helper/common"
-	"github.com/FamilyChain/family/secrets"
-	"github.com/FamilyChain/family/secrets/local"
-	"github.com/FamilyChain/family/types"
-	"github.com/FamilyChain/family/validators"
+	"github.com/familychain/family/crypto"
+	"github.com/familychain/family/helper/common"
+	"github.com/familychain/family/secrets"
+	"github.com/familychain/family/secrets/local"
+	"github.com/familychain/family/types"
+	"github.com/familychain/family/validators"
 	"github.com/hashicorp/go-hclog"
 )
 

@@ -1,4 +1,4 @@
-module github.com/FamilyChain/family
+module github.com/familychain/family
 
 go 1.18
 
@@ -61,7 +61,7 @@ require (
 )
 
 require (
-	github.com/FamilyChain/go-ibft v0.4.0
+	github.com/familychain/go-ibft v0.4.0
 	github.com/docker/docker v20.10.18+incompatible
 	github.com/docker/go-connections v0.4.0
 	go.etcd.io/bbolt v1.3.6

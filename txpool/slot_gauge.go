@@ -3,7 +3,7 @@ package txpool
 import (
 	"sync/atomic"
 
-	"github.com/FamilyChain/family/types"
+	"github.com/familychain/family/types"
 )
 
 const (

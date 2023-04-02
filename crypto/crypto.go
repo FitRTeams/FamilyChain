@@ -10,12 +10,12 @@ import (
 	"hash"
 	"math/big"
 
-	"github.com/FamilyChain/family/helper/hex"
-	"github.com/FamilyChain/family/helper/keystore"
-	"github.com/FamilyChain/family/secrets"
-	"github.com/FamilyChain/family/types"
 	"github.com/btcsuite/btcd/btcec"
 	"github.com/coinbase/kryptology/pkg/signatures/bls/bls_sig"
+	"github.com/familychain/family/helper/hex"
+	"github.com/familychain/family/helper/keystore"
+	"github.com/familychain/family/secrets"
+	"github.com/familychain/family/types"
 	"github.com/umbracle/fastrlp"
 	"golang.org/x/crypto/sha3"
 )

@@ -7,7 +7,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/FamilyChain/family/helper/common"
+	"github.com/familychain/family/helper/common"
 	"github.com/hashicorp/go-hclog"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"

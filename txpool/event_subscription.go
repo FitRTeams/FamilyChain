@@ -1,7 +1,7 @@
 package txpool
 
 import (
-	"github.com/FamilyChain/family/txpool/proto"
+	"github.com/familychain/family/txpool/proto"
 )
 
 type subscriptionID int32

@@ -7,8 +7,8 @@ import (
 	"net"
 	"testing"
 
-	"github.com/FamilyChain/family/syncer/proto"
-	"github.com/FamilyChain/family/types"
+	"github.com/familychain/family/syncer/proto"
+	"github.com/familychain/family/types"
 	"github.com/stretchr/testify/assert"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials/insecure"

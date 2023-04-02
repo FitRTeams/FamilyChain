@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/FamilyChain/family/helper/progress"
-	"github.com/FamilyChain/family/network/event"
-	"github.com/FamilyChain/family/types"
+	"github.com/familychain/family/helper/progress"
+	"github.com/familychain/family/network/event"
+	"github.com/familychain/family/types"
 	"github.com/hashicorp/go-hclog"
 	"github.com/libp2p/go-libp2p/core/peer"
 )

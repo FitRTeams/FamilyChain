@@ -1,9 +1,9 @@
 package buildroot
 
 import (
-	"github.com/FamilyChain/family/helper/keccak"
-	itrie "github.com/FamilyChain/family/state/immutable-trie"
-	"github.com/FamilyChain/family/types"
+	"github.com/familychain/family/helper/keccak"
+	itrie "github.com/familychain/family/state/immutable-trie"
+	"github.com/familychain/family/types"
 	"github.com/umbracle/fastrlp"
 )
 

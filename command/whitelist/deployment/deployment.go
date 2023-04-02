@@ -3,7 +3,7 @@ package deployment
 import (
 	"fmt"
 
-	"github.com/FamilyChain/family/command"
+	"github.com/familychain/family/command"
 	"github.com/spf13/cobra"
 )
 

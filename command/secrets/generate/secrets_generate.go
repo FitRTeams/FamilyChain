@@ -3,11 +3,11 @@ package generate
 import (
 	"fmt"
 
-	"github.com/FamilyChain/family/command"
-	"github.com/FamilyChain/family/command/helper"
+	"github.com/familychain/family/command"
+	"github.com/familychain/family/command/helper"
 	"github.com/spf13/cobra"
 
-	"github.com/FamilyChain/family/secrets"
+	"github.com/familychain/family/secrets"
 )
 
 func GetCommand() *cobra.Command {

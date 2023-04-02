@@ -4,8 +4,8 @@ import (
 	"math"
 	"testing"
 
-	"github.com/FamilyChain/family/helper/common"
-	"github.com/FamilyChain/family/types"
+	"github.com/familychain/family/helper/common"
+	"github.com/familychain/family/types"
 	"github.com/stretchr/testify/require"
 )
 

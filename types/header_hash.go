@@ -1,7 +1,7 @@
 package types
 
 import (
-	"github.com/FamilyChain/family/helper/keccak"
+	"github.com/familychain/family/helper/keccak"
 	"github.com/umbracle/fastrlp"
 )
 

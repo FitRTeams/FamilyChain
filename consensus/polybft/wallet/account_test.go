@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/FamilyChain/family/secrets"
+	"github.com/familychain/family/secrets"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

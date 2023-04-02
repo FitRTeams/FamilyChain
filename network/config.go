@@ -3,8 +3,8 @@ package network
 import (
 	"net"
 
-	"github.com/FamilyChain/family/chain"
-	"github.com/FamilyChain/family/secrets"
+	"github.com/familychain/family/chain"
+	"github.com/familychain/family/secrets"
 	"github.com/multiformats/go-multiaddr"
 )
 

@@ -3,9 +3,9 @@ package fund
 import (
 	"errors"
 
-	"github.com/FamilyChain/family/secrets"
-	"github.com/FamilyChain/family/secrets/helper"
-	"github.com/FamilyChain/family/types"
+	"github.com/familychain/family/secrets"
+	"github.com/familychain/family/secrets/helper"
+	"github.com/familychain/family/types"
 )
 
 const (

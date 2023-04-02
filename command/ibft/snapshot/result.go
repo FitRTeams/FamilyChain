@@ -4,10 +4,10 @@ import (
 	"bytes"
 	"fmt"
 
-	"github.com/FamilyChain/family/command/helper"
-	ibftHelper "github.com/FamilyChain/family/command/ibft/helper"
-	ibftOp "github.com/FamilyChain/family/consensus/ibft/proto"
-	"github.com/FamilyChain/family/validators"
+	"github.com/familychain/family/command/helper"
+	ibftHelper "github.com/familychain/family/command/ibft/helper"
+	ibftOp "github.com/familychain/family/consensus/ibft/proto"
+	"github.com/familychain/family/validators"
 )
 
 type IBFTSnapshotVote struct {

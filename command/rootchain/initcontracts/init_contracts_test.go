@@ -4,9 +4,9 @@ import (
 	"os"
 	"testing"
 
-	"github.com/FamilyChain/family/command"
-	"github.com/FamilyChain/family/command/rootchain/helper"
-	"github.com/FamilyChain/family/consensus/polybft"
+	"github.com/familychain/family/command"
+	"github.com/familychain/family/command/rootchain/helper"
+	"github.com/familychain/family/consensus/polybft"
 	"github.com/stretchr/testify/require"
 	"github.com/umbracle/ethgo/jsonrpc"
 	"github.com/umbracle/ethgo/testutil"

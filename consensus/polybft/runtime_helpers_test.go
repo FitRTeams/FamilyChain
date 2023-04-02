@@ -3,9 +3,9 @@ package polybft
 import (
 	"testing"
 
-	"github.com/FamilyChain/family/blockchain"
-	"github.com/FamilyChain/family/consensus/polybft/bitmap"
-	"github.com/FamilyChain/family/types"
+	"github.com/familychain/family/blockchain"
+	"github.com/familychain/family/consensus/polybft/bitmap"
+	"github.com/familychain/family/types"
 	"github.com/stretchr/testify/mock"
 	"github.com/stretchr/testify/require"
 )

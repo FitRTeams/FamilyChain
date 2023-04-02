@@ -6,13 +6,13 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/FamilyChain/family/network/common"
-	"github.com/FamilyChain/family/network/event"
+	"github.com/familychain/family/network/common"
+	"github.com/familychain/family/network/event"
 	"github.com/hashicorp/go-hclog"
 	"github.com/libp2p/go-libp2p/core/network"
 
-	"github.com/FamilyChain/family/network/grpc"
-	"github.com/FamilyChain/family/network/proto"
+	"github.com/familychain/family/network/grpc"
+	"github.com/familychain/family/network/proto"
 	kb "github.com/libp2p/go-libp2p-kbucket"
 	"github.com/libp2p/go-libp2p/core/peer"
 )

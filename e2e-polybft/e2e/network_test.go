@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/FamilyChain/family/e2e-polybft/framework"
+	"github.com/familychain/family/e2e-polybft/framework"
 	"github.com/stretchr/testify/assert"
 	"google.golang.org/protobuf/types/known/emptypb"
 )

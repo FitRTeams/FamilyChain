@@ -3,10 +3,10 @@ package backup
 import (
 	"errors"
 
-	"github.com/FamilyChain/family/archive"
-	"github.com/FamilyChain/family/command"
-	"github.com/FamilyChain/family/command/helper"
-	"github.com/FamilyChain/family/types"
+	"github.com/familychain/family/archive"
+	"github.com/familychain/family/command"
+	"github.com/familychain/family/command/helper"
+	"github.com/familychain/family/types"
 	"github.com/hashicorp/go-hclog"
 )
 

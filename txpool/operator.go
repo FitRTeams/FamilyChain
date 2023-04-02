@@ -4,8 +4,8 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/FamilyChain/family/txpool/proto"
-	"github.com/FamilyChain/family/types"
+	"github.com/familychain/family/txpool/proto"
+	"github.com/familychain/family/types"
 	empty "google.golang.org/protobuf/types/known/emptypb"
 )
 

@@ -6,11 +6,11 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/FamilyChain/family/command"
-	"github.com/FamilyChain/family/helper/common"
-	"github.com/FamilyChain/family/secrets"
-	"github.com/FamilyChain/family/secrets/helper"
-	"github.com/FamilyChain/family/types"
+	"github.com/familychain/family/command"
+	"github.com/familychain/family/helper/common"
+	"github.com/familychain/family/secrets"
+	"github.com/familychain/family/secrets/helper"
+	"github.com/familychain/family/types"
 )
 
 const (

@@ -7,15 +7,15 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/FamilyChain/family/state"
+	"github.com/familychain/family/state"
 	"github.com/hashicorp/go-hclog"
 
-	"github.com/FamilyChain/family/chain"
+	"github.com/familychain/family/chain"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/FamilyChain/family/blockchain/storage"
-	"github.com/FamilyChain/family/blockchain/storage/memory"
-	"github.com/FamilyChain/family/types"
+	"github.com/familychain/family/blockchain/storage"
+	"github.com/familychain/family/blockchain/storage/memory"
+	"github.com/familychain/family/types"
 )
 
 func TestGenesis(t *testing.T) {

@@ -5,7 +5,7 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/FamilyChain/family/command"
+	"github.com/familychain/family/command"
 )
 
 const (

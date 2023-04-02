@@ -1,8 +1,8 @@
 package snapshot
 
 import (
-	"github.com/FamilyChain/family/types"
-	"github.com/FamilyChain/family/validators"
+	"github.com/familychain/family/types"
+	"github.com/familychain/family/validators"
 )
 
 // isAuthorize is a helper function to return the bool value from Nonce

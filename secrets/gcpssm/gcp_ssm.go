@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/FamilyChain/family/secrets"
+	"github.com/familychain/family/secrets"
 	"github.com/hashicorp/go-hclog"
 
 	sm "cloud.google.com/go/secretmanager/apiv1"

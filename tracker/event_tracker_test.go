@@ -8,7 +8,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/FamilyChain/family/types"
+	"github.com/familychain/family/types"
 	"github.com/hashicorp/go-hclog"
 	"github.com/stretchr/testify/require"
 	"github.com/umbracle/ethgo"

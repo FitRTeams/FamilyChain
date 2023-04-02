@@ -4,8 +4,8 @@ import (
 	"context"
 	"time"
 
-	"github.com/FamilyChain/family/network/event"
-	"github.com/FamilyChain/family/network/proto"
+	"github.com/familychain/family/network/event"
+	"github.com/familychain/family/network/proto"
 	"github.com/libp2p/go-libp2p/core/network"
 	"github.com/libp2p/go-libp2p/core/peer"
 	"google.golang.org/grpc"

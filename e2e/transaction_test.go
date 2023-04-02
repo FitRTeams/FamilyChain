@@ -14,13 +14,13 @@ import (
 
 	"github.com/umbracle/ethgo"
 
-	"github.com/FamilyChain/family/chain"
-	"github.com/FamilyChain/family/contracts/abis"
-	"github.com/FamilyChain/family/crypto"
-	"github.com/FamilyChain/family/e2e/framework"
-	"github.com/FamilyChain/family/helper/tests"
-	"github.com/FamilyChain/family/types"
-	"github.com/FamilyChain/family/validators"
+	"github.com/familychain/family/chain"
+	"github.com/familychain/family/contracts/abis"
+	"github.com/familychain/family/crypto"
+	"github.com/familychain/family/e2e/framework"
+	"github.com/familychain/family/helper/tests"
+	"github.com/familychain/family/types"
+	"github.com/familychain/family/validators"
 	"github.com/stretchr/testify/assert"
 	"github.com/umbracle/ethgo/jsonrpc"
 )

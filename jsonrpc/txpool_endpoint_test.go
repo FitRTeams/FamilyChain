@@ -5,7 +5,7 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/FamilyChain/family/types"
+	"github.com/familychain/family/types"
 
 	"github.com/stretchr/testify/assert"
 )

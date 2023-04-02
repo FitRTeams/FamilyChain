@@ -1,8 +1,8 @@
 package whitelist
 
 import (
-	"github.com/FamilyChain/family/command/whitelist/deployment"
-	"github.com/FamilyChain/family/command/whitelist/show"
+	"github.com/familychain/family/command/whitelist/deployment"
+	"github.com/familychain/family/command/whitelist/show"
 	"github.com/spf13/cobra"
 )
 

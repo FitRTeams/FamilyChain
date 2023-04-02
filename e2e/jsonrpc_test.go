@@ -6,8 +6,8 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/FamilyChain/family/e2e/framework"
-	"github.com/FamilyChain/family/types"
+	"github.com/familychain/family/e2e/framework"
+	"github.com/familychain/family/types"
 	"github.com/stretchr/testify/require"
 	"github.com/umbracle/ethgo"
 	"github.com/umbracle/ethgo/wallet"

@@ -11,14 +11,14 @@ import (
 	"testing"
 	"time"
 
-	"github.com/FamilyChain/family/command"
-	"github.com/FamilyChain/family/helper/hex"
-	"github.com/FamilyChain/family/types"
+	"github.com/familychain/family/command"
+	"github.com/familychain/family/helper/hex"
+	"github.com/familychain/family/types"
 	"github.com/umbracle/ethgo"
 	"github.com/umbracle/ethgo/abi"
 
-	"github.com/FamilyChain/family/e2e/framework"
-	"github.com/FamilyChain/family/helper/tests"
+	"github.com/familychain/family/e2e/framework"
+	"github.com/familychain/family/helper/tests"
 	"github.com/stretchr/testify/assert"
 )
 

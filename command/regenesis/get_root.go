@@ -3,7 +3,7 @@ package regenesis
 import (
 	"fmt"
 
-	"github.com/FamilyChain/family/command"
+	"github.com/familychain/family/command"
 	"github.com/spf13/cobra"
 	"github.com/umbracle/ethgo"
 	"github.com/umbracle/ethgo/jsonrpc"

@@ -4,8 +4,8 @@ import (
 	"context"
 	"math"
 
-	"github.com/FamilyChain/family/command/helper"
-	ibftOp "github.com/FamilyChain/family/consensus/ibft/proto"
+	"github.com/familychain/family/command/helper"
+	ibftOp "github.com/familychain/family/consensus/ibft/proto"
 )
 
 const (

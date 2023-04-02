@@ -3,8 +3,8 @@ package ibft
 import (
 	"testing"
 
-	"github.com/FamilyChain/family/consensus/ibft/signer"
-	"github.com/FamilyChain/family/types"
+	"github.com/familychain/family/consensus/ibft/signer"
+	"github.com/familychain/family/types"
 	"github.com/stretchr/testify/assert"
 )
 

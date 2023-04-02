@@ -8,10 +8,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/FamilyChain/family/network/common"
-	peerEvent "github.com/FamilyChain/family/network/event"
+	"github.com/familychain/family/network/common"
+	peerEvent "github.com/familychain/family/network/event"
 
-	"github.com/FamilyChain/family/helper/tests"
+	"github.com/familychain/family/helper/tests"
 
 	"github.com/libp2p/go-libp2p/core/crypto"
 	"github.com/libp2p/go-libp2p/core/network"

@@ -6,10 +6,10 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/FamilyChain/family/blockchain"
-	"github.com/FamilyChain/family/network/common"
-	"github.com/FamilyChain/family/server/proto"
-	"github.com/FamilyChain/family/types"
+	"github.com/familychain/family/blockchain"
+	"github.com/familychain/family/network/common"
+	"github.com/familychain/family/server/proto"
+	"github.com/familychain/family/types"
 	"github.com/libp2p/go-libp2p/core/peer"
 	empty "google.golang.org/protobuf/types/known/emptypb"
 )

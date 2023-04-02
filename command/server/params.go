@@ -4,11 +4,11 @@ import (
 	"errors"
 	"net"
 
-	"github.com/FamilyChain/family/chain"
-	"github.com/FamilyChain/family/command/server/config"
-	"github.com/FamilyChain/family/network"
-	"github.com/FamilyChain/family/secrets"
-	"github.com/FamilyChain/family/server"
+	"github.com/familychain/family/chain"
+	"github.com/familychain/family/command/server/config"
+	"github.com/familychain/family/network"
+	"github.com/familychain/family/secrets"
+	"github.com/familychain/family/server"
 	"github.com/hashicorp/go-hclog"
 	"github.com/multiformats/go-multiaddr"
 )

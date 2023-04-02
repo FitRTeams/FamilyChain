@@ -6,7 +6,7 @@ import (
 	"io/ioutil"
 	"path/filepath"
 
-	"github.com/FamilyChain/family/helper/hex"
+	"github.com/familychain/family/helper/hex"
 	"github.com/umbracle/ethgo/abi"
 )
 

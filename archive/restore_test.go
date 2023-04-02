@@ -8,9 +8,9 @@ import (
 	"os"
 	"testing"
 
-	"github.com/FamilyChain/family/blockchain"
-	"github.com/FamilyChain/family/helper/progress"
-	"github.com/FamilyChain/family/types"
+	"github.com/familychain/family/blockchain"
+	"github.com/familychain/family/helper/progress"
+	"github.com/familychain/family/types"
 	"github.com/stretchr/testify/assert"
 )
 

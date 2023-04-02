@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/FamilyChain/family/chain"
+	"github.com/familychain/family/chain"
 	"github.com/stretchr/testify/assert"
 )
 

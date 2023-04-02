@@ -1,8 +1,8 @@
 package signer
 
 import (
-	"github.com/FamilyChain/family/types"
-	"github.com/FamilyChain/family/validators"
+	"github.com/familychain/family/types"
+	"github.com/familychain/family/validators"
 )
 
 // KeyManager is a delegated module that signs data

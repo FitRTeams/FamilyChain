@@ -7,12 +7,12 @@ import (
 	"path"
 	"testing"
 
-	"github.com/FamilyChain/family/crypto"
-	testHelper "github.com/FamilyChain/family/helper/tests"
-	"github.com/FamilyChain/family/types"
-	"github.com/FamilyChain/family/validators"
-	"github.com/FamilyChain/family/validators/store"
-	"github.com/FamilyChain/family/validators/store/snapshot"
+	"github.com/familychain/family/crypto"
+	testHelper "github.com/familychain/family/helper/tests"
+	"github.com/familychain/family/types"
+	"github.com/familychain/family/validators"
+	"github.com/familychain/family/validators/store"
+	"github.com/familychain/family/validators/store/snapshot"
 	"github.com/stretchr/testify/assert"
 )
 

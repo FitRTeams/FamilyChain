@@ -3,11 +3,11 @@ package validators
 import (
 	"fmt"
 
-	"github.com/FamilyChain/family/command"
-	"github.com/FamilyChain/family/command/helper"
-	"github.com/FamilyChain/family/command/polybftsecrets"
-	sidechainHelper "github.com/FamilyChain/family/command/sidechain"
-	"github.com/FamilyChain/family/txrelayer"
+	"github.com/familychain/family/command"
+	"github.com/familychain/family/command/helper"
+	"github.com/familychain/family/command/polybftsecrets"
+	sidechainHelper "github.com/familychain/family/command/sidechain"
+	"github.com/familychain/family/txrelayer"
 	"github.com/spf13/cobra"
 )
 

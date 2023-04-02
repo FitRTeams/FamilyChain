@@ -4,7 +4,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/FamilyChain/family/blockchain/storage"
+	"github.com/familychain/family/blockchain/storage"
 	"github.com/hashicorp/go-hclog"
 )
 

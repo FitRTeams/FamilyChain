@@ -3,9 +3,9 @@ package init
 import (
 	"errors"
 
-	"github.com/FamilyChain/family/command"
-	"github.com/FamilyChain/family/secrets"
-	"github.com/FamilyChain/family/secrets/helper"
+	"github.com/familychain/family/command"
+	"github.com/familychain/family/secrets"
+	"github.com/familychain/family/secrets/helper"
 )
 
 const (

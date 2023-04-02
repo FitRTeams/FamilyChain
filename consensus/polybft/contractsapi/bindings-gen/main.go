@@ -11,8 +11,8 @@ import (
 	"strings"
 	"text/template"
 
-	gensc "github.com/FamilyChain/family/consensus/polybft/contractsapi"
-	"github.com/FamilyChain/family/consensus/polybft/contractsapi/artifact"
+	gensc "github.com/familychain/family/consensus/polybft/contractsapi"
+	"github.com/familychain/family/consensus/polybft/contractsapi/artifact"
 	"github.com/umbracle/ethgo/abi"
 )
 
@@ -168,7 +168,7 @@ package contractsapi
 import (
 	"math/big"
 
-	"github.com/FamilyChain/family/types"
+	"github.com/familychain/family/types"
 	"github.com/umbracle/ethgo/abi"
 	"github.com/umbracle/ethgo"
 )

@@ -14,16 +14,16 @@ import (
 	"github.com/umbracle/ethgo"
 	ethgow "github.com/umbracle/ethgo/wallet"
 
-	"github.com/FamilyChain/family/command/genesis"
-	rootchainHelper "github.com/FamilyChain/family/command/rootchain/helper"
-	"github.com/FamilyChain/family/command/sidechain"
-	"github.com/FamilyChain/family/consensus/polybft"
-	"github.com/FamilyChain/family/consensus/polybft/contractsapi"
-	"github.com/FamilyChain/family/contracts"
-	"github.com/FamilyChain/family/e2e-polybft/framework"
+	"github.com/familychain/family/command/genesis"
+	rootchainHelper "github.com/familychain/family/command/rootchain/helper"
+	"github.com/familychain/family/command/sidechain"
+	"github.com/familychain/family/consensus/polybft"
+	"github.com/familychain/family/consensus/polybft/contractsapi"
+	"github.com/familychain/family/contracts"
+	"github.com/familychain/family/e2e-polybft/framework"
 
-	"github.com/FamilyChain/family/txrelayer"
-	"github.com/FamilyChain/family/types"
+	"github.com/familychain/family/txrelayer"
+	"github.com/familychain/family/types"
 )
 
 const (

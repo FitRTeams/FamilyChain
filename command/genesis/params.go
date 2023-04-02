@@ -5,17 +5,17 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/FamilyChain/family/chain"
-	"github.com/FamilyChain/family/command"
-	"github.com/FamilyChain/family/command/helper"
-	"github.com/FamilyChain/family/consensus/ibft"
-	"github.com/FamilyChain/family/consensus/ibft/fork"
-	"github.com/FamilyChain/family/consensus/ibft/signer"
-	"github.com/FamilyChain/family/contracts/staking"
-	stakingHelper "github.com/FamilyChain/family/helper/staking"
-	"github.com/FamilyChain/family/server"
-	"github.com/FamilyChain/family/types"
-	"github.com/FamilyChain/family/validators"
+	"github.com/familychain/family/chain"
+	"github.com/familychain/family/command"
+	"github.com/familychain/family/command/helper"
+	"github.com/familychain/family/consensus/ibft"
+	"github.com/familychain/family/consensus/ibft/fork"
+	"github.com/familychain/family/consensus/ibft/signer"
+	"github.com/familychain/family/contracts/staking"
+	stakingHelper "github.com/familychain/family/helper/staking"
+	"github.com/familychain/family/server"
+	"github.com/familychain/family/types"
+	"github.com/familychain/family/validators"
 )
 
 const (

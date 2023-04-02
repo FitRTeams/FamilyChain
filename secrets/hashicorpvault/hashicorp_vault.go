@@ -4,7 +4,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/FamilyChain/family/secrets"
+	"github.com/familychain/family/secrets"
 	"github.com/hashicorp/go-hclog"
 	vault "github.com/hashicorp/vault/api"
 )

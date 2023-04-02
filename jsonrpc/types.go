@@ -5,8 +5,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/FamilyChain/family/helper/hex"
-	"github.com/FamilyChain/family/types"
+	"github.com/familychain/family/helper/hex"
+	"github.com/familychain/family/types"
 )
 
 // For union type of transaction and types.Hash

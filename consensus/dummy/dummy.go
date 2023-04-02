@@ -1,12 +1,12 @@
 package dummy
 
 import (
-	"github.com/FamilyChain/family/blockchain"
-	"github.com/FamilyChain/family/consensus"
-	"github.com/FamilyChain/family/helper/progress"
-	"github.com/FamilyChain/family/state"
-	"github.com/FamilyChain/family/txpool"
-	"github.com/FamilyChain/family/types"
+	"github.com/familychain/family/blockchain"
+	"github.com/familychain/family/consensus"
+	"github.com/familychain/family/helper/progress"
+	"github.com/familychain/family/state"
+	"github.com/familychain/family/txpool"
+	"github.com/familychain/family/types"
 	"github.com/hashicorp/go-hclog"
 )
 

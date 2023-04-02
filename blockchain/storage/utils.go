@@ -1,7 +1,7 @@
 package storage
 
 import (
-	"github.com/FamilyChain/family/types"
+	"github.com/familychain/family/types"
 	"github.com/umbracle/fastrlp"
 )
 

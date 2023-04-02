@@ -12,14 +12,14 @@ import (
 	"github.com/umbracle/ethgo"
 	"github.com/umbracle/ethgo/jsonrpc"
 
-	"github.com/FamilyChain/family/command"
-	"github.com/FamilyChain/family/command/bridge/common"
-	cmdHelper "github.com/FamilyChain/family/command/helper"
-	"github.com/FamilyChain/family/command/rootchain/helper"
-	"github.com/FamilyChain/family/consensus/polybft"
-	"github.com/FamilyChain/family/consensus/polybft/contractsapi"
-	"github.com/FamilyChain/family/txrelayer"
-	"github.com/FamilyChain/family/types"
+	"github.com/familychain/family/command"
+	"github.com/familychain/family/command/bridge/common"
+	cmdHelper "github.com/familychain/family/command/helper"
+	"github.com/familychain/family/command/rootchain/helper"
+	"github.com/familychain/family/consensus/polybft"
+	"github.com/familychain/family/consensus/polybft/contractsapi"
+	"github.com/familychain/family/txrelayer"
+	"github.com/familychain/family/types"
 )
 
 const (

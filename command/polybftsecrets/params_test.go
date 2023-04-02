@@ -6,8 +6,8 @@ import (
 	"path"
 	"testing"
 
-	bls "github.com/FamilyChain/family/consensus/polybft/signer"
-	"github.com/FamilyChain/family/secrets/helper"
+	bls "github.com/familychain/family/consensus/polybft/signer"
+	"github.com/familychain/family/secrets/helper"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"github.com/umbracle/ethgo/wallet"

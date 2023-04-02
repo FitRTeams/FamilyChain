@@ -6,16 +6,16 @@ import (
 	"math"
 	"net"
 
-	"github.com/FamilyChain/family/command/server/config"
+	"github.com/familychain/family/command/server/config"
 
-	"github.com/FamilyChain/family/network/common"
+	"github.com/familychain/family/network/common"
 
-	"github.com/FamilyChain/family/chain"
-	"github.com/FamilyChain/family/command/helper"
-	"github.com/FamilyChain/family/network"
-	"github.com/FamilyChain/family/secrets"
-	"github.com/FamilyChain/family/server"
-	"github.com/FamilyChain/family/types"
+	"github.com/familychain/family/chain"
+	"github.com/familychain/family/command/helper"
+	"github.com/familychain/family/network"
+	"github.com/familychain/family/secrets"
+	"github.com/familychain/family/server"
+	"github.com/familychain/family/types"
 )
 
 var (

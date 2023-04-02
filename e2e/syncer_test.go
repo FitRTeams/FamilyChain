@@ -6,8 +6,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/FamilyChain/family/e2e/framework"
-	"github.com/FamilyChain/family/validators"
+	"github.com/familychain/family/e2e/framework"
+	"github.com/familychain/family/validators"
 )
 
 func TestClusterBlockSync(t *testing.T) {

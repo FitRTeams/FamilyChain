@@ -5,8 +5,8 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/FamilyChain/family/txpool/proto"
-	"github.com/FamilyChain/family/types"
+	"github.com/familychain/family/txpool/proto"
+	"github.com/familychain/family/types"
 	"github.com/google/uuid"
 	"github.com/hashicorp/go-hclog"
 )

@@ -3,9 +3,9 @@ package helper
 import (
 	"testing"
 
-	bls "github.com/FamilyChain/family/consensus/polybft/signer"
-	"github.com/FamilyChain/family/helper/hex"
-	"github.com/FamilyChain/family/types"
+	bls "github.com/familychain/family/consensus/polybft/signer"
+	"github.com/familychain/family/helper/hex"
+	"github.com/familychain/family/types"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

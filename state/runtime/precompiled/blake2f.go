@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"math/bits"
 
-	"github.com/FamilyChain/family/chain"
-	"github.com/FamilyChain/family/state/runtime"
-	"github.com/FamilyChain/family/types"
+	"github.com/familychain/family/chain"
+	"github.com/familychain/family/state/runtime"
+	"github.com/familychain/family/types"
 )
 
 type blake2f struct {

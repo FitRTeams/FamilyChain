@@ -5,7 +5,7 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/FamilyChain/family/helper/common"
+	"github.com/familychain/family/helper/common"
 	bn256 "github.com/umbracle/go-eth-bn256"
 )
 

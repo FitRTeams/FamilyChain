@@ -4,11 +4,11 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/FamilyChain/family/chain"
-	"github.com/FamilyChain/family/command"
-	"github.com/FamilyChain/family/command/helper"
-	"github.com/FamilyChain/family/helper/config"
-	"github.com/FamilyChain/family/types"
+	"github.com/familychain/family/chain"
+	"github.com/familychain/family/command"
+	"github.com/familychain/family/command/helper"
+	"github.com/familychain/family/helper/config"
+	"github.com/familychain/family/types"
 )
 
 const (

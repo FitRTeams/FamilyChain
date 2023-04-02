@@ -6,9 +6,9 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/FamilyChain/family/types"
-	"github.com/FamilyChain/family/validators"
-	"github.com/FamilyChain/family/validators/store"
+	"github.com/familychain/family/types"
+	"github.com/familychain/family/validators"
+	"github.com/familychain/family/validators/store"
 	"github.com/hashicorp/go-hclog"
 )
 

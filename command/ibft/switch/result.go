@@ -4,10 +4,10 @@ import (
 	"bytes"
 	"fmt"
 
-	"github.com/FamilyChain/family/command/helper"
-	"github.com/FamilyChain/family/consensus/ibft/fork"
-	"github.com/FamilyChain/family/helper/common"
-	"github.com/FamilyChain/family/validators"
+	"github.com/familychain/family/command/helper"
+	"github.com/familychain/family/consensus/ibft/fork"
+	"github.com/familychain/family/helper/common"
+	"github.com/familychain/family/validators"
 )
 
 type IBFTSwitchResult struct {

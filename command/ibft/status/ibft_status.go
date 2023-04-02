@@ -3,9 +3,9 @@ package status
 import (
 	"context"
 
-	"github.com/FamilyChain/family/command"
-	"github.com/FamilyChain/family/command/helper"
-	ibftOp "github.com/FamilyChain/family/consensus/ibft/proto"
+	"github.com/familychain/family/command"
+	"github.com/familychain/family/command/helper"
+	ibftOp "github.com/familychain/family/consensus/ibft/proto"
 	"github.com/spf13/cobra"
 	empty "google.golang.org/protobuf/types/known/emptypb"
 )

@@ -3,14 +3,14 @@ package fork
 import (
 	"errors"
 
-	"github.com/FamilyChain/family/consensus/ibft/hook"
-	"github.com/FamilyChain/family/consensus/ibft/signer"
-	"github.com/FamilyChain/family/secrets"
-	"github.com/FamilyChain/family/state"
-	"github.com/FamilyChain/family/types"
-	"github.com/FamilyChain/family/validators"
-	"github.com/FamilyChain/family/validators/store"
-	"github.com/FamilyChain/family/validators/store/contract"
+	"github.com/familychain/family/consensus/ibft/hook"
+	"github.com/familychain/family/consensus/ibft/signer"
+	"github.com/familychain/family/secrets"
+	"github.com/familychain/family/state"
+	"github.com/familychain/family/types"
+	"github.com/familychain/family/validators"
+	"github.com/familychain/family/validators/store"
+	"github.com/familychain/family/validators/store/contract"
 	"github.com/hashicorp/go-hclog"
 )
 

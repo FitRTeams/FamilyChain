@@ -3,12 +3,12 @@ package status
 import (
 	"context"
 
-	"github.com/FamilyChain/family/command"
+	"github.com/familychain/family/command"
 	"github.com/golang/protobuf/ptypes/empty"
 	"github.com/spf13/cobra"
 
-	"github.com/FamilyChain/family/command/helper"
-	"github.com/FamilyChain/family/server/proto"
+	"github.com/familychain/family/command/helper"
+	"github.com/familychain/family/server/proto"
 )
 
 func GetCommand() *cobra.Command {

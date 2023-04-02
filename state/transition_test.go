@@ -4,8 +4,8 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/FamilyChain/family/state/runtime"
-	"github.com/FamilyChain/family/types"
+	"github.com/familychain/family/state/runtime"
+	"github.com/familychain/family/types"
 	"github.com/hashicorp/go-hclog"
 	"github.com/stretchr/testify/assert"
 )

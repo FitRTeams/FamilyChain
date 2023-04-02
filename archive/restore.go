@@ -7,10 +7,10 @@ import (
 	"math/big"
 	"os"
 
-	"github.com/FamilyChain/family/blockchain"
-	"github.com/FamilyChain/family/helper/common"
-	"github.com/FamilyChain/family/helper/progress"
-	"github.com/FamilyChain/family/types"
+	"github.com/familychain/family/blockchain"
+	"github.com/familychain/family/helper/common"
+	"github.com/familychain/family/helper/progress"
+	"github.com/familychain/family/types"
 )
 
 const (

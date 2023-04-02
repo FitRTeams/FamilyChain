@@ -1,8 +1,8 @@
 package memory
 
 import (
-	"github.com/FamilyChain/family/blockchain/storage"
-	"github.com/FamilyChain/family/helper/hex"
+	"github.com/familychain/family/blockchain/storage"
+	"github.com/familychain/family/helper/hex"
 	"github.com/hashicorp/go-hclog"
 )
 

@@ -4,7 +4,7 @@ import (
 	"errors"
 	"testing"
 
-	testHelper "github.com/FamilyChain/family/helper/tests"
+	testHelper "github.com/familychain/family/helper/tests"
 	"github.com/stretchr/testify/assert"
 )
 

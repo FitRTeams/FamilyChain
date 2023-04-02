@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/FamilyChain/family/chain"
-	"github.com/FamilyChain/family/state/runtime"
-	"github.com/FamilyChain/family/types"
+	"github.com/familychain/family/chain"
+	"github.com/familychain/family/state/runtime"
+	"github.com/familychain/family/types"
 	bn256 "github.com/umbracle/go-eth-bn256"
 )
 

@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/FamilyChain/family/helper/common"
+	"github.com/familychain/family/helper/common"
 )
 
 type createFn func() ([]byte, error)

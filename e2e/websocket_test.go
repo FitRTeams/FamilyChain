@@ -6,9 +6,9 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/FamilyChain/family/e2e/framework"
-	"github.com/FamilyChain/family/jsonrpc"
-	"github.com/FamilyChain/family/types"
+	"github.com/familychain/family/e2e/framework"
+	"github.com/familychain/family/jsonrpc"
+	"github.com/familychain/family/types"
 	"github.com/gorilla/websocket"
 	"github.com/stretchr/testify/assert"
 )

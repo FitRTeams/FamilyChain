@@ -4,7 +4,7 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/FamilyChain/family/types"
+	"github.com/familychain/family/types"
 )
 
 // Thread safe map of all accounts registered by the pool.

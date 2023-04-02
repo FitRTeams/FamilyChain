@@ -6,7 +6,7 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/FamilyChain/family/helper/keccak"
+	"github.com/familychain/family/helper/keccak"
 )
 
 func BenchmarkFast(b *testing.B) {

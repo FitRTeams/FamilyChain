@@ -3,7 +3,7 @@ package tracer
 import (
 	"math/big"
 
-	"github.com/FamilyChain/family/types"
+	"github.com/familychain/family/types"
 )
 
 // RuntimeHost is the interface defining the methods for accessing state by tracer
