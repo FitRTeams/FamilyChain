@@ -74,8 +74,8 @@ archives:
 
 #nfpms:
 #  - vendor: FamilyChain
-#    homepage: https://polygon.technology
-#    maintainer: Polygon Edge Team <edge@polygon.technology>
+#    homepage: https://family.technology
+#    maintainer: Family Edge Team <edge@family.technology>
 #    description:  A Framework for Building Ethereum-compatible Blockchain Networks
 #    license: GPLv3 LGPLv3
 #

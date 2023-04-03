@@ -3,10 +3,10 @@ package wallet
 import (
 	"fmt"
 
-	"github.com/0xPolygon/go-ibft/messages/proto"
 	bls "github.com/FitRTeams/familychain/consensus/polybft/signer"
 	"github.com/FitRTeams/familychain/crypto"
 	"github.com/FitRTeams/familychain/types"
+	"github.com/FitRTeams/go-ibft/messages/proto"
 
 	"github.com/umbracle/ethgo"
 	protobuf "google.golang.org/protobuf/proto"

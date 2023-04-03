@@ -18,7 +18,7 @@ const (
 )
 
 var (
-	nativeTokenName     = "Polygon"
+	nativeTokenName     = "Family"
 	nativeTokenSymbol   = "MATIC"
 	nativeTokenDecimals = uint8(18)
 )

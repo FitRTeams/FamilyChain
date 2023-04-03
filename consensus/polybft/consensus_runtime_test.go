@@ -8,7 +8,6 @@ import (
 	"testing"
 	"time"
 
-	"github.com/0xPolygon/go-ibft/messages/proto"
 	"github.com/FitRTeams/familychain/consensus"
 	"github.com/FitRTeams/familychain/consensus/polybft/bitmap"
 	"github.com/FitRTeams/familychain/consensus/polybft/contractsapi"
@@ -16,6 +15,7 @@ import (
 	"github.com/FitRTeams/familychain/consensus/polybft/wallet"
 	"github.com/FitRTeams/familychain/contracts"
 	"github.com/FitRTeams/familychain/types"
+	"github.com/FitRTeams/go-ibft/messages/proto"
 
 	"github.com/hashicorp/go-hclog"
 	"github.com/stretchr/testify/assert"

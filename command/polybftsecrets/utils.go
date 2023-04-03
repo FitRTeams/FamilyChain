@@ -13,7 +13,7 @@ const (
 	AccountDirFlag    = "data-dir"
 	AccountConfigFlag = "config"
 
-	AccountDirFlagDesc    = "the directory for the Polygon Edge data if the local FS is used"
+	AccountDirFlagDesc    = "the directory for the Family Edge data if the local FS is used"
 	AccountConfigFlagDesc = "the path to the SecretsManager config file, if omitted, the local FS secrets manager is used"
 )
 

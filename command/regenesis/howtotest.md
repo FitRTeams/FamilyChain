@@ -94,16 +94,16 @@ wait
 [2] 2616
 [3] 2617
 [4] 2618
-2023-03-15T11:02:25.149+0400 [INFO]  polygon.server: Data dir: path=./test-chain-1
-2023-03-15T11:02:25.149+0400 [DEBUG] polygon.server: DataDog profiler disabled, set DD_PROFILING_ENABLED env var to enable it.
-2023-03-15T11:02:25.233+0400 [INFO]  polygon.server: Data dir: path=./test-chain-3
-2023-03-15T11:02:25.251+0400 [DEBUG] polygon.server: DataDog profiler disabled, set DD_PROFILING_ENABLED env var to enable it.
+2023-03-15T11:02:25.149+0400 [INFO]  family.server: Data dir: path=./test-chain-1
+2023-03-15T11:02:25.149+0400 [DEBUG] family.server: DataDog profiler disabled, set DD_PROFILING_ENABLED env var to enable it.
+2023-03-15T11:02:25.233+0400 [INFO]  family.server: Data dir: path=./test-chain-3
+2023-03-15T11:02:25.251+0400 [DEBUG] family.server: DataDog profiler disabled, set DD_PROFILING_ENABLED env var to enable it.
 invalid initial state root
 [1]    exit 1     ./family server --data-dir ./test-chain-1 --chain genesis.json  :10000 
-2023-03-15T11:02:25.299+0400 [INFO]  polygon.server: Data dir: path=./test-chain-2
-2023-03-15T11:02:25.302+0400 [DEBUG] polygon.server: DataDog profiler disabled, set DD_PROFILING_ENABLED env var to enable it.
-2023-03-15T11:02:25.396+0400 [INFO]  polygon.server: Data dir: path=./test-chain-4
-2023-03-15T11:02:25.413+0400 [DEBUG] polygon.server: DataDog profiler disabled, set DD_PROFILING_ENABLED env var to enable it.
+2023-03-15T11:02:25.299+0400 [INFO]  family.server: Data dir: path=./test-chain-2
+2023-03-15T11:02:25.302+0400 [DEBUG] family.server: DataDog profiler disabled, set DD_PROFILING_ENABLED env var to enable it.
+2023-03-15T11:02:25.396+0400 [INFO]  family.server: Data dir: path=./test-chain-4
+2023-03-15T11:02:25.413+0400 [DEBUG] family.server: DataDog profiler disabled, set DD_PROFILING_ENABLED env var to enable it.
 invalid initial state root
 [3]  - exit 1     ./family server --data-dir ./test-chain-3 --chain genesis.json  :30000 
 invalid initial state root
@@ -138,23 +138,23 @@ wait
 [2] 2722
 [3] 2723
 [4] 2724
-2023-03-15T11:09:41.481+0400 [INFO]  polygon.server: Data dir: path=./test-chain-2
-2023-03-15T11:09:41.481+0400 [DEBUG] polygon.server: DataDog profiler disabled, set DD_PROFILING_ENABLED env var to enable it.
-2023-03-15T11:09:41.597+0400 [INFO]  polygon.server: Data dir: path=./test-chain-1
-2023-03-15T11:09:41.597+0400 [DEBUG] polygon.server: DataDog profiler disabled, set DD_PROFILING_ENABLED env var to enable it.
-2023-03-15T11:09:41.609+0400 [WARN]  polygon: Initial state root checked and correct
-2023-03-15T11:09:41.661+0400 [INFO]  polygon.server: Data dir: path=./test-chain-4
-2023-03-15T11:09:41.661+0400 [DEBUG] polygon.server: DataDog profiler disabled, set DD_PROFILING_ENABLED env var to enable it.
-2023-03-15T11:09:41.725+0400 [INFO]  polygon.server: Data dir: path=./test-chain-3
-2023-03-15T11:09:41.725+0400 [DEBUG] polygon.server: DataDog profiler disabled, set DD_PROFILING_ENABLED env var to enable it.
-2023-03-15T11:09:41.844+0400 [INFO]  polygon.blockchain: genesis: hash=0x627b70a8abc294324808d9820015faa5e0616afca5fdc75528b03b703a461acd
-2023-03-15T11:09:41.844+0400 [INFO]  polygon.server.polybft: initializing polybft...
-2023-03-15T11:09:41.951+0400 [WARN]  polygon: Initial state root checked and correct
-2023-03-15T11:09:42.101+0400 [WARN]  polygon: Initial state root checked and correct
-2023-03-15T11:09:42.254+0400 [WARN]  polygon: Initial state root checked and correct
-2023-03-15T11:09:42.445+0400 [INFO]  polygon.blockchain: genesis: hash=0x627b70a8abc294324808d9820015faa5e0616afca5fdc75528b03b703a461acd
-2023-03-15T11:09:42.445+0400 [INFO]  polygon.server.polybft: initializing polybft...
-2023-03-15T11:09:42.462+0400 [INFO]  polygon.server.polybft.consensus_runtime: restartEpoch: block number=0 epoch=1 validators=4 firstBlockInEpoch=1
+2023-03-15T11:09:41.481+0400 [INFO]  family.server: Data dir: path=./test-chain-2
+2023-03-15T11:09:41.481+0400 [DEBUG] family.server: DataDog profiler disabled, set DD_PROFILING_ENABLED env var to enable it.
+2023-03-15T11:09:41.597+0400 [INFO]  family.server: Data dir: path=./test-chain-1
+2023-03-15T11:09:41.597+0400 [DEBUG] family.server: DataDog profiler disabled, set DD_PROFILING_ENABLED env var to enable it.
+2023-03-15T11:09:41.609+0400 [WARN]  family: Initial state root checked and correct
+2023-03-15T11:09:41.661+0400 [INFO]  family.server: Data dir: path=./test-chain-4
+2023-03-15T11:09:41.661+0400 [DEBUG] family.server: DataDog profiler disabled, set DD_PROFILING_ENABLED env var to enable it.
+2023-03-15T11:09:41.725+0400 [INFO]  family.server: Data dir: path=./test-chain-3
+2023-03-15T11:09:41.725+0400 [DEBUG] family.server: DataDog profiler disabled, set DD_PROFILING_ENABLED env var to enable it.
+2023-03-15T11:09:41.844+0400 [INFO]  family.blockchain: genesis: hash=0x627b70a8abc294324808d9820015faa5e0616afca5fdc75528b03b703a461acd
+2023-03-15T11:09:41.844+0400 [INFO]  family.server.polybft: initializing polybft...
+2023-03-15T11:09:41.951+0400 [WARN]  family: Initial state root checked and correct
+2023-03-15T11:09:42.101+0400 [WARN]  family: Initial state root checked and correct
+2023-03-15T11:09:42.254+0400 [WARN]  family: Initial state root checked and correct
+2023-03-15T11:09:42.445+0400 [INFO]  family.blockchain: genesis: hash=0x627b70a8abc294324808d9820015faa5e0616afca5fdc75528b03b703a461acd
+2023-03-15T11:09:42.445+0400 [INFO]  family.server.polybft: initializing polybft...
+2023-03-15T11:09:42.462+0400 [INFO]  family.server.polybft.consensus_runtime: restartEpoch: block number=0 epoch=1 validators=4 firstBlockInEpoch=1
 ...
 ```
 

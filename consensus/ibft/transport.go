@@ -1,9 +1,9 @@
 package ibft
 
 import (
-	"github.com/0xPolygon/go-ibft/messages/proto"
 	"github.com/FitRTeams/familychain/network"
 	"github.com/FitRTeams/familychain/types"
+	"github.com/FitRTeams/go-ibft/messages/proto"
 
 	"github.com/libp2p/go-libp2p/core/peer"
 )
